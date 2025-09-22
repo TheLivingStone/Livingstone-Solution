@@ -1,0 +1,357 @@
+/* -------------------------------------------
+
+Name: 		Ruizarch
+Version:    1.0
+Developer:	Nazar Miller (millerDigitalDesign)
+Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
+
+p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
+
+------------------------------------------- */
+
+/*--------------------------------------------
+
+1. common
+    - main
+    - typography
+    - link
+    - button
+    - form
+    - breadcrumbs
+    - backgrounds
+    - spaces
+2. components
+    - preloader
+    - cursor
+    - hidden elements
+    - scrollbar
+    - frame
+    - menu button
+    - menu 
+    - banner
+    - circle text
+    - lines
+    - dodecahedron
+    - about
+    - partners
+    - services
+    - team
+    - social icons
+    - revievs
+    - blog
+    - footer
+    - portfolio
+    - map
+    - accordion
+    - price
+    - 404
+    - images
+    - page transitions
+
+
+--------------------------------------------*/
+
+@import 'variables.module';
+@import 'common';
+@import 'components';
+
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider {
+	background: white;
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+}
+
+
+
+
+
+#namenswitch {
+    align-items: center;
+    gap: 0;
+    justify-content: space-between;
+    width: 100%
+}
+
+#namenswitch>h3 {
+    font-size: 24px;
+    line-height: 110%
+}
+
+.container.head>* {
+    text-align: center;
+    width: 100%
+}
+
+.container.pricing.home .container.head>*,
+.form .container.head>* {
+    text-align: left;
+    width: auto
+}
+
+div.container.pricing {
+    height: auto !important
+}
+
+.faq-item {
+    border-radius: 32px;
+    height: 120px;
+    padding: 36px
+}
+
+.faq-item p {
+    transform: translateY(75px);
+    width: 100%
+}
+
+.faq-item.active {
+    height: 440px
+}
+
+.faq-item>img {
+    right: 18px;
+    top: 33px
+}
+
+.faq-item>h3 {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    height: 36px;
+    left: 32px;
+    line-height: 100%;
+    max-width: 70%;
+    top: 42.5px
+}
+
+.form>.container.center.center {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center
+}
+
+.form button {
+    width: 100% !important
+}
+
+.container.text {
+    padding: 50px 0
+}
+
+footer {
+    padding: 18px
+}
+
+h5.supa {
+    font-size: 64px !important;
+    margin: 0 !important
+}
+
+.pricing>.container.total {
+    flex-direction: column;
+    gap: 10px
+}
+
+.pricing>.container.total>* {
+    width: 100%
+}
+
+button {
+    align-items: center !important;
+    justify-content: center !important
+}
+
+header>button.menu:hover {
+    opacity: 1
+}
+
+header>button.menu button {
+    background: transparent !important;
+    border-radius: 0 !important
+}
+
+
+
+.container2#blur.active{
+	filter: blur(9px);
+	pointer-events: none;
+	user-select: none;
+   
+}
+
+.slider.round {
+    border-radius: 34px
+}
+
+.slider.round:before {
+    border-radius: 50%
+}
+
+
+.pricing>* {
+    max-width: 1000px;
+    width: 100%
+}
+
+.container.head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0
+}
+
+.pricing .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, calc(33.33333% - 10px));
+    grid-template-rows: repeat(1, 130px);
+    padding: 25px 0
+}
+
+.price-option {
+    align-items: flex-start;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background: var(--w2p);
+    border-radius: 18px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    isolation: isolate;
+    justify-content: center;
+    padding: 35px 25px;
+    position: relative
+}
+
+#namenswitch {
+	align-items: center;
+	gap: 0;
+	justify-content: space-between;
+	width: 100%
+}
+
+label.switch {
+    bottom: unset;
+    display: inline-block;
+    height: 34px;
+    left: unset;
+    margin-top: -3px;
+    position: relative;
+    right: unset;
+    top: unset;
+    width: 60px
+}
+
+.switch input {
+    height: 0;
+    opacity: 0;
+    width: 0
+}
+
+#namenswitch>h3 {
+	font-size: 24px;
+	line-height: 110%
+}
+.container.head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0
+}
+
+
+.slider.round {
+    border-radius: 34px
+}
+
+.slider.round:before {
+    border-radius: 50%
+}
+
+
+.price-option img {
+    // content: url("check-white.4fb4bbb3.svg");
+    height: 22px;
+    opacity: 0;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 22px
+}
+
+.price-option.active img {
+    opacity: 1
+}
+
+.price-option>h4,
+.price-option>p {
+    width: 100%
+}
+
+.pricing>.container.total {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0
+}
+
+.total>.container.price {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0
+}
+
+.price h4 {
+    font-weight: 600
+}
