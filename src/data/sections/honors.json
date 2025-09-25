@@ -1,0 +1,31 @@
+{
+    "title1": "<span class=\"mil-thin\">We Don't Just  </span>Dream....",
+    "title2": "<span class=\"mil-thin\">We Deliver </span>Excellence....",
+    "subtitle": "Unlock limitless possibilities with LivingStoneSolution <br/>Technologies – your digital transformation partner.",
+    "button": {
+        "link": "/services",
+        "label": "What we do"
+    },
+    "items": [
+        {
+            "title": "Tech Partners of ISACON AP 2022<br>",
+            "text": "We are the Tech Partners for the International Conference of ISACON AP 2022( Indian Society of Anaesthesiologists ) Conducted in India.",
+            "link": "/services/service-1"
+        },
+        {
+            "title": "Tech Team Behind APNGA ",
+            "text": "We are the Tech Team behind the APNGA ( Andhra Pradesh Nursery Growers Association ) and supported the Govt in Multiple Tech Areas.    ",
+            "link": "/services/service-2"
+        },
+        {
+            "title": "Marketing Team behind SSDA - Top 2nd Defence Academy in Telangana",
+            "text": "We are the Marketing team behind Sri Sai Defence Academy. We helped them to acheive 37k Subscribers for their Youtube channel in the span of 1 Years",
+            "link": "/services/service-3"
+        },
+        {
+            "title": "Tech Team behind CureWantri",
+            "text": "Curewantri is a startup that is aimed to disrupt the Medical Industry by Innovative Solutions through their App.",
+            "link": "/services/service-4"
+        }
+    ]
+}
