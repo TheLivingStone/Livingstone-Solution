@@ -1,0 +1,12 @@
+{
+    "title": "Living Stone Solution...<br>  <span class=\"mil-thin\">Your Partner in Digital </span><span class=\"mil-thin\">Transformation....</span>",
+    "description": "We are the architects of digital transformation, crafting stunning websites, cuttingedge apps, and powerful digital marketing campaigns.",
+    "button1": {
+        "link": "/services",
+        "label": "What we do"
+    },
+    "button2": {
+        "link": "/Portfolio",
+        "label": "View works"
+    }
+}

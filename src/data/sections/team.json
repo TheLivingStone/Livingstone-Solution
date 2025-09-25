@@ -1,0 +1,34 @@
+{
+    "title": "Meet <br>Our Team",
+    "description": "<p>We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p><p>Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>",
+    "subtitle": "<span class=\"mil-thin\">We</span> deliver <br><span class=\"mil-thin\">exceptional</span> results.",
+    "button": {
+        "link": "/team",
+        "label": "Read more"
+    },
+    "note": "<span class=\"mil-accent\">*</span> The tech team behind LivingStone Solution",
+    "col1_items": [
+        {
+            "image": "/img/faces/team-member- (3).png",
+            "name": "Oliyad Dinku",
+            "role": "CEO"
+        },
+        {
+            "image": "/img/faces/team-member- (2).png",
+            "name": "Abebe Kebede ",
+            "role": "Lead Frontend Developer"
+        }
+    ],
+    "col2_items": [
+        {
+            "image": "/img/faces/team-member- (1).png",
+            "name": "Kebede Abebe",
+            "role": "Team Lead"
+        },
+        {
+            "image": "/img/faces/team-member- (4).png",
+            "name": " Abebech Gebeyehu ",
+            "role": "Human Resource Manager"
+        }
+    ]
+}
