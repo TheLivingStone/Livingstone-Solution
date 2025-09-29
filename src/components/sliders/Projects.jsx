@@ -16,7 +16,7 @@ const ProjectsSlider = ( { projects } ) => {
   return (
     <>
         {/* portfolio */}
-        <section className="mil-portfolio-slider-frame">
+    <section className="mil-portfolio-slider-frame" style={{ backgroundColor: '#e8e6e6ff' }}>
             <div className="mil-animation-frame">
                 <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="1" data-value-2="2" style={{"top": "-60px", "right": "-4px"}}>
                     <Pentagon />
