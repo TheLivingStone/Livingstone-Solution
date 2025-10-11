@@ -1,9 +1,24 @@
+import { useState } from "react";
 import Data from "@data/sections/team.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import LinesIcon from "@layouts/svg-icons/Lines";
+import TeamModal from "@components/common/TeamModal";
 
 const TeamSection = () => {
+  const [selectedMember, setSelectedMember] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleMemberClick = (member) => {
+    setSelectedMember(member);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedMember(null);
+  };
+
   return (
     <>
         {/* team */}
@@ -34,17 +49,13 @@ const TeamSection = () => {
                                     
                                     {Data.col1_items.map((item, key) => (
 
-                                    <div key={`services1-item-${key}`} className="mil-team-card mil-up mil-mb-30">
+                                    <div key={`services1-item-${key}`} className="mil-team-card mil-up mil-mb-30" onClick={() => handleMemberClick(item)} style={{cursor: 'pointer'}}>
                                         <img src={item.image} alt={item.name} />
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
                                                 <h5 className="mil-muted mil-mb-5">{item.name}</h5>
                                                 <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
-                                                {/* <ul className="mil-social-icons mil-center">
-                                                    {item.social.map((social, key2) => (
-                                                    <li key={`services1-item${key}-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
-                                                    ))}
-                                                </ul> */}
+                                                <p className="mil-text-xs mil-light-soft">Click to view details</p>
                                             </div>
                                         </div>
                                     </div>
@@ -58,17 +69,13 @@ const TeamSection = () => {
                                     
                                     {Data.col2_items.map((item, key) => (
                                     
-                                    <div key={`services2-item-${key}`} className="mil-team-card mil-up mil-mb-30">
+                                    <div key={`services2-item-${key}`} className="mil-team-card mil-up mil-mb-30" onClick={() => handleMemberClick(item)} style={{cursor: 'pointer'}}>
                                         <img src={item.image} alt={item.name} />
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
                                                 <h5 className="mil-muted mil-mb-5">{item.name}</h5>
                                                 <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
-                                                {/* <ul className="mil-social-icons mil-center">
-                                                    {item.social.map((social, key2) => (
-                                                    <li key={`services2-item${key}-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
-                                                    ))}
-                                                </ul> */}
+                                                <p className="mil-text-xs mil-light-soft">Click to view details</p>
                                             </div>
                                         </div>
                                     </div>
@@ -85,6 +92,12 @@ const TeamSection = () => {
             </div>
         </section>
         {/* team end */}
+
+        <TeamModal 
+          isOpen={isModalOpen} 
+          onClose={closeModal} 
+          member={selectedMember} 
+        />
     </>
   );
 };

@@ -11,24 +11,101 @@
         {
             "image": "/img/faces/team-photo-1.png",
             "name": "Oliyad Deyasa",
-            "role": "CEO, Founder and Project Manager"
+            "role": "CEO, Founder and Project Manager",
+            "bio": "Visionary leader with extensive experience in project management and business development. Passionate about transforming innovative ideas into successful digital solutions.",
+            "contact": {
+                "location": "Washington, D.C., USA",
+                "email": "oliyad@thelivingstonefoundation.com",
+                "phone": "+1 (540) 998-9766"
+            },
+            "social": [
+                {
+                    "link": "https://linkedin.com/in/oliyad-deyasa",
+                    "icon": "fab fa-linkedin",
+                    "title": "LinkedIn"
+                },
+                {
+                    "link": "https://twitter.com/oliyaddeyasa",
+                    "icon": "fab fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
         },
         {
             "image": "/img/faces/team-photo-2.jpg",
-            "name": "Deborah Wondmu ",
-            "role": "Head of the Contracting Department"
+            "name": "Deborah Wondmu",
+            "role": "Head of the Contracting Department",
+            "bio": "Expert in contract management and client relations with a proven track record of successful project deliveries and stakeholder management.",
+            "contact": {
+                "location": "New York, NY, USA",
+                "email": "deborah@thelivingstonefoundation.com",
+                "phone": "+1 (555) 234-5678"
+            },
+            "social": [
+                {
+                    "link": "https://linkedin.com/in/deborah-wondmu",
+                    "icon": "fab fa-linkedin",
+                    "title": "LinkedIn"
+                },
+                {
+                    "link": "https://github.com/deborahwondmu",
+                    "icon": "fab fa-github",
+                    "title": "GitHub"
+                }
+            ]
         }
     ],
     "col2_items": [
         {
             "image": "/img/faces/team-photo-3.png",
             "name": "Mikias Tulu",
-            "role": "Technical Operations Manager"
+            "role": "Technical Operations Manager",
+            "bio": "Technical expert specializing in system architecture and operations management. Ensures seamless technical execution and maintains high-quality standards.",
+            "contact": {
+                "location": "Addis Ababa, Ethiopia",
+                "email": "mikias@thelivingstonefoundation.com",
+                "phone": "+1 (555) 345-6789"
+            },
+            "social": [
+                {
+                    "link": "https://www.linkedin.com/in/mikias-tulu/",
+                    "icon": "fab fa-linkedin",
+                    "title": "LinkedIn"
+                },
+                {
+                    "link": "https://github.com/mikias-tulu",
+                    "icon": "fab fa-github",
+                    "title": "GitHub"
+                },
+                {
+                    "link": "https://twitter.com/mikiastulu",
+                    "icon": "fab fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
         },
         {
             "image": "/img/faces/team-member- (1).png",
-            "name": " Blen ",
-            "role": "Head of Business Administration "
+            "name": "Blen",
+            "role": "Head of Business Administration",
+            "bio": "Strategic business administrator with expertise in operations, finance, and organizational development. Drives efficiency and growth across all business functions.",
+            "contact": {
+                "location": "Chicago, IL, USA",
+                "email": "blen@thelivingstonefoundation.com",
+                "phone": "+1 (555) 456-7890"
+            },
+            "social": [
+                {
+                    "link": "https://linkedin.com/in/blen-admin",
+                    "icon": "fab fa-linkedin",
+                    "title": "LinkedIn"
+                },
+                {
+                    "link": "https://twitter.com/blenadmin",
+                    "icon": "fab fa-twitter",
+                    "title": "Twitter"
+                }
+            ]
         }
     ]
 }
