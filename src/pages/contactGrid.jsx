@@ -210,13 +210,13 @@ const Contact = () => {
       <div className="container col g15 fillw">
         <div className="container head" style={{"margin":"15px 5px"}}>
           <div className="container row g15" id="namenswitch">
-            <h3>Digital Marketing</h3>
+            <h3>Software Development</h3>
             <label className="switch">
               <input type="checkbox" id="toggleGrid4" />
               <span className="slider round" />
             </label>
           </div>
-          <p className="vio">Take your Marketing game to next Level with us </p>
+          <p className="vio">Designing custom software solutions to streamline your business operations. </p>
         </div>
         <hr />
         <div className="grid" id="gridContainer4" style={{"display":"grid","gap":"10px","grid-template-columns":"repeat(3, calc(33.33333% - 10px))","grid-template-rows":"repeat(1, 130px)","padding":"25px 0"}}>
@@ -257,13 +257,13 @@ const Contact = () => {
       <div className="container col g15 fillw">
         <div className="container head" style={{"margin":"55px 5px"}}>
           <div className="container row g15" id="namenswitch">
-            <h3>Branding</h3>
+            <h3>AI Automation</h3>
             <label className="switch">
               <input type="checkbox" id="toggleGrid5" />
               <span className="slider round" />
             </label>
           </div>
-          <p className="vio">Explore Complete Brand Solutions for your Business with us </p>
+          <p className="vio">Integrating intelligent automation to boost efficiency and innovation. </p>
         </div>
         <hr />
         <div className="grid" id="gridContainer5" style={{"display":"grid","gap":"10px","grid-template-columns":"repeat(3, calc(33.33333% - 10px))","grid-template-rows":"repeat(1, 130px)","padding":"25px 0"}}>

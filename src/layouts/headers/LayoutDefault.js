@@ -128,19 +128,19 @@ const DefaultHeader = ({ extraClass }) => {
                                         <div className="mil-divider mil-mb-60"></div>
                                         <div className="row justify-content-between">
                                             <div className="col-lg-6 mil-mb-60">
-                                                <h6 className="mil-muted mil-mb-30">International</h6>
+                                                <h6 className="mil-muted mil-mb-30">Domestic</h6>
                                                 <p className="mil-light-soft">
-                                                    A47 - 402, Bole City<br /> 
-                                                    East Mindspace,<br />
-                                                    Addis Ababa.<span className="mil-no-wrap"><br />+251 424 216 6070</span>
+                                                    USA<br /> 
+                                                    Washington, D.C.,<br />
+                                                    Oliyad@thelivingstonefoundation.com<span className="mil-no-wrap"><br />(540) 998-9766</span>
                                                 </p>
                                             </div>
                                             <div className="col-lg-6 mil-mb-60">
-                                                <h6 className="mil-muted mil-mb-30">Domestic</h6>
+                                                <h6 className="mil-muted mil-mb-30">Internation</h6>
                                                 <p className="mil-light-soft">
-                                                    Living Stone Solution Pvt Ltd,<br />
+                                                    Ethiopia,<br />
                                                     Near Bole Road, 
-                                Addis Ababa, Ethiopia.<span className="mil-no-wrap"><br />+251 9390132330</span>
+                                Addis Ababa, Ethiopia.<span className="mil-no-wrap"><br />+251 000000</span>
                                                 </p>
                                             </div>
                                         </div>

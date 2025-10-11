@@ -9,22 +9,22 @@
     "items": [
         {
             "title": "Web Development<br>",
-            "text": "Powering up Business Worldwide",
+            "text": "Building fast, secure, and responsive websites that drive results.",
             "link": "/services/service-1"
         },
         {
-            "title": "App Development ",
-            "text": "Delivering Native, Hybrid Apps & PWA's",
+            "title": "App Development",
+            "text": "Creating high-performance mobile and web apps for every platform.",
             "link": "/services/service-2"
         },
         {
-            "title": "Digital Marketing",
-            "text": "Take your Marketing game to next Level with us",
+            "title": "Software Development",
+            "text": "Designing custom software solutions to streamline your business operations.",
             "link": "/services/service-3"
         },
         {
-            "title": "Branding",
-            "text": "Explore Complete Brand Solutions for your Business with us",
+            "title": "AI Automation",
+            "text": "Integrating intelligent automation to boost efficiency and innovation.",
             "link": "/services/service-4"
         }
     ]

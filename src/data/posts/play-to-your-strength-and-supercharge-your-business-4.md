@@ -1,7 +1,7 @@
 ---
 #preview
 title: 'Play to Your Strengths and Supercharge Your Business'
-date: '2022-04-02'
+date: '2025-04-02'
 image: "/img/blog/6.jpg"
 category:
     - Art

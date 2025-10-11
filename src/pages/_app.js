@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
           <meta name="keywords" content="HTML, CSS, JavaScript"/>
           <meta name="author" content="LivingStoneSolution"/>
        
-          <meta name="description" content="Elevate your online presence with Living Stone Solution. We specialize in web development, app development, and digital marketing services."/>
+          <meta name="description" content="Elevate your online presence with Living Stone Solution. We specialize in web development, app development, and Software Development services."/>
       </Head>
       <Component {...pageProps} />
     </>
