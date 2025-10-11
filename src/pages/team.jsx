@@ -1,250 +1,51 @@
+import { useState } from "react";
 import Layouts from "@layouts/Layouts";
+import Data from "@data/sections/team.json";
 
 import PageBanner from "@components/PageBanner";
 import CallToActionSection from "@components/sections/CallToAction";
-
-const TeamData = [
-    {
-        "image": "/img/faces/1.jpg",
-        "name": "Anna Oldman",
-        "role": "Art Director",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/3.jpg",
-        "name": "Oscar Freeman",
-        "role": "Frontend Dev",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/2.jpg",
-        "name": "Emma Newman",
-        "role": "Founder",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/4.jpg",
-        "name": "Lisa Trueman",
-        "role": "UI/UX Designer",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/5.jpg",
-        "name": "Tom Oldman",
-        "role": "Art Director",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/6.jpg",
-        "name": "Corey Trueman",
-        "role": "Technical Director",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/7.jpg",
-        "name": "Justin Newman",
-        "role": "Copywriter",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    },
-    {
-        "image": "/img/faces/8.jpg",
-        "name": "Spunkie",
-        "role": "Paw giver",
-        "social": [
-            {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
-            },
-            {
-                "link": "https://twitter.com/",
-                "icon": "fab fa-twitter",
-                "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
-            }
-        ]
-    }
-]
+import TeamModal from "@components/common/TeamModal";
 
 const Team = () => {
+  const [selectedMember, setSelectedMember] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Combine both columns from team.json
+  const allTeamMembers = [...Data.col1_items, ...Data.col2_items];
+
+  const handleMemberClick = (member) => {
+    setSelectedMember(member);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedMember(null);
+  };
+
   return (
     <Layouts>
-        <PageBanner pageTitle={"Meet <span className=\"mil-thin\">Our</span><br> Creative <span className=\"mil-thin\">Team</span>"} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
+        <PageBanner pageTitle={Data.title} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
       
         {/* team */}
         <section id="team">
             <div className="container mil-p-120-90">
+                <div className="mil-mb-90">
+                    <div className="mil-text mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.description}} />
+                    <h4 className="mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
+                </div>
+                
                 <div className="row">
-                    {TeamData.map((item, key) => (
+                    {allTeamMembers.map((item, key) => (
                     <div className="col-sm-6 col-md-4 col-lg-3" key={`team-item-${key}`}>
 
-                        <div className="mil-team-card mil-up mil-mb-30">
+                        <div className="mil-team-card mil-up mil-mb-30" onClick={() => handleMemberClick(item)} style={{cursor: 'pointer'}}>
                             <img src={item.image} alt={item.name} />
                             <div className="mil-description">
                                 <div className="mil-secrc-text">
                                     <h5 className="mil-muted mil-mb-5">{item.name}</h5>
                                     <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
-                                    <ul className="mil-social-icons mil-center">
-                                        {/* {item.social.map((social_item, social_key) => (
-                                        <li key={`team-item-${key}-${social_key}`}><a href={social_item.link} target="_blank" className="social-icon"><i className={social_item.icon}></i></a></li>
-                                        ))} */}
-                                    </ul>
+                                    <p className="mil-text-xs mil-light-soft">Click to view details</p>
                                 </div>
                             </div>
                         </div>
@@ -252,9 +53,19 @@ const Team = () => {
                     </div>
                     ))}
                 </div>
+                
+                <div className="mil-center mil-mt-60">
+                    <p className="mil-text-sm" dangerouslySetInnerHTML={{__html : Data.note}} />
+                </div>
             </div>
         </section>
         {/* team end */}
+
+        <TeamModal 
+          isOpen={isModalOpen} 
+          onClose={closeModal} 
+          member={selectedMember} 
+        />
 
       <CallToActionSection />
     </Layouts>
