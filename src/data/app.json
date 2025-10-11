@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Living Stone Solution | Web Development, App Development, Digital Marketing Experts",
+        "siteName": "Living Stone Solution | Web Development, App Development, Software Development Experts",
         "formspreeURL": "www.LivingStoneSolution.com",
         "mailchimp": {
             "url": "",
@@ -44,11 +44,11 @@
                         "link": "/404"
                     },
                     {
-                        "label": "Digital Marketing",
+                        "label": "Software development",
                         "link": "/404"
                     },
                     {
-                        "label": "Branding",
+                        "label": "AI automation ",
                         "link": "/404"
                     }
                     
@@ -106,9 +106,9 @@
     },
     "footer": {
         "logo": {
-            "text": "Living Stone Solution."
+            "text": "The Livingstone Solution"
         },
-        "copy": "© 2023 Living Stone Solution Pvt Ltd. All Rights Reserved.",
+        "copy": "© 2025 The Livingstone Solution. All Rights Reserved.",
         "menu": [
             {
                 "label": "Home",

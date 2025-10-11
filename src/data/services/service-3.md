@@ -1,42 +1,46 @@
 ---
 #preview details
-title: "Advertising and Marketing Campaigns"
-preview_title: "Advertising and <br>Marketing Campaigns"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "Software Development Solutions"
+preview_title: "Software <br>Development Solutions"
+short: "We design and build scalable, high-performance software tailored to your business needs."
 
 #full details
-introTitle: <span class="mil-thin">Advertising</span><br> and <span class="mil-thin">Marketing</span> Campaigns
+introTitle: <span class="mil-thin">Software</span><br> <span class="mil-thin">Development</span> Solutions
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Our <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Development Process</span>
+  content: We specialize in building reliable, secure, and efficient software systems that solve real business problems. From discovery and design to deployment and maintenance, our process ensures every product is robust, user-friendly, and ready to scale. Whether you need a custom application, enterprise system, or integration solution — we turn your ideas into powerful digital products.
   button:
     link: /projects
     label: View works
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "Requirements Analysis"
       value: "
-      <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-      <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-      <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-      <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+      <p>We start with a deep understanding of your goals, workflows, and user requirements. This phase involves gathering functional and technical specifications to ensure clarity and alignment before development begins.</p>
+      <p>Our team collaborates with stakeholders to define system architecture, identify integration points, and set measurable success criteria for the final product.</p>
+      <p>Strong analysis minimizes risk, reduces rework, and guarantees that development stays on track with business priorities.</p>
       "
 
-    - label: "Design thinking"
+    - label: "System Architecture"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>System architecture defines the structure and design of your software solution. We use proven design patterns and scalable frameworks to build applications that are secure, maintainable, and high-performing.</p>
+      <p>Our engineers ensure the architecture supports modular development, efficient data handling, and smooth integration with third-party services or APIs.</p>
+      <p>We balance innovation with stability, ensuring your solution is future-proof and adaptable as your business evolves.</p>
       "
 
-    - label: "Wireframing"
+    - label: "Agile Development"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>We follow an agile methodology that promotes flexibility, transparency, and collaboration. Our iterative approach allows for rapid prototyping, continuous feedback, and faster time-to-market.</p>
+      <p>Each sprint delivers incremental value, ensuring the final product meets both user expectations and technical excellence.</p>
+      <p>By combining agile practices with modern DevOps tools, we enhance delivery speed while maintaining code quality and reliability.</p>
       "
 
-    - label: "Methodologies"
+    - label: "Quality Assurance & Deployment"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>Quality assurance is integral to every stage of development. We conduct rigorous testing — including functional, performance, and security checks — to ensure your software performs flawlessly under all conditions.</p>
+      <p>Once validated, we handle seamless deployment and provide post-launch support, monitoring system performance and implementing updates as needed.</p>
+      <p>Our commitment to continuous improvement guarantees your software remains efficient, secure, and aligned with evolving business needs.</p>
       "
 ---

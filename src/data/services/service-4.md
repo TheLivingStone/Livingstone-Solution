@@ -1,42 +1,46 @@
 ---
 #preview details
-title: "Creative Consulting Concept Development"
-preview_title: "Creative Consulting <br>Concept Development"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "AI Automation Solutions"
+preview_title: "AI <br>Automation Solutions"
+short: "We help businesses automate operations, optimize performance, and unlock intelligent growth with AI-driven systems."
 
 #full details
-introTitle: Creative <span class="mil-thin">Consulting</span><br> and <span class="mil-thin">Concept</span> Development
+introTitle: AI <span class="mil-thin">Automation</span><br> for <span class="mil-thin">Smarter</span> Business
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Your <span class="mil-thin">Automation</span> <br>and <span class="mil-thin">Integration Strategy</span>
+  content: Our AI automation services empower organizations to streamline repetitive processes, improve decision-making, and enhance productivity. From intelligent workflows to predictive analytics and chatbot integrations, we design solutions that adapt, learn, and scale with your business.
   button:
     link: /projects
     label: View works
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "Process Automation"
       value: "
-      <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-      <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-      <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-      <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+      <p>Process automation uses AI and machine learning to streamline repetitive business tasks. It reduces manual effort, improves accuracy, and accelerates execution by automating workflows across departments such as HR, finance, and operations.</p>
+      <p>Our automation experts analyze your existing processes to identify inefficiencies and implement AI-based tools that deliver measurable time and cost savings.</p>
+      <p>From data entry and document processing to intelligent scheduling and approvals, AI automation frees your team to focus on innovation instead of routine work.</p>
       "
 
-    - label: "Design thinking"
+    - label: "Predictive Analytics"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>Predictive analytics leverages machine learning and data modeling to forecast trends, behaviors, and outcomes. It helps businesses make proactive decisions and anticipate market changes before they happen.</p>
+      <p>We build predictive models that empower your organization with data-driven insights—whether for sales forecasting, risk management, or customer engagement optimization.</p>
+      <p>With AI at the core, your business can plan smarter, act faster, and adapt continuously.</p>
       "
 
-    - label: "Wireframing"
+    - label: "AI-Powered Chatbots"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>AI chatbots are transforming customer engagement by providing 24/7 personalized support. Our custom-built chatbots use natural language processing (NLP) to understand intent, respond contextually, and deliver human-like interactions.</p>
+      <p>They can handle customer inquiries, process transactions, and assist with onboarding—enhancing service quality while reducing operational costs.</p>
+      <p>Integrate your chatbot across web, mobile, or CRM systems to offer seamless automated communication experiences.</p>
       "
 
-    - label: "Methodologies"
+    - label: "Intelligent Workflows"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>Intelligent workflows combine automation with AI decision-making to coordinate complex tasks across tools and teams. These systems can learn from data, adjust to real-time conditions, and execute end-to-end processes autonomously.</p>
+      <p>Our approach connects APIs, data pipelines, and cloud systems—creating a unified automation ecosystem tailored to your business objectives.</p>
+      <p>With intelligent workflows, efficiency becomes scalable and continuous improvement becomes automatic.</p>
       "
 ---

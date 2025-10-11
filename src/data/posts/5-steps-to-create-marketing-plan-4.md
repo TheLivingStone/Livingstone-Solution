@@ -1,7 +1,7 @@
 ---
 #preview
 title: '5 Steps to Create an Outstanding Marketing Plan'
-date: '2022-04-02'
+date: '2025-04-02'
 image: "/img/blog/3.jpg"
 category:
     - Code

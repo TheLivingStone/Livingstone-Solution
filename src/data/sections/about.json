@@ -4,17 +4,17 @@
         "alt": "img"
     },
     "avatar": {
-        "image": "/img/photo/founderimg.png",
+        "image": "/img/photo/founder-img.png",
         "alt": "Founder"
         
     },
     "avatar2":{
-        "image": "/img/photo/fullsize.png"
+        "image": "/img/photo/fullsize-aboutus.png"
     },
     "video":{
         "url":"/img/photo/fullsize.png"
     },
     "title": "Challenge Us<br/> <span class=\"mil-thin\">We Dare You</span>",
     "description": "<p>Think your project is too complex? Too ambitious? Think again. At LivingStoneSolution, we thrive on challenges. We invite you to challenge us. There's no project we can't conquer, no dream too big. Give us your vision, and we'll make it reality.</p><p>The Future Begins with a Conversation - Ready to make your mark in the digital world? So are we. Let's chat over a virtual cup of coffee and discuss how we can transform your dreams into digital masterpieces.</p>",
-    "subtitle": "Our team of experts transforms ideas into <br/>Digital Realities <br/> <span class=\"mil-thin\"> Oliyad Dinku <br/> Living Stone Solution Pvt Ltd</span>"
+    "subtitle": "Our team of experts transforms ideas into <br/>Digital Realities <br/> <span class=\"mil-thin\">Oliyad Deyasa<br/>Founder | The Livingstone Solution<br/>Washington, D.C.</span>"
 }

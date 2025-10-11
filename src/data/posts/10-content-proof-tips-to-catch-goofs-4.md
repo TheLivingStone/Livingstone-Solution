@@ -1,7 +1,7 @@
 ---
 #preview
 title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
-date: '2022-04-02'
+date: '2025-04-02'
 image: "/img/blog/2.jpg"
 category:
     - Copywrighting

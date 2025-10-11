@@ -1,42 +1,46 @@
 ---
 #preview details
-title: "Website Design and Development"
-preview_title: "Website Design <br>and Development"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "App Design and Development"
+preview_title: "App Design <br>and Development"
+short: "We design and build mobile and web apps that combine innovation, performance, and seamless user experiences."
 
 #full details
-introTitle: Website <span class="mil-thin">Design</span><br> and <span class="mil-thin">Development</span>
+introTitle: App <span class="mil-thin">Design</span><br> and <span class="mil-thin">Development</span>
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Our <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Development Process</span>
+  content: Our app development process blends creativity, strategy, and technology to deliver high-performance applications. Whether native, hybrid, or progressive web apps (PWAs), we focus on creating products that are scalable, intuitive, and optimized for every platform and device.
   button:
     link: /projects
     label: View works
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "User Research & UX Strategy"
       value: "
-      <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-      <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-      <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-      <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+      <p>Every successful app starts with understanding the user. We conduct in-depth research to identify pain points, behaviors, and motivations, allowing us to design app experiences that delight users and drive engagement.</p>
+      <p>Our UX strategy aligns business objectives with user needs, ensuring every interaction adds value and keeps users coming back.</p>
+      <p>We create data-driven design strategies that form the foundation for intuitive, impactful apps.</p>
       "
 
-    - label: "Design thinking"
+    - label: "UI Design & Prototyping"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>Our design team crafts visually stunning and functional interfaces that enhance usability and brand identity. Using interactive prototypes, we bring concepts to life before development begins, reducing risk and ensuring alignment.</p>
+      <p>From layout to color psychology and motion design, every detail is optimized for clarity and engagement.</p>
+      <p>The result: pixel-perfect designs that look and feel natural across iOS, Android, and web platforms.</p>
       "
 
-    - label: "Wireframing"
+    - label: "App Development"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>We build secure, high-performance apps using modern frameworks and technologies such as React Native, Flutter, and Swift. Our developers ensure seamless integration with APIs, cloud services, and third-party systems.</p>
+      <p>Whether you need a cross-platform app, enterprise solution, or PWA, our development approach guarantees stability, scalability, and exceptional performance.</p>
+      <p>We follow agile practices to deliver working versions early, gather feedback, and iterate quickly.</p>
       "
 
-    - label: "Methodologies"
+    - label: "Testing & Deployment"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>Before launch, every app undergoes rigorous testing for functionality, security, and user experience across multiple devices and environments. We ensure smooth performance under real-world conditions.</p>
+      <p>Our deployment process includes publishing to app stores, backend integration, and ongoing maintenance support.</p>
+      <p>Post-launch, we monitor analytics and user feedback to optimize the app continuously for better engagement and ROI.</p>
       "
 ---

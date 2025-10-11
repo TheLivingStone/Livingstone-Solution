@@ -1,42 +1,46 @@
 ---
 #preview details
-title: "Branding and Identity Design"
-preview_title: "Branding and <br>Identity Design"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "Web Design and Development"
+preview_title: "Web Design <br>and Development"
+short: "We create fast, responsive, and visually stunning websites that help businesses stand out and grow online."
 
 #full details
-introTitle: Branding<br> and <span class="mil-thin">Identity Design</span>
+introTitle: Web <span class="mil-thin">Design</span><br> and <span class="mil-thin">Development</span>
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Our <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Development Process</span>
+  content: We specialize in crafting websites that merge creativity with functionality. Our approach focuses on delivering digital experiences that are responsive, optimized for performance, and aligned with your brand strategy. From concept to deployment, we ensure every detail enhances usability, engagement, and conversion.
   button:
     link: /projects
     label: View works
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "Front-End Development"
       value: "
-        <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-        <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-        <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-        <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+        <p>We design and build responsive, user-friendly interfaces that look great on every device. Our front-end developers use modern frameworks like React, Vue, and Next.js to create seamless, high-performing websites.</p>
+        <p>We focus on fast load times, accessibility, and clean code to ensure exceptional performance and user experience.</p>
+        <p>Every pixel and interaction is crafted to reflect your brand’s identity while ensuring functionality and aesthetic balance.</p>
       "
 
-    - label: "Design thinking"
+    - label: "Back-End Development"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>Our back-end solutions provide the power behind your website. We develop secure, scalable architectures using technologies like Node.js, .NET, and Python to manage data, integrations, and automation.</p>
+      <p>We build APIs and server-side systems that keep your site running efficiently while supporting complex features like authentication, payments, and analytics.</p>
+      <p>With a strong technical foundation, your website is ready to grow and adapt with your business.</p>
       "
 
-    - label: "Wireframing"
+    - label: "CMS Integration"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>We integrate and customize content management systems (CMS) like WordPress, Strapi, and Webflow to give you full control over your content with ease.</p>
+      <p>Our team ensures your CMS is user-friendly, secure, and tailored to your workflow—so you can manage pages, media, and updates without technical complexity.</p>
+      <p>We also provide training and documentation to empower your team for long-term success.</p>
       "
 
-    - label: "Methodologies"
+    - label: "Optimization & Maintenance"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>We don’t just build websites — we keep them at peak performance. Our optimization process covers SEO, speed improvements, and security hardening to maximize visibility and reliability.</p>
+      <p>Post-launch, we offer continuous maintenance, analytics tracking, and feature updates to ensure your website evolves with your goals.</p>
+      <p>With proactive monitoring and technical support, your online presence remains strong and future-ready.</p>
       "
 ---

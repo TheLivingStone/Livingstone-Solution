@@ -6,29 +6,29 @@
         "link": "/team",
         "label": "Read more"
     },
-    "note": "<span class=\"mil-accent\">*</span> The tech team behind LivingStone Solution",
+    "note": "<span class=\"mil-accent\">*</span> The team behind The LivingStone Solution",
     "col1_items": [
         {
-            "image": "/img/faces/team-member- (3).png",
-            "name": "Oliyad Dinku",
-            "role": "CEO"
+            "image": "/img/faces/team-photo-1.png",
+            "name": "Oliyad Deyasa",
+            "role": "CEO, Founder and Project Manager"
         },
         {
-            "image": "/img/faces/team-member- (2).png",
-            "name": "Abebe Kebede ",
-            "role": "Lead Frontend Developer"
+            "image": "/img/faces/team-photo-2.jpg",
+            "name": "Deborah Wondmu ",
+            "role": "Head of the Contracting Department"
         }
     ],
     "col2_items": [
         {
-            "image": "/img/faces/team-member- (1).png",
-            "name": "Kebede Abebe",
-            "role": "Team Lead"
+            "image": "/img/faces/team-photo-3.png",
+            "name": "Mikias Tulu",
+            "role": "Technical Operations Manager"
         },
         {
-            "image": "/img/faces/team-member- (4).png",
-            "name": " Abebech Gebeyehu ",
-            "role": "Human Resource Manager"
+            "image": "/img/faces/team-member- (1).png",
+            "name": " Blen ",
+            "role": "Head of Business Administration "
         }
     ]
 }

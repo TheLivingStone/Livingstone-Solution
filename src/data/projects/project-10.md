@@ -38,7 +38,7 @@ description2:
     enabled: 1
     title: "LivingStoneSolution & Mozivol"
     content: "
-      <p>We're proud to have partnered with Mozivol to create a platform that's intuitive, easy to use, and packed with innovative features. Whether you're a student looking to expand your knowledge or an educator seeking to connect with learners around the world, Mozivol's platform is the perfect place to achieve your goals. And at Living Stone Solution, we're committed to continuing to push the boundaries of what's possible in the world of web development, app development, and digital marketing.</p>
+      <p>We're proud to have partnered with Mozivol to create a platform that's intuitive, easy to use, and packed with innovative features. Whether you're a student looking to expand your knowledge or an educator seeking to connect with learners around the world, Mozivol's platform is the perfect place to achieve your goals. And at Living Stone Solution, we're committed to continuing to push the boundaries of what's possible in the world of web development, app development, and Software Development.</p>
     "
 
 gallery: 
