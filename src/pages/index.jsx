@@ -12,9 +12,9 @@ import HonorsAndMentions from "../components/sections/HonorsAndMentions";
 import TeamSection from "@components/sections/Team";
 import LatestPostsSection from "@components/sections/LatestPosts";
 
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const ProjectsSlider = dynamic( () => import("@components/sliders/Projects"), { ssr: false } );
+const TestimonialSlider = dynamic(() => import("@components/sliders/Testimonial"), { ssr: false });
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
+const ModernCategorizedProjects = dynamic(() => import("@components/sliders/ModernCategorizedProjects"), { ssr: false });
 
 const Home1 = (props) => {
   return (
@@ -22,12 +22,12 @@ const Home1 = (props) => {
       <HeroOneSection />
       <AboutSection />
       <ServicesSection />
-      {/* Projects slider inserted on homepage */}
-      <ProjectsSlider projects={props.projects} />
+      {/* Stacked Project Slider */}
+      <ModernCategorizedProjects projects={props.projects} />
       <TeamSection />
       <HonorsAndMentions />
       <TestimonialSlider />
-     
+
       <PartnersSlider />
       <LatestPostsSection posts={props.posts} />
     </Layouts>
