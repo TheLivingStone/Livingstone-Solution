@@ -1,4 +1,9 @@
 import Data from "@data/sections/about.json";
+import dynamic from "next/dynamic";
+
+const AnimatedShape = dynamic(() => import("../common/AnimatedShape"), {
+    ssr: false,
+});
 
 const AboutSection = () => {
     return (
@@ -29,15 +34,7 @@ const AboutSection = () => {
                                 justifyContent: 'center',
                                 alignItems: 'center'
                             }}>
-                                <img
-                                    src={Data.avatar2.image}
-                                    alt={Data.avatar.alt}
-                                    style={{
-                                        width: "100%",
-                                        maxWidth: "500px",
-                                        height: "auto"
-                                    }}
-                                />
+                                <AnimatedShape />
                             </div>
                         </div>
                         {/* <div className="col-lg-5">
