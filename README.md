@@ -1,4 +1,4 @@
-# LivingStoneSolution - Digital Agency Portfolio
+# The LivingStone Solution - Portfolio
 
 A modern, premium Next.js portfolio website for LivingStoneSolution Technologies - showcasing web development, app development, and AI automation projects with stunning animations and interactive components.
 
