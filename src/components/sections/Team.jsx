@@ -29,7 +29,49 @@ const TeamSection = () => {
 
                         <div className="mil-mb-90">
                             <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
-                            <div className="mil-text mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.description}} />
+                            
+                            {/* Global Team Badge */}
+                            <div className="mil-up mil-mb-30" style={{
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: '10px',
+                                padding: '12px 20px',
+                                background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%)',
+                                borderRadius: '50px',
+                                border: '1px solid rgba(139, 92, 246, 0.3)',
+                                marginBottom: '30px'
+                            }}>
+                                <span style={{ fontSize: '20px' }}>🌍</span>
+                                <span style={{ 
+                                    fontSize: '14px', 
+                                    fontWeight: '600',
+                                    background: 'linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                    backgroundClip: 'text'
+                                }}>
+                                    Team Members Across USA & Worldwide
+                                </span>
+                            </div>
+
+                            <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
+                            
+                            {/* US and International Team Statement */}
+                            <div className="mil-up mil-mb-60" style={{
+                                padding: '20px 25px',
+                                background: 'rgba(139, 92, 246, 0.08)',
+                                borderLeft: '3px solid #8b5cf6',
+                                borderRadius: '8px'
+                            }}>
+                                <p style={{ 
+                                    fontSize: '15px', 
+                                    lineHeight: '1.6',
+                                    margin: 0,
+                                    color: 'inherit'
+                                }}>
+                                    <strong style={{ color: '#8b5cf6' }}>🇺🇸 🌎</strong> We have a team both in the US and outside the US, bringing together diverse talents and perspectives from around the world to serve our clients better.
+                                </p>
+                            </div>
                             
                             <div className="mil-up"><Link href={Data.button.link} className="mil-button mil-arrow-place mil-mb-60"><span style={{color: "#ffff"}}>{Data.button.label}</span><ArrowIcon /></Link></div>
 
