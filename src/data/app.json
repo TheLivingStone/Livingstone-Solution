@@ -36,6 +36,10 @@
                 "link": "/Portfolio",
                 "children": [
                     {
+                        "label": "All Projects",
+                        "link": "/projects"
+                    },
+                    {
                         "label": "Web Developmment",
                         "link": "/WebDevelopmment"
                     },
@@ -60,12 +64,24 @@
                 "link": "/services",
                 "children": [
                     {
-                        "label": "Services List",
+                        "label": "Our Services",
                         "link": "/services"
                     },
                     {
-                        "label": "Single Service",
+                        "label": "Service - Web Development",
                         "link": "/services/service-1"
+                    },
+                    {
+                        "label": "Service - App Development",
+                        "link": "/services/service-2"
+                    },
+                    {
+                        "label": "Service - Software Development",
+                        "link": "/services/service-3"
+                    },
+                    {
+                        "label": "Service - Ai Automation",
+                        "link": "/services/service-4"
                     }
                 ]
             },
@@ -89,16 +105,12 @@
                 "children": 0
             },
             {
-                "label": "Other",
+                "label": "Team",
                 "link": "/team",
                 "children": [
                     {
-                        "label": "Team",
+                        "label": "Our Team",
                         "link": "/team"
-                    },
-                    {
-                        "label": "404",
-                        "link": "/404"
                     }
                 ]
             }
