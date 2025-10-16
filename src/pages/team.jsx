@@ -34,6 +34,55 @@ const Team = () => {
                     <div className="mil-text mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.description}} />
                     <h4 className="mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                 </div>
+
+                {/* Global Team Message */}
+                <div className="mil-mb-90">
+                    <div 
+                        className="mil-up" 
+                        style={{
+                            background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%)',
+                            borderLeft: '4px solid #8b5cf6',
+                            padding: '30px',
+                            borderRadius: '10px',
+                            marginBottom: '60px'
+                        }}
+                    >
+                        <div 
+                            className="mil-text" 
+                            dangerouslySetInnerHTML={{__html : Data.globalTeam}} 
+                            style={{
+                                fontSize: '16px',
+                                lineHeight: '1.8'
+                            }}
+                        />
+                        
+                        {/* World Icons */}
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            gap: '30px',
+                            marginTop: '30px',
+                            flexWrap: 'wrap'
+                        }}>
+                            <div style={{ textAlign: 'center' }}>
+                                <div style={{ fontSize: '40px', marginBottom: '10px' }}>🌍</div>
+                                <p style={{ fontSize: '14px', color: '#8b5cf6', fontWeight: 'bold' }}>Global Reach</p>
+                            </div>
+                            <div style={{ textAlign: 'center' }}>
+                                <div style={{ fontSize: '40px', marginBottom: '10px' }}>🤝</div>
+                                <p style={{ fontSize: '14px', color: '#3b82f6', fontWeight: 'bold' }}>Diverse Team</p>
+                            </div>
+                            <div style={{ textAlign: 'center' }}>
+                                <div style={{ fontSize: '40px', marginBottom: '10px' }}>⏰</div>
+                                <p style={{ fontSize: '14px', color: '#06b6d4', fontWeight: 'bold' }}>24/7 Support</p>
+                            </div>
+                            <div style={{ textAlign: 'center' }}>
+                                <div style={{ fontSize: '40px', marginBottom: '10px' }}>🚀</div>
+                                <p style={{ fontSize: '14px', color: '#ec4899', fontWeight: 'bold' }}>World-Class Talent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <div className="row">
                     {allTeamMembers.map((item, key) => (
