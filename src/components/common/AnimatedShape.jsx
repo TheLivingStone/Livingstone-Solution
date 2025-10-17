@@ -8,11 +8,22 @@ const AnimatedShape = () => {
     if (!canvas) return;
 
     const ctx = canvas.getContext('2d');
+
+    // Get device pixel ratio for crisp rendering
+    const dpr = window.devicePixelRatio || 1;
     const width = 500;
     const height = 500;
-    
-    canvas.width = width;
-    canvas.height = height;
+
+    // Set actual canvas size (accounting for pixel density)
+    canvas.width = width * dpr;
+    canvas.height = height * dpr;
+
+    // Set display size (CSS pixels)
+    canvas.style.width = width + 'px';
+    canvas.style.height = height + 'px';
+
+    // Scale context to match pixel density
+    ctx.scale(dpr, dpr);
 
     let animationId;
     let time = 0;
@@ -159,12 +170,12 @@ const AnimatedShape = () => {
         const angle = (i / 8) * Math.PI * 2 + time;
         const x1 = centerX + Math.cos(angle) * brainRadius;
         const y1 = centerY + Math.sin(angle) * brainRadius;
-        
+
         for (let j = i + 1; j < 8; j++) {
           const angle2 = (j / 8) * Math.PI * 2 + time;
           const x2 = centerX + Math.cos(angle2) * brainRadius;
           const y2 = centerY + Math.sin(angle2) * brainRadius;
-          
+
           ctx.beginPath();
           ctx.moveTo(x1, y1);
           ctx.lineTo(x2, y2);
@@ -179,7 +190,7 @@ const AnimatedShape = () => {
         const angle = (i / 8) * Math.PI * 2 + time;
         const x = centerX + Math.cos(angle) * brainRadius;
         const y = centerY + Math.sin(angle) * brainRadius;
-        
+
         ctx.beginPath();
         ctx.arc(x, y, 3, 0, Math.PI * 2);
         ctx.fillStyle = '#8b5cf6';
@@ -214,7 +225,7 @@ const AnimatedShape = () => {
   }, []);
 
   return (
-    <div style={{ 
+    <div style={{
       position: 'relative',
       width: '100%',
       maxWidth: '500px',
@@ -226,10 +237,11 @@ const AnimatedShape = () => {
       <canvas
         ref={canvasRef}
         style={{
-          width: '100%',
+          maxWidth: '100%',
           height: 'auto',
           borderRadius: '20px',
           background: 'transparent',
+          display: 'block',
         }}
       />
     </div>
