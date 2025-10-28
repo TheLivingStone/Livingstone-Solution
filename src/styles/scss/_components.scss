@@ -72,9 +72,10 @@ cursor
 
 @media (max-width: 768px) {
     .mil-frame-top {
-      margin-top: -2000px;
+        margin-top: -2000px;
     }
-  }
+}
+
 .mil-ball {
     width: 20px;
     height: 20px;
@@ -210,15 +211,20 @@ frame
     @media screen and (max-width: 1200px) {
         padding: 0;
         z-index: 999;
-        height: 90px;
+        height: auto;
+        min-height: 90px;
     }
 
     & .mil-frame-top {
         @media screen and (max-width: 1200px) {
-            height: 90px;
+            height: auto;
+            min-height: 90px;
             background-color: $dt-95;
-            border-bottom: solid 1px $lt-10;
-            padding: 0 30px;
+            //border-bottom: solid 1px $lt-10;
+            //padding: 20px 30px;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-left: 30px;
             backdrop-filter: blur(8px);
 
             & .mil-logo {
@@ -272,17 +278,22 @@ frame
     align-items: center;
     margin-top: -40px;
 
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
+
     & .mil-logo {
         pointer-events: all;
         color: $dark;
     }
 }
+
 @media (max-width: 768px) {
     .mil-mobile-banner {
         margin-top: -200px;
     }
-  }
-  
+}
+
 /* -------------------------------------------
 
 menu button
@@ -560,7 +571,7 @@ menu
             }
 
             &.mil-active {
-                & > a {
+                &>a {
                     color: $accent;
 
                     &:hover {
@@ -571,7 +582,7 @@ menu
             }
 
             &.mil-has-children {
-                & > a {
+                &>a {
                     &:hover {
                         color: $light;
                         padding-left: 25px;
@@ -1447,11 +1458,11 @@ team
     &:hover {
         transform: translateY(-5px);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        
+
         img {
             transform: scale(1.05);
         }
-        
+
         .mil-description {
             background: rgba(0, 0, 0, 0.9);
         }
@@ -1586,7 +1597,7 @@ team modal
     overflow-y: auto;
     position: relative;
     padding: 40px;
-    
+
     @media (max-width: 768px) {
         padding: 20px;
         margin: 10px;
@@ -1603,7 +1614,7 @@ team modal
     font-size: 24px;
     cursor: pointer;
     z-index: 10;
-    
+
     &:hover {
         color: var(--mil-accent);
     }
@@ -1623,20 +1634,20 @@ team modal
         font-size: 32px;
         font-weight: 600;
     }
-    
+
     .mil-accent {
         color: var(--mil-accent);
         font-size: 18px;
         font-weight: 500;
     }
-    
+
     h5 {
         color: var(--mil-light);
         font-size: 18px;
         font-weight: 600;
         margin-bottom: 15px;
     }
-    
+
     p {
         color: var(--mil-light-soft);
         line-height: 1.6;
@@ -1648,16 +1659,17 @@ team modal
         display: flex;
         align-items: center;
         gap: 15px;
-        
+
         i {
             width: 20px;
             font-size: 16px;
         }
-        
-        span, a {
+
+        span,
+        a {
             color: var(--mil-light-soft);
             text-decoration: none;
-            
+
             &:hover {
                 color: var(--mil-accent);
             }
@@ -1669,11 +1681,11 @@ team modal
     .mil-social-icons {
         display: flex;
         gap: 15px;
-        
+
         li {
             list-style: none;
         }
-        
+
         .social-icon {
             display: flex;
             align-items: center;
@@ -1685,7 +1697,7 @@ team modal
             border-radius: 50%;
             text-decoration: none;
             transition: all 0.3s ease;
-            
+
             &:hover {
                 background: var(--mil-light);
                 transform: translateY(-2px);
@@ -2473,6 +2485,7 @@ accordion
                 .mil-plus {
                     opacity: 0;
                 }
+
                 .mil-minus {
                     opacity: 1;
                 }
@@ -2516,7 +2529,7 @@ accordion
     overflow: hidden;
 }
 
-.mil-active + .mil-accordion-content {
+.mil-active+.mil-accordion-content {
     margin-bottom: 30px;
 }
 
@@ -2662,7 +2675,7 @@ images
     position: relative;
     overflow: hidden;
 
-    & > img {
+    &>img {
         position: absolute;
         top: 0;
         left: 0;
