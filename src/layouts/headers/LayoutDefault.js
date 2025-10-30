@@ -166,7 +166,7 @@ const DefaultHeader = ({ extraClass }) => {
                             src="/img/photo/logolight.png" 
                             alt="Logo" 
                             style={{ 
-                                width: "140px",     
+                                width: "100px",     
                                 marginTop: "10px",  
                                 filter: isDarkBackground ? "invert(1)" : "none" // conditional filter
                             }} 

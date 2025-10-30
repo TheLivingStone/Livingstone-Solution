@@ -204,11 +204,11 @@ frame
     height: 100%;
 
     @media screen and (max-width: 1200px) {
-        padding: 30px;
+        padding: 30px 40px 40px 40px;
     }
 
     @media screen and (max-width: 1200px) {
-        padding: 0;
+        padding: 40px 0 40px 0;
         z-index: 999;
         height: 90px;
     }
@@ -218,7 +218,7 @@ frame
             height: 90px;
             background-color: $dt-95;
             border-bottom: solid 1px $lt-10;
-            padding: 0 30px;
+            padding: 50px 30px;
             backdrop-filter: blur(8px);
 
             & .mil-logo {
