@@ -5,13 +5,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const ImageSlider = () => {
   const images = [
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png',
+    '/img/partners/1.svg',
+    '/img/partners/2.svg',
+    '/img/partners/1.svg',
+    '/img/partners/2.svg',
+    '/img/partners/1.svg',
+    '/img/partners/2.svg',
+    '/img/partners/1.svg',
   ];
 
   return (
