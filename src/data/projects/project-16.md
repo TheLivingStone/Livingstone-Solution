@@ -1,7 +1,7 @@
 ---
 #preview
 title: FitTrack Mobile App
-image: https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop
+image: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=800&h=600&fit=crop
 category: App Development
 date: january 12 2024
 
@@ -10,7 +10,7 @@ layout: "one"
 
 #full details
 introTitle: "FitTrack <span class=\"mil-thin\">Mobile App</span>"
-fullImage: https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=800&fit=crop
+fullImage: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1200&h=800&fit=crop
 details:
     - label: "Client:"
       value: "HealthTech Solutions"
