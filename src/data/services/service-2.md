@@ -1,46 +1,46 @@
 ---
 #preview details
-title: "App Design and Development"
-preview_title: "App Design <br>and Development"
-short: "We design and build mobile and web apps that combine innovation, performance, and seamless user experiences."
+title: "Native & Cross-Platform App Development"
+preview_title: "Mobile App <br>Engineering"
+short: "We architect secure, high-retention iOS and Android applications using React Native and Swift/Kotlin."
 
 #full details
-introTitle: App <span class="mil-thin">Design</span><br> and <span class="mil-thin">Development</span>
+introTitle: Mobile App <span class="mil-thin">Engineering</span><br> and <span class="mil-thin">Development</span>
 
 description:
-  title: Our <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Development Process</span>
-  content: Our app development process blends creativity, strategy, and technology to deliver high-performance applications. Whether native, hybrid, or progressive web apps (PWAs), we focus on creating products that are scalable, intuitive, and optimized for every platform and device.
+  title: High-Retention <span class="mil-thin">Mobile Experiences</span>
+  content: We build mobile applications capable of handling millions of global users. By leveraging React Native for seamless cross-platform performance or Swift/Kotlin for raw native execution, we deliver mobile apps that are fast, intuitive, and highly secure. We handle the entire lifecycle from App Store Optimization (ASO) to complex backend API integrations.
   button:
     link: /projects
     label: View works
 
 list:
   items:
-    - label: "User Research & UX Strategy"
+    - label: "Cross-Platform React Native Development"
       value: "
-      <p>Every successful app starts with understanding the user. We conduct in-depth research to identify pain points, behaviors, and motivations, allowing us to design app experiences that delight users and drive engagement.</p>
-      <p>Our UX strategy aligns business objectives with user needs, ensuring every interaction adds value and keeps users coming back.</p>
-      <p>We create data-driven design strategies that form the foundation for intuitive, impactful apps.</p>
+      <p>Reduce time-to-market without sacrificing performance. We utilize React Native to build applications that run flawlessly on both iOS and Android from a single codebase.</p>
+      <p>Our cross-platform approach ensures feature parity, easier maintenance, and significantly lower long-term development costs.</p>
+      <p>We integrate native modules seamlessly when operating-system specific hardware access is required.</p>
       "
 
-    - label: "UI Design & Prototyping"
+    - label: "Native iOS & Android Engineering"
       value: "
-      <p>Our design team crafts visually stunning and functional interfaces that enhance usability and brand identity. Using interactive prototypes, we bring concepts to life before development begins, reducing risk and ensuring alignment.</p>
-      <p>From layout to color psychology and motion design, every detail is optimized for clarity and engagement.</p>
-      <p>The result: pixel-perfect designs that look and feel natural across iOS, Android, and web platforms.</p>
+      <p>For applications demanding maximum hardware performance, graphics processing, or strict platform-specific design guidelines, we provide dedicated Native engineering.</p>
+      <p>Our iOS developers write clean, maintainable Swift code, while our Android engineers master Kotlin to build memory-efficient, robust applications.</p>
+      <p>This is the ideal solution for heavy fintech, healthcare, and intensive gaming applications.</p>
       "
 
-    - label: "App Development"
+    - label: "API Integration & Backend Synchronization"
       value: "
-      <p>We build secure, high-performance apps using modern frameworks and technologies such as React Native, Flutter, and Swift. Our developers ensure seamless integration with APIs, cloud services, and third-party systems.</p>
-      <p>Whether you need a cross-platform app, enterprise solution, or PWA, our development approach guarantees stability, scalability, and exceptional performance.</p>
-      <p>We follow agile practices to deliver working versions early, gather feedback, and iterate quickly.</p>
+      <p>Apps are only as good as the data they consume. We architect offline-first mobile databases (SQLite/Realm) and synchronize them seamlessly with cloud backends.</p>
+      <p>Our integrations include Push Notifications (Firebase/APNs), secure OAuth logins, realtime WebSockets, and complex third-party API aggregations.</p>
+      <p>We ensure data payload optimization to preserve battery life and minimize cellular data usage.</p>
       "
 
-    - label: "Testing & Deployment"
+    - label: "App Store Optimization (ASO) & Deployment"
       value: "
-      <p>Before launch, every app undergoes rigorous testing for functionality, security, and user experience across multiple devices and environments. We ensure smooth performance under real-world conditions.</p>
-      <p>Our deployment process includes publishing to app stores, backend integration, and ongoing maintenance support.</p>
-      <p>Post-launch, we monitor analytics and user feedback to optimize the app continuously for better engagement and ROI.</p>
+      <p>Getting in the store is half the battle. We handle the strict compliance approvals for both the Apple App Store and Google Play Store.</p>
+      <p>Our deployment process includes App Store Optimization (ASO) consulting to ensure your app ranks for critical industry keywords.</p>
+      <p>Post-launch, we utilize CI/CD pipelines (Fastlane) for rapid over-the-air updates and rigorous crashlytics monitoring.</p>
       "
 ---

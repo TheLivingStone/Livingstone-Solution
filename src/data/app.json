@@ -48,12 +48,12 @@
                         "link": "/AppDevelopment"
                     },
                     {
-                        "label": "Software development",
-                        "link": "/404"
+                        "label": "Software Development",
+                        "link": "/services/service-3"
                     },
                     {
-                        "label": "AI automation ",
-                        "link": "/404"
+                        "label": "AI Automation",
+                        "link": "/services/service-4"
                     }
                 ]
             },

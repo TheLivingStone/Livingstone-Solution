@@ -1,46 +1,46 @@
 ---
 #preview details
-title: "Software Development Solutions"
-preview_title: "Software <br>Development Solutions"
-short: "We design and build scalable, high-performance software tailored to your business needs."
+title: "Enterprise Software & Cloud Architecture"
+preview_title: "Cloud Software <br>Solutions"
+short: "We architect secure, scalable B2B/B2G software platforms leveraging containerized microservices and cloud infrastructure."
 
 #full details
-introTitle: <span class="mil-thin">Software</span><br> <span class="mil-thin">Development</span> Solutions
+introTitle: <span class="mil-thin">Enterprise</span><br> Software <span class="mil-thin">Architecture</span>
 
 description:
-  title: Our <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Development Process</span>
-  content: We specialize in building reliable, secure, and efficient software systems that solve real business problems. From discovery and design to deployment and maintenance, our process ensures every product is robust, user-friendly, and ready to scale. Whether you need a custom application, enterprise system, or integration solution — we turn your ideas into powerful digital products.
+  title: Scalable <span class="mil-thin">Cloud Engineering</span>
+  content: Our software engineering goes beyond simple scripting. We design distributed systems, multi-tenant databases, and secure B2B/B2G software tailored for scale. By embracing cloud-native architectures (AWS/Azure) and microservices, our software solutions deliver 99.99% uptime, compliance-ready security, and future-proof adaptability.
   button:
     link: /projects
-    label: View works
+    label: View case studies
 
 list:
   items:
-    - label: "Requirements Analysis"
+    - label: "Cloud-Native Infrastructure (AWS/Azure)"
       value: "
-      <p>We start with a deep understanding of your goals, workflows, and user requirements. This phase involves gathering functional and technical specifications to ensure clarity and alignment before development begins.</p>
-      <p>Our team collaborates with stakeholders to define system architecture, identify integration points, and set measurable success criteria for the final product.</p>
-      <p>Strong analysis minimizes risk, reduces rework, and guarantees that development stays on track with business priorities.</p>
+      <p>We build sophisticated cloud environments that auto-scale with your traffic. Utilizing AWS (EC2, S3, RDS) or Azure, we architect systems that optimize cost while maximizing performance.</p>
+      <p>Our solutions include geo-redundant database clustering and serverless computation (AWS Lambda) for burst-heavy workloads.</p>
+      <p>This ensures your platform remains resilient during sudden usage spikes without manual intervention.</p>
       "
 
-    - label: "System Architecture"
+    - label: "Microservices & Containerization"
       value: "
-      <p>System architecture defines the structure and design of your software solution. We use proven design patterns and scalable frameworks to build applications that are secure, maintainable, and high-performing.</p>
-      <p>Our engineers ensure the architecture supports modular development, efficient data handling, and smooth integration with third-party services or APIs.</p>
-      <p>We balance innovation with stability, ensuring your solution is future-proof and adaptable as your business evolves.</p>
+      <p>We decompose monolithic applications into agile, loosely coupled microservices utilizing Docker and Kubernetes.</p>
+      <p>This architectural pattern allows individual components of your software to be updated, scaled, and deployed independently without bringing down the entire system.</p>
+      <p>The result is a highly maintainable codebase that accelerates feature development for enterprise teams.</p>
       "
 
-    - label: "Agile Development"
+    - label: "B2B SaaS & Multi-Tenant Architecture"
       value: "
-      <p>We follow an agile methodology that promotes flexibility, transparency, and collaboration. Our iterative approach allows for rapid prototyping, continuous feedback, and faster time-to-market.</p>
-      <p>Each sprint delivers incremental value, ensuring the final product meets both user expectations and technical excellence.</p>
-      <p>By combining agile practices with modern DevOps tools, we enhance delivery speed while maintaining code quality and reliability.</p>
+      <p>Developing Software-as-a-Service requires distinct security and data isolation capabilities. We architect secure multi-tenant databases.</p>
+      <p>Our SaaS platforms include role-based access control (RBAC), usage-based billing integrations, and deep analytics dashboards.</p>
+      <p>We ensure strict data partitioning to guarantee compliance for sensitive enterprise or government (B2G) clients.</p>
       "
 
-    - label: "Quality Assurance & Deployment"
+    - label: "Secure Data Pipelines & APIs"
       value: "
-      <p>Quality assurance is integral to every stage of development. We conduct rigorous testing — including functional, performance, and security checks — to ensure your software performs flawlessly under all conditions.</p>
-      <p>Once validated, we handle seamless deployment and provide post-launch support, monitoring system performance and implementing updates as needed.</p>
-      <p>Our commitment to continuous improvement guarantees your software remains efficient, secure, and aligned with evolving business needs.</p>
+      <p>Modern software requires seamless communication. We develop secure REST and GraphQL APIs using robust frameworks like Spring Boot, .NET Core, or Django.</p>
+      <p>We implement end-to-end encryption, rate limiting, and automated OWASP vulnerability scanning to protect your data.</p>
+      <p>Our CI/CD pipelines automate testing so robust security is baked into every deployment.</p>
       "
 ---

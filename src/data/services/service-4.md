@@ -1,46 +1,46 @@
 ---
 #preview details
-title: "AI Automation Solutions"
-preview_title: "AI <br>Automation Solutions"
-short: "We help businesses automate operations, optimize performance, and unlock intelligent growth with AI-driven systems."
+title: "AI Integration & Workflow Automation"
+preview_title: "AI & Machine <br>Learning"
+short: "We optimize operations by implementing custom LLMs, predictive data models, and intelligent workflow automation."
 
 #full details
-introTitle: AI <span class="mil-thin">Automation</span><br> for <span class="mil-thin">Smarter</span> Business
+introTitle: Applied <span class="mil-thin">AI</span><br> & Workflow <span class="mil-thin">Automation</span>
 
 description:
-  title: Your <span class="mil-thin">Automation</span> <br>and <span class="mil-thin">Integration Strategy</span>
-  content: Our AI automation services empower organizations to streamline repetitive processes, improve decision-making, and enhance productivity. From intelligent workflows to predictive analytics and chatbot integrations, we design solutions that adapt, learn, and scale with your business.
+  title: Intelligent <span class="mil-thin">Process Optimization</span>
+  content: Stop wasting human capital on manual tasks. We integrate enterprise AI tools like OpenAI, custom Large Language Models (LLMs), and machine learning pipelines directly into your existing software stack. Our data-driven automation pipelines reduce operational overhead, eliminate human error, and unlock real predictive analytics for C-suite decision making.
   button:
     link: /projects
-    label: View works
+    label: View case studies
 
 list:
   items:
-    - label: "Process Automation"
+    - label: "Custom LLM & OpenAI Integration"
       value: "
-      <p>Process automation uses AI and machine learning to streamline repetitive business tasks. It reduces manual effort, improves accuracy, and accelerates execution by automating workflows across departments such as HR, finance, and operations.</p>
-      <p>Our automation experts analyze your existing processes to identify inefficiencies and implement AI-based tools that deliver measurable time and cost savings.</p>
-      <p>From data entry and document processing to intelligent scheduling and approvals, AI automation frees your team to focus on innovation instead of routine work.</p>
+      <p>We integrate foundational models like GPT-4 directly into your proprietary tools via API. We utilize specialized fine-tuning and Retrieval-Augmented Generation (RAG) to make the AI an expert on your specific internal data.</p>
+      <p>This allows your teams to generate reports, draft communications, and summarize documents instantly, backed by internal context.</p>
+      <p>We strictly enforce data privacy, ensuring your sensitive IP is never used to train public models.</p>
       "
 
-    - label: "Predictive Analytics"
+    - label: "Machine Learning & Predictive Models"
       value: "
-      <p>Predictive analytics leverages machine learning and data modeling to forecast trends, behaviors, and outcomes. It helps businesses make proactive decisions and anticipate market changes before they happen.</p>
-      <p>We build predictive models that empower your organization with data-driven insights—whether for sales forecasting, risk management, or customer engagement optimization.</p>
-      <p>With AI at the core, your business can plan smarter, act faster, and adapt continuously.</p>
+      <p>Move from reactive to proactive. We construct customized Machine Learning pipelines utilizing Python (TensorFlow, PyTorch) to uncover patterns within massive datasets.</p>
+      <p>Our predictive models help businesses forecast inventory demands, model user churn, and dynamically optimize pricing strategies.</p>
+      <p>By turning raw databases into actionable intelligence, we give you a concrete competitive advantage.</p>
       "
 
-    - label: "AI-Powered Chatbots"
+    - label: "RPA & Intelligent Automation Workflows"
       value: "
-      <p>AI chatbots are transforming customer engagement by providing 24/7 personalized support. Our custom-built chatbots use natural language processing (NLP) to understand intent, respond contextually, and deliver human-like interactions.</p>
-      <p>They can handle customer inquiries, process transactions, and assist with onboarding—enhancing service quality while reducing operational costs.</p>
-      <p>Integrate your chatbot across web, mobile, or CRM systems to offer seamless automated communication experiences.</p>
+      <p>Robotic Process Automation (RPA) links your disparate systems. We utilize tools like Make, Zapier, and custom scripts to map and eliminate repetitive data entry between CRMs, ERPs, and marketing platforms.</p>
+      <p>These intelligent workflows trigger conditionally, moving data seamlessly without human intervention.</p>
+      <p>The result is a drastic reduction in operational bottlenecks and a near-zero error rate for core processes.</p>
       "
 
-    - label: "Intelligent Workflows"
+    - label: "AI Customer Support Agents"
       value: "
-      <p>Intelligent workflows combine automation with AI decision-making to coordinate complex tasks across tools and teams. These systems can learn from data, adjust to real-time conditions, and execute end-to-end processes autonomously.</p>
-      <p>Our approach connects APIs, data pipelines, and cloud systems—creating a unified automation ecosystem tailored to your business objectives.</p>
-      <p>With intelligent workflows, efficiency becomes scalable and continuous improvement becomes automatic.</p>
+      <p>Deploy intelligent support agents that understand context, not just keywords. Our AI chatbots integrate natural language processing (NLP) to handle complex, multi-turn customer service inquiries 24/7.</p>
+      <p>They securely connect to your backend databases to retrieve order statutes, process refunds, and escalate effectively to human agents.</p>
+      <p>We guarantee diminished support ticket volume and significantly elevated customer satisfaction scores.</p>
       "
 ---
