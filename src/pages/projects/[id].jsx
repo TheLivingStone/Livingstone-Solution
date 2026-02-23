@@ -6,6 +6,7 @@ import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@libra
 
 import PageBanner from "@components/PageBanner";
 import CallToActionSection from "@components/sections/CallToAction";
+import SEO from "@components/SEO";
 import ProjectInnerOne from "@components/ProjectInnerOne";
 import ProjectInnerTwo from "@components/ProjectInnerTwo";
 import ProjectInnerThree from "@components/ProjectInnerThree";
@@ -13,8 +14,8 @@ import ProjectInnerFour from "@components/ProjectInnerFour";
 import ProjectInnerFive from "@components/ProjectInnerFive";
 import ProjectInnerSix from "@components/ProjectInnerSix";
 
-const ProjectDetail = ( props ) => {
-  
+const ProjectDetail = (props) => {
+
   const postData = props.data;
 
   let prev = {
@@ -27,24 +28,25 @@ const ProjectDetail = ( props ) => {
     "key": 0
   }
 
-  props.projects.forEach(function(item, key){
-    if ( item.id == postData.id ) {
+  props.projects.forEach(function (item, key) {
+    if (item.id == postData.id) {
       prev.key = key - 1;
       next.key = key + 1;
     }
   })
 
-  props.projects.forEach(function(item, key){
-    if ( key == prev.key ) {
+  props.projects.forEach(function (item, key) {
+    if (key == prev.key) {
       prev.id = item.id;
     }
-    if ( key == next.key ) {
+    if (key == next.key) {
       next.id = item.id;
     }
   });
 
   return (
     <Layouts>
+      <SEO title={postData.title} description={postData.short || postData.introTitle} canonical={`https://solution.thelivingstonefoundation.com/projects/${postData.id}`} />
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Read more"} anchorLink={"#project"} />
 
       {postData.layout == 'one' &&
@@ -74,22 +76,22 @@ const ProjectDetail = ( props ) => {
 export default ProjectDetail;
 
 export async function getStaticPaths() {
-    const paths = getAllProjectsIds()
+  const paths = getAllProjectsIds()
 
-    return {
-      paths,
-      fallback: false
-    }
+  return {
+    paths,
+    fallback: false
+  }
 }
 
 export async function getStaticProps({ params }) {
-    const postData = await getProjectData(params.id)
-    const allProjects = await getSortedProjectsData()
+  const postData = await getProjectData(params.id)
+  const allProjects = await getSortedProjectsData()
 
-    return {
-      props: {
-        data: postData,
-        projects: allProjects
-      }
+  return {
+    props: {
+      data: postData,
+      projects: allProjects
     }
+  }
 }

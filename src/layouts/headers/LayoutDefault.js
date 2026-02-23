@@ -119,8 +119,8 @@ const DefaultHeader = ({ extraClass }) => {
                                             <div className="col-lg-4 mil-mb-60">
                                                 <h6 className="mil-muted mil-mb-30">Useful links</h6>
                                                 <ul className="mil-menu-list">
-                                                    <li><Link href="/" className="mil-light-soft">Privacy Policy</Link></li>
-                                                    <li><Link href="/" className="mil-light-soft">Terms and conditions</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Privacy Policy</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Terms and conditions</Link></li>
                                                     <li><Link href="/contact" className="mil-light-soft">Contact Support</Link></li>
                                                 </ul>
                                             </div>
