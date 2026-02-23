@@ -2,7 +2,7 @@
 #preview
 title: Appeal Media
 image: /img/works/apeal/apeal2.jpg
-category: Web Developmment
+category: Web Development
 date: 2021
 website: https://appealmedia.LivingStoneSolution.com
 

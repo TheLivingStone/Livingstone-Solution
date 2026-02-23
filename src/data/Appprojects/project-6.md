@@ -2,7 +2,7 @@
 #preview
 title: The EyeSpace Website Website
 image: /img/works/com/eye.jpeg
-category: Web Developmment
+category: Web Development
 date: may 24 2023
 
 #params

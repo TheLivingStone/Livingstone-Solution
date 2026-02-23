@@ -147,7 +147,10 @@ const DefaultFooter = ({ extraClass }) => {
                       ))}
                     </ul>
                   </div>
-                  <p className="mil-light-soft mil-up">{AppData.footer.copy}</p>
+                  <div className="mil-up">
+                    <p className="mil-light-soft">{AppData.footer.copy}</p>
+                    <p className="mil-light-soft mil-mb-15"><strong>{AppData.footer.uei}</strong></p>
+                  </div>
                 </div>
               </div>
             </div>

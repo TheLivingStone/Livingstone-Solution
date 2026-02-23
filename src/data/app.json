@@ -40,12 +40,12 @@
                         "link": "/projects"
                     },
                     {
-                        "label": "Web Developmment",
-                        "link": "/WebDevelopmment"
+                        "label": "Web Development",
+                        "link": "/WebDevelopment"
                     },
                     {
                         "label": "App Development",
-                        "link": "/404"
+                        "link": "/AppDevelopment"
                     },
                     {
                         "label": "Software development",
@@ -55,9 +55,12 @@
                         "label": "AI automation ",
                         "link": "/404"
                     }
-                    
                 ]
-              
+            },
+            {
+                "label": "Government",
+                "link": "/government",
+                "children": 0
             },
             {
                 "label": "Services",
@@ -121,10 +124,15 @@
             "text": "The Livingstone Solution"
         },
         "copy": "© 2025 The Livingstone Solution. All Rights Reserved.",
+        "uei": "UEI: GGUGKJTEMU73 | CAGE: 16SZ9",
         "menu": [
             {
                 "label": "Home",
                 "link": "/"
+            },
+            {
+                "label": "Government",
+                "link": "/government"
             },
             {
                 "label": "Portfolio",

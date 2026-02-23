@@ -2,7 +2,7 @@
 #preview
 title: IcellSmart Website 
 image: /img/works/icel/1.jpg
-category: Web Developmment
+category: Web Development
 date: 2023
 website: https://icellsmartusa.com/
 

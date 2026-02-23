@@ -2,7 +2,7 @@
 #preview
 title: Lakshya Space
 image: /img/works/22.png
-category: Web Developmment
+category: Web Development
 date: may 24 2023
 
 #params

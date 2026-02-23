@@ -2,7 +2,7 @@
 #preview
 title: Mozivol Website
 image: /img/works/mozivol/1.jpg
-category: Web Developmment
+category: Web Development
 date: 2022
 website: https://mozivol.com/
 

@@ -1,30 +1,30 @@
 {
-    "title1": "<span class=\"mil-thin\">We Don't Just  </span>Dream....",
-    "title2": "<span class=\"mil-thin\">We Deliver </span>Excellence....",
-    "subtitle": "Unlock limitless possibilities with LivingStoneSolution <br/>Technologies – your digital transformation partner.",
+    "title1": "<span class=\"mil-thin\">Core </span>Competencies",
+    "title2": "<span class=\"mil-thin\">Mission-Ready </span>Capabilities",
+    "subtitle": "Leveraging advanced technologies to streamline operations, enhance security, <br/>and deliver value for Federal and State agencies.",
     "button": {
         "link": "/services",
-        "label": "What we do"
+        "label": "All Capabilities"
     },
     "items": [
         {
-            "title": "Web Development<br>",
-            "text": "Building fast, secure, and responsive websites that drive results.",
+            "title": "Digital Services & 508 Compliance<br>",
+            "text": "Building accessible, citizen-facing portals and secure internal agency platforms.",
             "link": "/services/service-1"
         },
         {
-            "title": "App Development",
-            "text": "Creating high-performance mobile and web apps for every platform.",
+            "title": "Enterprise Mobility Solutions",
+            "text": "Secure mobile application development for field operatives and agency staff.",
             "link": "/services/service-2"
         },
         {
-            "title": "Software Development",
-            "text": "Designing custom software solutions to streamline your business operations.",
+            "title": "Custom Mission Software",
+            "text": "Modernizing legacy systems, secure integrations, and mission-critical cloud applications.",
             "link": "/services/service-3"
         },
         {
-            "title": "AI Automation",
-            "text": "Integrating intelligent automation to boost efficiency and innovation.",
+            "title": "AI & Process Automation",
+            "text": "Streamlining agency workflows, reducing backlog, and enhancing data decisioning.",
             "link": "/services/service-4"
         }
     ]

@@ -1,12 +1,12 @@
 {
-    "title": "Living Stone Solution...<br>  <span class=\"mil-thin\">Your Partner in Digital </span><span class=\"mil-thin\">Transformation....</span>",
-    "description": "We are the architects of digital transformation, crafting stunning websites, cuttingedge apps, and powerful Software Development campaigns.",
+    "title": "Living Stone Solution...<br>  <span class=\"mil-thin\">Your Partner in Mission-Critical </span><span class=\"mil-thin\">Technology.</span>",
+    "description": "Delivering secure, scalable, and compliant digital solutions for the public sector. We specialize in enterprise mobility, system integration, and advanced automation for government agencies.",
     "button1": {
         "link": "/services",
-        "label": "What we do"
+        "label": "View Capabilities"
     },
     "button2": {
         "link": "/Portfolio",
-        "label": "View works"
+        "label": "Past Performance"
     }
 }

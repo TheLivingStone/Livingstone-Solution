@@ -2,7 +2,7 @@
 #preview
 title: Master n Me Website & Appe
 image: /img/works/com/2.png
-category: Web Developmment
+category: Web Development
 date: may 24 2023
 
 #params

@@ -6,15 +6,14 @@
     "avatar": {
         "image": "/img/photo/founder-img.png",
         "alt": "Founder"
-        
     },
-    "avatar2":{
+    "avatar2": {
         "image": "/img/photo/fullsize-aboutus.png"
     },
-    "video":{
-        "url":"/img/photo/fullsize.png"
+    "video": {
+        "url": "/img/photo/fullsize.png"
     },
-    "title": "Challenge Us<br/> <span class=\"mil-thin\">We Dare You</span>",
-    "description": "<p>Think your project is too complex? Too ambitious? Think again. At LivingStoneSolution, we thrive on challenges. We invite you to challenge us. There's no project we can't conquer, no dream too big. Give us your vision, and we'll make it reality.</p><p>The Future Begins with a Conversation - Ready to make your mark in the digital world? So are we. Let's chat over a virtual cup of coffee and discuss how we can transform your dreams into digital masterpieces.</p>",
-    "subtitle": "Our team of experts transforms ideas into <br/>Digital Realities <br/> <span class=\"mil-thin\">Oliyad Deyasa<br/>Founder | The Livingstone Solution<br/>Washington, D.C.</span>"
+    "title": "Proven Past Performance<br/> <span class=\"mil-thin\">Unmatched Reliability</span>",
+    "description": "<p>At Livingstone Solution, we understand that government agencies require technology partners who prioritize security, accessibility, and strict compliance. From modernizing legacy systems to deploying secure citizen-facing portals, our team delivers mission-critical technology solutions with precision.</p><p>Partner with a team that speaks your language. Let's discuss how we can support your agency's strategic objectives and ensure seamless digital execution.</p>",
+    "subtitle": "Empowering Government Agencies through Secure <br/>Technology Solutions <br/> <span class=\"mil-thin\">Oliyad Deyasa<br/>Managing Director | The Livingstone Solution<br/>Washington, D.C.</span>"
 }

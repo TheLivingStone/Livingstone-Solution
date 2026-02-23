@@ -2,7 +2,7 @@
 #preview
 title: MrMechanic Website & APP
 image: /img/works/mechanic/1.jpg
-category: Web Developmment
+category: Web Development
 date: 2023
 website: https://themrmechanic.com/
 

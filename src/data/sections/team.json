@@ -10,9 +10,9 @@
     "note": "<span class=\"mil-accent\">*</span> The team behind The LivingStone Solution",
     "col1_items": [
         {
-            "image": "/img/faces/team-photo-4.png",
+            "image": "/img/faces/blane.png",
             "name": "Blane Anteneh",
-            "role": "Head of Operations",
+            "role": "Co-founder and CEO",
             "bio": "Strategic business administrator with expertise in operations, finance, and organizational development. Drives efficiency and growth across all business functions.",
             "contact": {
                 "location": "Chicago, IL, USA",
@@ -33,9 +33,9 @@
             ]
         },
         {
-            "image": "/img/faces/team-photo-1.jpg",
+            "image": "/img/faces/oliyad.png",
             "name": "Oliyad Deyasa",
-            "role": "Co-Founder and Project Manager",
+            "role": "Co-Founder | Chief Technology Officer & Project Manager",
             "bio": "Visionary leader with extensive experience in project management and business development. Passionate about transforming innovative ideas into successful digital solutions.",
             "contact": {
                 "location": "Washington, D.C., USA",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "image": "/img/faces/team-photo-3.png",
+            "image": "/img/faces/mikias.png",
             "name": "Mikias Tulu",
             "role": "Head of Development",
             "bio": "Technical expert specializing in system architecture and operations management. Ensures seamless technical execution and maintains high-quality standards.",

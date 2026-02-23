@@ -2,7 +2,7 @@
 #preview
 title: Connecting Skills Website
 image: /img/works/com/q7.jpeg
-category: Web Developmment
+category: Web Development
 date: may 24 2023
 
 #params

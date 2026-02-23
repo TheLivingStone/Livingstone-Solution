@@ -2,7 +2,7 @@
 #preview
 title: Lakshya Defence  Website
 image: /img/works/com/q10.jpeg
-category: Web Developmment
+category: Web Development
 date: may 24 2023
 
 #params

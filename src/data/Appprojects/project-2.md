@@ -2,7 +2,7 @@
 #preview
 title: Wission Talks Website
 image: /img/works/wission/wission.png
-category: Web Developmment
+category: Web Development
 date: may 24 2023
 
 #params
