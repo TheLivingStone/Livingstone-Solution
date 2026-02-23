@@ -13,6 +13,8 @@ const nextConfig = {
   async redirects() {
     return [
       { source: '/projects-3', destination: '/Portfolio', permanent: true },
+      { source: '/projects-2', destination: '/Portfolio', permanent: true },
+      { source: '/home-2', destination: '/', permanent: true },
       { source: '/blog/10-content-proof-tips-to-catch-goofs', destination: '/blog', permanent: true },
       { source: '/blog/10-content-proof-tips-to-catch-goofs-2', destination: '/blog', permanent: true },
       { source: '/blog/10-content-proof-tips-to-catch-goofs-3', destination: '/blog', permanent: true },

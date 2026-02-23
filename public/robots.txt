@@ -1,5 +1,11 @@
+# *
 User-agent: *
 Allow: /
-Disallow: /api/
+Disallow: /404
+Disallow: /api/*
 
+# Host
+Host: https://solution.thelivingstonefoundation.com
+
+# Sitemaps
 Sitemap: https://solution.thelivingstonefoundation.com/sitemap.xml
