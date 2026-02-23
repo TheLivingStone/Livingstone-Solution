@@ -48,14 +48,14 @@ const DefaultHeader = ({ extraClass }) => {
                 {/* frame clone */}
                 <div className="mil-frame-top" style={{ marginTop: "40px", marginBottom: "-200000000000px" }}>
                     <Link href={AppData.header.logo.link} className="mil-logo">
-                        <img 
-                            src="/img/photo/logo.png" 
-                            alt="Logo" 
-                            style={{ 
-                                width: "150px", 
+                        <img
+                            src="/img/photo/logo.png"
+                            alt="Logo"
+                            style={{
+                                width: "150px",
                                 marginTop: "-50px",
                                 filter: isDarkBackground ? "invert(1)" : "invert(0)"
-                            }} 
+                            }}
                         />
                     </Link>
                     <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>
@@ -72,8 +72,8 @@ const DefaultHeader = ({ extraClass }) => {
                                     <ul>
                                         {navItems.map((item, key) => (
                                             <li className={item.classes} key={`header-menu-item-${key}`}>
-                                                <Link 
-                                                    href={item.link} 
+                                                <Link
+                                                    href={item.link}
                                                     onClick={item.children != 0 ? (e) => clickedMobileMenuItemParent(e) : undefined}
                                                 >
                                                     {item.label}
@@ -81,8 +81,8 @@ const DefaultHeader = ({ extraClass }) => {
                                                 {item.children != 0 &&
                                                     <ul>
                                                         {item.children.map((subitem, key2) => (
-                                                            <li 
-                                                                key={`header-submenu${key}-item-${key2}`} 
+                                                            <li
+                                                                key={`header-submenu${key}-item-${key2}`}
                                                                 className={((asPath.indexOf(subitem.link) != -1 && subitem.link != '/') || asPath == subitem.link) ? "mil-active" : ""}
                                                             >
                                                                 <Link href={subitem.link}>{subitem.label}</Link>
@@ -110,18 +110,18 @@ const DefaultHeader = ({ extraClass }) => {
                                             <div className="col-lg-8 mil-mb-60">
                                                 <h6 className="mil-muted mil-mb-30">Clients Portal</h6>
                                                 <ul className="mil-menu-list">
-                                                    <li><Link href="/projects/project-1" className="mil-light-soft">Make Payments</Link></li>
-                                                    <li><Link href="/projects/project-2" className="mil-light-soft">Schedule a Meeting</Link></li>
-                                                    <li><Link href="/projects/project-3" className="mil-light-soft">Login to CRM</Link></li>
-                                                    <li><Link href="/projects/project-4" className="mil-light-soft">Get an Free Estimate</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Make Payments</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Schedule a Meeting</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Login to CRM</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Get a Free Estimate</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="col-lg-4 mil-mb-60">
                                                 <h6 className="mil-muted mil-mb-30">Useful links</h6>
                                                 <ul className="mil-menu-list">
-                                                    <li><a href="#." className="mil-light-soft">Privacy Policy</a></li>
-                                                    <li><a href="#." className="mil-light-soft">Terms and conditions</a></li>
-                                                    <li><a href="#." className="mil-light-soft">Contact Support</a></li>
+                                                    <li><Link href="/" className="mil-light-soft">Privacy Policy</Link></li>
+                                                    <li><Link href="/" className="mil-light-soft">Terms and conditions</Link></li>
+                                                    <li><Link href="/contact" className="mil-light-soft">Contact Support</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -130,17 +130,17 @@ const DefaultHeader = ({ extraClass }) => {
                                             <div className="col-lg-6 mil-mb-60">
                                                 <h6 className="mil-muted mil-mb-30">Domestic</h6>
                                                 <p className="mil-light-soft">
-                                                    USA<br /> 
+                                                    USA<br />
                                                     Washington, D.C.,<br />
                                                     Oliyad@thelivingstonefoundation.com<span className="mil-no-wrap"><br />(540) 998-9766</span>
                                                 </p>
                                             </div>
                                             <div className="col-lg-6 mil-mb-60">
-                                                <h6 className="mil-muted mil-mb-30">Internation</h6>
+                                                <h6 className="mil-muted mil-mb-30">International</h6>
                                                 <p className="mil-light-soft">
                                                     Ethiopia,<br />
-                                                    Near Bole Road, 
-                                Addis Ababa, Ethiopia.<span className="mil-no-wrap"><br />+251 000000</span>
+                                                    Near Bole Road,
+                                                    Addis Ababa, Ethiopia.<span className="mil-no-wrap"><br />+251 000000</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -162,14 +162,14 @@ const DefaultHeader = ({ extraClass }) => {
             <div className="mil-frame">
                 <div className="mil-frame-top">
                     <Link href={AppData.header.logo.link} className="mil-logo">
-                        <img 
-                            src="/img/photo/logolight.png" 
-                            alt="Logo" 
-                            style={{ 
-                                width: "100px",     
-                                marginTop: "10px",  
+                        <img
+                            src="/img/photo/logolight.png"
+                            alt="Logo"
+                            style={{
+                                width: "100px",
+                                marginTop: "10px",
                                 filter: isDarkBackground ? "invert(1)" : "none" // conditional filter
-                            }} 
+                            }}
                         />
                     </Link>
                     <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>

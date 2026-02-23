@@ -54,7 +54,7 @@ const DefaultFooter = ({ extraClass }) => {
                             className={
                               (asPath.indexOf(item.link) != -1 &&
                                 item.link != "/") ||
-                              asPath == item.link
+                                asPath == item.link
                                 ? "mil-active mil-up"
                                 : "mil-up"
                             }
@@ -68,24 +68,24 @@ const DefaultFooter = ({ extraClass }) => {
                   <div className="col-md-6 col-lg-5">
                     <ul className="mil-menu-list mil-up mil-mb-60">
                       <li>
-                        <a href="#." className="mil-light-soft">
+                        <Link href="/" className="mil-light-soft">
                           Privacy Policy
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#." className="mil-light-soft">
+                        <Link href="/" className="mil-light-soft">
                           Terms and conditions
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#." className="mil-light-soft">
+                        <Link href="/" className="mil-light-soft">
                           Cookie Policy
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#." className="mil-light-soft">
+                        <Link href="/contact" className="mil-light-soft">
                           Careers
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
