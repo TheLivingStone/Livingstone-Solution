@@ -14,6 +14,7 @@ const Projects3 = (props) => {
         title="App Development Services"
         description="We build high-performance mobile applications for iOS and Android. Transform your ideas into engaging mobile experiences."
         keywords="App Development, Mobile Apps, iOS Development, Android Development, React Native"
+        canonical="https://solution.thelivingstonefoundation.com/AppDevelopment"
       />
       <ProjectsSlider projects={props.projects} />
 

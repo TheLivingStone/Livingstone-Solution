@@ -14,6 +14,7 @@ const Projects3 = (props) => {
         title="Digital Marketing Agency"
         description="Grow your business with our data-driven digital marketing strategies. SEO, PPC, Social Media, and more."
         keywords="Digital Marketing, SEO, Search Engine Optimization, PPC, Social Media Marketing, Content Marketing"
+        canonical="https://solution.thelivingstonefoundation.com/DigitalMarketing"
       />
       <ProjectsSlider projects={props.projects} />
 

@@ -14,6 +14,7 @@ const Projects3 = (props) => {
         title="Custom Web Development Services"
         description="Expert web development services. We build scalable, modern websites and web applications tailored to your business needs."
         keywords="Web Development, Custom Websites, Web Applications, Frontend, Backend, Software Development"
+        canonical="https://solution.thelivingstonefoundation.com/WebDevelopment"
       />
       <ProjectsSlider projects={props.projects} />
 

@@ -17,8 +17,9 @@ const Services = (props) => {
     <Layouts>
       <SEO
         title="Our Software & Marketing Services"
-        description="Discover our range of services: Web Development, App Development, Branding, and Digital Marketing tailored to scale your business."
-        keywords="Software Development Services, App Development, Web Design, Marketing Agency"
+        description="Discover our range of services: Web Development, App Development, Branding, and Digital Marketing tailored to scale your enterprise."
+        keywords="Software Development Services, App Development, Web Design, Marketing Agency, DMV Tech"
+        canonical="https://solution.thelivingstonefoundation.com/services"
       />
       {/* banner */}
       <div className="mil-dark-bg">

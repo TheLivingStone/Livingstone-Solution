@@ -22,8 +22,9 @@ const Home1 = (props) => {
     <Layouts>
       <SEO
         title="Top Software Development Agency"
-        description="Living Stone Solution is your partner for Web Development, App Development, Digital Marketing, and high-impact software solutions."
-        keywords="Software Development, Web Development, Mobile Apps, Digital Marketing Agency"
+        description="The Livingstone Solution is your partner for Enterprise Web Development, App Development, Digital Marketing, and high-impact software solutions in Washington D.C. and the DMV area."
+        keywords="Software Development, Web Development, Mobile Apps, Digital Marketing Agency, Washington D.C. Enterprise"
+        canonical="https://solution.thelivingstonefoundation.com/"
       />
       <HeroOneSection />
       <AboutSection />

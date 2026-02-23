@@ -14,6 +14,7 @@ const Projects3 = (props) => {
         title="Branding & Identity Services"
         description="Craft a compelling story and visual identity with our expert branding services. Make your brand unforgettable."
         keywords="Branding, visual identity, brand strategy, graphic design, logo design"
+        canonical="https://solution.thelivingstonefoundation.com/Branding"
       />
       <ProjectsSlider projects={props.projects} />
 
