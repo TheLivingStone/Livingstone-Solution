@@ -1,6 +1,7 @@
 import React from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
+import SEO from "@components/SEO";
 
 import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
@@ -19,6 +20,11 @@ const ModernCategorizedProjects = dynamic(() => import("@components/sliders/Mode
 const Home1 = (props) => {
   return (
     <Layouts>
+      <SEO
+        title="Top Software Development Agency"
+        description="Living Stone Solution is your partner for Web Development, App Development, Digital Marketing, and high-impact software solutions."
+        keywords="Software Development, Web Development, Mobile Apps, Digital Marketing Agency"
+      />
       <HeroOneSection />
       <AboutSection />
       <ServicesSection />
