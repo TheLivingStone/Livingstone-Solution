@@ -40,7 +40,7 @@ list:
     - label: "AI Customer Support Agents"
       value: "
       <p>Deploy intelligent support agents that understand context, not just keywords. Our AI chatbots integrate natural language processing (NLP) to handle complex, multi-turn customer service inquiries 24/7.</p>
-      <p>They securely connect to your backend databases to retrieve order statutes, process refunds, and escalate effectively to human agents.</p>
+      <p>They securely connect to your backend databases to retrieve order statuses, process refunds, and escalate effectively to human agents.</p>
       <p>We guarantee diminished support ticket volume and significantly elevated customer satisfaction scores.</p>
       "
 ---

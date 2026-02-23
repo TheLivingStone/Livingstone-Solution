@@ -30,7 +30,7 @@ const DefaultFooter = ({ extraClass }) => {
                 >
                   <input
                     type="email"
-                    placeholder="Enter our email"
+                    placeholder="Enter your email"
                     name="EMAIL"
                     required
                   />
@@ -68,17 +68,17 @@ const DefaultFooter = ({ extraClass }) => {
                   <div className="col-md-6 col-lg-5">
                     <ul className="mil-menu-list mil-up mil-mb-60">
                       <li>
-                        <Link href="/" className="mil-light-soft">
+                        <Link href="/contact" className="mil-light-soft">
                           Privacy Policy
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="mil-light-soft">
+                        <Link href="/contact" className="mil-light-soft">
                           Terms and conditions
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="mil-light-soft">
+                        <Link href="/contact" className="mil-light-soft">
                           Cookie Policy
                         </Link>
                       </li>

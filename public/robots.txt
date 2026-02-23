@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://solution.thelivingstonefoundation.com/sitemap.xml
