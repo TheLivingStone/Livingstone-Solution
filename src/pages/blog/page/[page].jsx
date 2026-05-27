@@ -16,7 +16,7 @@ const Blog = ({ posts, currentPage, totalPosts, categories }) => {
 
   return (
     <Layouts>
-      <SEO title={`Blog - Page ${currentPage}`} description={`Tech Blog & Insights Page ${currentPage} - Read our latest publications on Web Development, AI, and Software Engineering.`} canonical={`https://solution.thelivingstonefoundation.com/blog/page/${currentPage}`} />
+      <SEO title={`Blog - Page ${currentPage}`} description={`Tech Blog & Insights Page ${currentPage} - Read our latest publications on Web Development, AI, and Software Engineering.`} canonical={`https://thelivingstonesolution.com/blog/page/${currentPage}`} />
       <PageBanner pageTitle={"Exploring <span className=\"mil-thin\">the World</span> <br> Through Our <span className=\"mil-thin\">Blog</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
       {/* blog */}

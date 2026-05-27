@@ -9,6 +9,7 @@ import { getSortedProjectsData } from "@library/projects";
 import HeroOneSection from "@components/sections/HeroOne"
 import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
+import EcosystemSection from "@components/sections/Ecosystem";
 import HonorsAndMentions from "../components/sections/HonorsAndMentions";
 import TeamSection from "@components/sections/Team";
 import LatestPostsSection from "@components/sections/LatestPosts";
@@ -24,11 +25,12 @@ const Home1 = (props) => {
         title="Top Software Development Agency"
         description="The Livingstone Solution is your partner for Enterprise Web Development, App Development, Digital Marketing, and high-impact software solutions in Washington D.C. and the DMV area."
         keywords="Software Development, Web Development, Mobile Apps, Digital Marketing Agency, Washington D.C. Enterprise"
-        canonical="https://solution.thelivingstonefoundation.com/"
+        canonical="https://thelivingstonesolution.com/"
       />
       <HeroOneSection />
       <AboutSection />
       <ServicesSection />
+      <EcosystemSection />
       {/* Stacked Project Slider */}
       <ModernCategorizedProjects projects={props.projects} />
       <TeamSection />

@@ -127,20 +127,12 @@ const DefaultHeader = ({ extraClass }) => {
                                         </div>
                                         <div className="mil-divider mil-mb-60"></div>
                                         <div className="row justify-content-between">
-                                            <div className="col-lg-6 mil-mb-60">
-                                                <h6 className="mil-muted mil-mb-30">Domestic</h6>
+                                            <div className="col-lg-8 mil-mb-60">
+                                                <h6 className="mil-muted mil-mb-30">Our Office</h6>
                                                 <p className="mil-light-soft">
                                                     USA<br />
                                                     Washington, D.C.,<br />
-                                                    Oliyad@thelivingstonefoundation.com<span className="mil-no-wrap"><br />(540) 998-9766</span>
-                                                </p>
-                                            </div>
-                                            <div className="col-lg-6 mil-mb-60">
-                                                <h6 className="mil-muted mil-mb-30">International</h6>
-                                                <p className="mil-light-soft">
-                                                    Ethiopia,<br />
-                                                    Near Bole Road,
-                                                    Addis Ababa, Ethiopia.<span className="mil-no-wrap"><br />+251 000000</span>
+                                                    Oliyad@thelivingstonesolution.com<span className="mil-no-wrap"><br />(540) 998-9766</span>
                                                 </p>
                                             </div>
                                         </div>

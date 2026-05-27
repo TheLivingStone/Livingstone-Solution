@@ -11,7 +11,7 @@ import { getSortedProjectsData } from "@library/projects";
 const Projects = (props) => {
   return (
     <Layouts>
-      <SEO title="Portfolio" description="View our latest enterprise software, app, and web development projects in the Washington D.C. and DMV area." canonical="https://solution.thelivingstonefoundation.com/projects" />
+      <SEO title="Portfolio" description="View our latest enterprise software, app, and web development projects in the Washington D.C. and DMV area." canonical="https://thelivingstonesolution.com/projects" />
       <PageBanner pageTitle={"Designing a <br> Better <span className=\"mil-thin\">World Today</span>"} breadTitle={"Portfolio"} anchorLabel={"Our works"} anchorLink={"#portfolio"} />
 
       <ProjectsMasonry projects={props.projects} />

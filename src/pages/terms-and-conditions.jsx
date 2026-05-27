@@ -5,7 +5,7 @@ import SEO from "@components/SEO";
 const TermsAndConditions = () => {
     return (
         <Layouts>
-            <SEO title="Terms and Conditions" description="Terms and Conditions for The Livingstone Solution." canonical="https://solution.thelivingstonefoundation.com/terms-and-conditions" />
+            <SEO title="Terms and Conditions" description="Terms and Conditions for The Livingstone Solution." canonical="https://thelivingstonesolution.com/terms-and-conditions" />
             <PageBanner pageTitle={"Terms and <span className=\"mil-thin\">Conditions</span>"} breadTitle={"Terms & Conditions"} anchorLabel={"Read Terms"} anchorLink={"#terms"} />
             <section id="terms">
                 <div className="container mil-p-120-90">

@@ -12,7 +12,7 @@ description:
   content: Our software engineering goes beyond simple scripting. We design distributed systems, multi-tenant databases, and secure B2B/B2G software tailored for scale. By embracing cloud-native architectures (AWS/Azure) and microservices, our software solutions deliver 99.99% uptime, compliance-ready security, and future-proof adaptability.
   button:
     link: /projects
-    label: View case studies
+    label: View our work
 
 list:
   items:

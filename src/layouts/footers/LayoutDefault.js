@@ -87,6 +87,16 @@ const DefaultFooter = ({ extraClass }) => {
                           Careers
                         </Link>
                       </li>
+                      <li>
+                        <Link href="/certifications" className="mil-light-soft">
+                          Certifications (CBE)
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/research" className="mil-light-soft">
+                          Research
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -109,19 +119,19 @@ const DefaultFooter = ({ extraClass }) => {
                       Washington, D.C.
                       <br />
                       <a
-                        href="mailto:Oliyad@thelivingstonefoundation.com"
+                        href="mailto:Oliyad@thelivingstonesolution.com"
                         className="mil-link mil-light-soft"
                       >
-                        Oliyad@thelivingstonefoundation.com
+                        Oliyad@thelivingstonesolution.com
                       </a>
                       <br />
                       <a
-                        href="https://solution.thelivingstonefoundation.com"
+                        href="https://thelivingstonesolution.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mil-link mil-light-soft"
                       >
-                        solution.thelivingstonefoundation.com
+                        thelivingstonesolution.com
                       </a>
                       <br />
                       <span className="mil-no-wrap">(540) 998-9766</span>

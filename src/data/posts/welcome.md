@@ -10,6 +10,6 @@ short: "Welcome to the official blog of The Livingstone Solution. Stay tuned for
 
 Welcome to the official blog of The Livingstone Solution.
 
-We are excited to share our journey, expertise, and insights with you. Our team of software developers, digital marketers, and brand strategists will be posting regular updates on industry trends, technical tutorials, and case studies.
+We are excited to share our journey, expertise, and insights with you. Our team of software developers, digital marketers, and brand strategists will be posting regular updates on industry trends, technical tutorials, and project highlights.
 
 Stay tuned for more updates!

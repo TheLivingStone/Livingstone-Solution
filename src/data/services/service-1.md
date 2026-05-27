@@ -12,7 +12,7 @@ description:
   content: We don't just build websites; we engineer high-performance digital platforms. Utilizing modern Jamstack architecture, React, and Next.js, our team delivers SEO-optimized, lightning-fast web applications. From custom B2B SaaS portals to conversion-focused agency sites, our approach ensures secure, scalable, and technically superior digital experiences.
   button:
     link: /projects
-    label: View case studies
+    label: View our work
 
 list:
   items:

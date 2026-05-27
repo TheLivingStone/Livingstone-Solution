@@ -7,7 +7,7 @@ import SEO from "@components/SEO";
 const GovernmentCapabilities = () => {
     return (
         <Layouts>
-            <SEO title="Government Capabilities" description="Mission-Ready IT and AI Solutions for Government and Enterprise clients. Development of secure, cloud-based web and mobile platforms in Washington D.C." canonical="https://solution.thelivingstonefoundation.com/government" />
+            <SEO title="Government Capabilities" description="Mission-Ready IT and AI Solutions for Government and Enterprise clients. Development of secure, cloud-based web and mobile platforms in Washington D.C." canonical="https://thelivingstonesolution.com/government" />
             <div className="mil-dark-bg">
                 <PageBannerDark
                     pageTitle={"Capabilities <span className=\"mil-thin\">Statement</span>"}

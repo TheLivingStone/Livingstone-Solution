@@ -46,7 +46,7 @@ const ProjectDetail = (props) => {
 
   return (
     <Layouts>
-      <SEO title={postData.title} description={postData.short || postData.introTitle} canonical={`https://solution.thelivingstonefoundation.com/projects/${postData.id}`} />
+      <SEO title={postData.title} description={postData.short || postData.introTitle} canonical={`https://thelivingstonesolution.com/projects/${postData.id}`} />
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Read more"} anchorLink={"#project"} />
 
       {postData.layout == 'one' &&

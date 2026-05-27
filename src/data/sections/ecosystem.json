@@ -1,0 +1,27 @@
+{
+  "subtitle": "Organizational Framework",
+  "title": "Integrated Capabilities Architecture",
+  "description": "The Livingstone Solution operates across distinct operational divisions to deliver specialized capabilities. We maintain dedicated entities for federal missions, commercial enterprise, and strategic communications to ensure mission readiness and execution.",
+  "items": [
+    {
+      "title": "Livingstone Solution (Flagship)",
+      "text": "Commercial enterprise, emerging technologies, AI Academy.",
+      "link": "https://thelivingstonesolution.com"
+    },
+    {
+      "title": "Livingstone Government",
+      "text": "Federal/state missions, 508-compliant, secure solutions. (Current Site)",
+      "link": "/"
+    },
+    {
+      "title": "Livingstone GEO Agency",
+      "text": "Generative Engine Optimization, AI search visibility.",
+      "link": "https://geoagency.thelivingstonefoundation.com"
+    },
+    {
+      "title": "Livingstone Marketing Firm",
+      "text": "Strategic brand formulation and growth initiatives.",
+      "link": "https://marketingfirm.thelivingstonesolution.com/"
+    }
+  ]
+}

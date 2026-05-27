@@ -12,7 +12,7 @@ description:
   content: Stop wasting human capital on manual tasks. We integrate enterprise AI tools like OpenAI, custom Large Language Models (LLMs), and machine learning pipelines directly into your existing software stack. Our data-driven automation pipelines reduce operational overhead, eliminate human error, and unlock real predictive analytics for C-suite decision making.
   button:
     link: /projects
-    label: View case studies
+    label: View our work
 
 list:
   items:

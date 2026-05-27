@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <Layouts>
-      <SEO title="Contact" description="Get in touch with The Livingstone Solution in Washington D.C. for your software and web development needs." canonical="https://solution.thelivingstonefoundation.com/contact" />
+      <SEO title="Contact" description="Get in touch with The Livingstone Solution in Washington D.C. for your software and web development needs." canonical="https://thelivingstonesolution.com/contact" />
       <PageBanner pageTitle={"Get in touch!"} breadTitle={"Contact"} anchorLabel={"Send message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
 
       {/* map */}

@@ -8,7 +8,7 @@ const ProjectsSlider = dynamic(() => import("@components/sliders/Projects"), { s
 const Projects3 = (props) => {
   return (
     <Layouts noFooter>
-      <SEO title="Portfolio Slides" description="Explore our portfolio of enterprise software and web applications tailored for the DMV region." canonical="https://solution.thelivingstonefoundation.com/Portfolio" />
+      <SEO title="Portfolio Slides" description="Explore our portfolio of enterprise software and web applications tailored for the DMV region." canonical="https://thelivingstonesolution.com/Portfolio" />
       <ProjectsSlider projects={props.projects} />
 
     </Layouts>

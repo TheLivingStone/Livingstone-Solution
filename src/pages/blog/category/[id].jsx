@@ -15,7 +15,7 @@ const PostsDetail = (props) => {
 
     return (
         <Layouts>
-            <SEO title={`${postData.title} Blog Category`} description={`Browse all tech articles and insights under the ${postData.title} category in Washington D.C.`} canonical={`https://solution.thelivingstonefoundation.com/blog/category/${postData.id}`} />
+            <SEO title={`${postData.title} Blog Category`} description={`Browse all tech articles and insights under the ${postData.title} category in Washington D.C.`} canonical={`https://thelivingstonesolution.com/blog/category/${postData.id}`} />
             <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
             {/* blog */}

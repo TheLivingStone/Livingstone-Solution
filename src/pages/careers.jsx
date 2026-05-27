@@ -5,7 +5,7 @@ import SEO from "@components/SEO";
 const Careers = () => {
     return (
         <Layouts>
-            <SEO title="Careers" description="Explore career opportunities at The Livingstone Solution." canonical="https://solution.thelivingstonefoundation.com/careers" />
+            <SEO title="Careers" description="Explore career opportunities at The Livingstone Solution." canonical="https://thelivingstonesolution.com/careers" />
             <PageBanner pageTitle={"Join Our <span className=\"mil-thin\">Team</span>"} breadTitle={"Careers"} anchorLabel={"View Roles"} anchorLink={"#careers"} />
             <section id="careers">
                 <div className="container mil-p-120-90">

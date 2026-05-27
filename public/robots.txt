@@ -3,9 +3,10 @@ User-agent: *
 Allow: /
 Disallow: /404
 Disallow: /api/*
+Disallow: /contactGrid
 
 # Host
-Host: https://solution.thelivingstonefoundation.com
+Host: https://thelivingstonesolution.com
 
 # Sitemaps
-Sitemap: https://solution.thelivingstonefoundation.com/sitemap.xml
+Sitemap: https://thelivingstonesolution.com/sitemap.xml

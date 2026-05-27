@@ -92,7 +92,7 @@ const TeamSection = () => {
                                     {Data.col1_items.map((item, key) => (
 
                                     <div key={`services1-item-${key}`} className="mil-team-card mil-up mil-mb-30" onClick={() => handleMemberClick(item)} style={{cursor: 'pointer'}}>
-                                        <img src={item.image} alt={item.name} />
+                                        <img src={item.image} alt={item.imageAlt || item.name} />
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
                                                 <h5 className="mil-muted mil-mb-5">{item.name}</h5>
@@ -112,7 +112,7 @@ const TeamSection = () => {
                                     {Data.col2_items.map((item, key) => (
                                     
                                     <div key={`services2-item-${key}`} className="mil-team-card mil-up mil-mb-30" onClick={() => handleMemberClick(item)} style={{cursor: 'pointer'}}>
-                                        <img src={item.image} alt={item.name} />
+                                        <img src={item.image} alt={item.imageAlt || item.name} />
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
                                                 <h5 className="mil-muted mil-mb-5">{item.name}</h5>

@@ -26,7 +26,7 @@ const Team = () => {
 
     return (
         <Layouts>
-            <SEO title="Our Team" description="Meet the world-class enterprise software engineers, designers, and managers at The Livingstone Solution in Washington D.C." canonical="https://solution.thelivingstonefoundation.com/team" />
+            <SEO title="Our Team" description="Meet the world-class enterprise software engineers, designers, and managers at The Livingstone Solution in Washington D.C." canonical="https://thelivingstonesolution.com/team" />
             <PageBanner pageTitle={Data.title} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
 
             {/* team */}
@@ -91,7 +91,7 @@ const Team = () => {
                             <div className="col-sm-6 col-md-4 col-lg-3" key={`team-item-${key}`}>
 
                                 <div className="mil-team-card mil-up mil-mb-30" onClick={() => handleMemberClick(item)} style={{ cursor: 'pointer' }}>
-                                    <img src={item.image} alt={item.name} />
+                                    <img src={item.image} alt={item.imageAlt || item.name} />
                                     <div className="mil-description">
                                         <div className="mil-secrc-text">
                                             <h5 className="mil-muted mil-mb-5">{item.name}</h5>

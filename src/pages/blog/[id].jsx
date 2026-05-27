@@ -11,7 +11,7 @@ const PostsDetail = (props) => {
 
   return (
     <Layouts>
-      <SEO title={postData.title} description={postData.short} canonical={`https://solution.thelivingstonefoundation.com/blog/${postData.id}`} />
+      <SEO title={postData.title} description={postData.short} canonical={`https://thelivingstonesolution.com/blog/${postData.id}`} />
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} align={"center"} headingSize={2} />
 
       {/* publication */}

@@ -1,7 +1,7 @@
 {
     "title": "Meet <br>Our Team",
-    "description": "<p>We are a global team passionate about bringing ideas to life. With diverse backgrounds and skill sets spanning from the United States to every corner of the globe, we collaborate seamlessly to produce effective solutions for our clients.</p><p>Our international presence brings unique perspectives, cultural insights, and 24/7 availability to every project. Together, we are committed to delivering impactful work that exceeds expectations.</p>",
-    "globalTeam": "<p><strong>A Truly Global Team:</strong> Our strength lies in our diversity. With team members and partners across the United States and around the world, we bring together unique perspectives, cultural insights, and expertise from every corner of the globe. From Washington D.C. to Addis Ababa, from New York to beyond, our distributed team works seamlessly to deliver exceptional results 24/7.</p><p>This global presence allows us to understand diverse markets, serve clients across time zones, and bring world-class talent to every project.</p>",
+    "description": "<p>LivingStoneSolution Technologies is led by a Washington D.C.-anchored team with members in Chicago and New York. The company is a Certified Business Enterprise (CBE) of the District of Columbia, serving federal, commercial, and DMV-area clients through four specialized divisions.</p>",
+    "globalTeam": "<p><strong>Our Team:</strong> LivingStoneSolution Technologies operates from Washington, D.C., with team members in Chicago, IL and New York, NY. The team serves federal, commercial, and DMV-area clients across software development, mobile applications, generative engine optimization (GEO), and brand strategy.</p>",
     "subtitle": "<span class=\"mil-thin\">We</span> deliver <br><span class=\"mil-thin\">exceptional</span> results.",
     "button": {
         "link": "/team",
@@ -11,12 +11,13 @@
     "col1_items": [
         {
             "image": "/img/faces/blane.png",
+            "imageAlt": "Blane Anteneh, Co-Founder and CEO, LivingStoneSolution Technologies, based in Chicago, IL",
             "name": "Blane Anteneh",
-            "role": "Co-founder and CEO",
-            "bio": "Strategic business administrator with expertise in operations, finance, and organizational development. Drives efficiency and growth across all business functions.",
+            "role": "Co-Founder and CEO",
+            "bio": "Co-Founder and CEO of LivingStoneSolution Technologies. Oversees business strategy, operations, and client partnerships across the four-division ecosystem serving federal and commercial clients from Chicago, IL.",
             "contact": {
                 "location": "Chicago, IL, USA",
-                "email": "blen@thelivingstonefoundation.com",
+                "email": "blen@thelivingstonesolution.com",
                 "phone": "+1 (555) 456-7890"
             },
             "social": [
@@ -34,12 +35,13 @@
         },
         {
             "image": "/img/faces/oliyad.png",
+            "imageAlt": "Oliyad Deyasa, Co-Founder and Chief Technology Officer, LivingStoneSolution Technologies, Washington D.C., specializing in AI visibility and GEO",
             "name": "Oliyad Deyasa",
             "role": "Co-Founder | Chief Technology Officer & Project Manager",
-            "bio": "Visionary leader with extensive experience in project management and business development. Passionate about transforming innovative ideas into successful digital solutions.",
+            "bio": "Co-Founder and Chief Technology Officer of LivingStoneSolution Technologies, based in Washington, D.C. Leads engineering, AI/GEO program design, and technology architecture for federal and commercial clients.",
             "contact": {
                 "location": "Washington, D.C., USA",
-                "email": "oliyad@thelivingstonefoundation.com",
+                "email": "oliyad@thelivingstonesolution.com",
                 "phone": "+1 (540) 998-9766"
             },
             "social": [
@@ -59,12 +61,13 @@
     "col2_items": [
         {
             "image": "/img/faces/team-photo-2.jpg",
+            "imageAlt": "Deborah Wondmu, Head of Contracting, LivingStoneSolution Technologies, New York, NY",
             "name": "Deborah Wondmu",
-            "role": "Head of the Contracting Department",
-            "bio": "Expert in contract management and client relations with a proven track record of successful project deliveries and stakeholder management.",
+            "role": "Head of Contracting",
+            "bio": "Head of Contracting at LivingStoneSolution Technologies, based in New York, NY. Manages contract lifecycle, client relations, and compliance for federal and commercial engagements.",
             "contact": {
                 "location": "New York, NY, USA",
-                "email": "deborah@thelivingstonefoundation.com",
+                "email": "deborah@thelivingstonesolution.com",
                 "phone": "+1 (555) 234-5678"
             },
             "social": [
@@ -77,34 +80,6 @@
                     "link": "https://github.com/deborahwondmu",
                     "icon": "fab fa-github",
                     "title": "GitHub"
-                }
-            ]
-        },
-        {
-            "image": "/img/faces/mikias.png",
-            "name": "Mikias Tulu",
-            "role": "Head of Development",
-            "bio": "Technical expert specializing in system architecture and operations management. Ensures seamless technical execution and maintains high-quality standards.",
-            "contact": {
-                "location": "Addis Ababa, Ethiopia",
-                "email": "mikias@thelivingstonefoundation.com",
-                "phone": "+1 (555) 345-6789"
-            },
-            "social": [
-                {
-                    "link": "https://www.linkedin.com/in/mikias-tulu/",
-                    "icon": "fab fa-linkedin",
-                    "title": "LinkedIn"
-                },
-                {
-                    "link": "https://github.com/mikias-tulu",
-                    "icon": "fab fa-github",
-                    "title": "GitHub"
-                },
-                {
-                    "link": "https://twitter.com/mikiastulu",
-                    "icon": "fab fa-twitter",
-                    "title": "Twitter"
                 }
             ]
         }

@@ -19,7 +19,7 @@ const Services = (props) => {
         title="Our Software & Marketing Services"
         description="Discover our range of services: Web Development, App Development, Branding, and Digital Marketing tailored to scale your enterprise."
         keywords="Software Development Services, App Development, Web Design, Marketing Agency, DMV Tech"
-        canonical="https://solution.thelivingstonefoundation.com/services"
+        canonical="https://thelivingstonesolution.com/services"
       />
       {/* banner */}
       <div className="mil-dark-bg">
