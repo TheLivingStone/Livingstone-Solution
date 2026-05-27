@@ -22,9 +22,9 @@ const Home1 = (props) => {
   return (
     <Layouts>
       <SEO
-        title="Top Software Development Agency"
-        description="The Livingstone Solution is your partner for Enterprise Web Development, App Development, Digital Marketing, and high-impact software solutions in Washington D.C. and the DMV area."
-        keywords="Software Development, Web Development, Mobile Apps, Digital Marketing Agency, Washington D.C. Enterprise"
+        title="GEO, Software, Marketing & Government — The Livingstone Solution"
+        description="Washington, D.C.-based, CBE-certified partner for Generative Engine Optimization (GEO), Software (web, mobile, cloud, AI), Marketing, and Government work. Be the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend."
+        keywords="Generative Engine Optimization, GEO, AI Visibility, Software Development, Web Development, Mobile Apps, Digital Marketing, Government Software, CBE Certified, Washington D.C."
         canonical="https://thelivingstonesolution.com/"
       />
       <HeroOneSection />

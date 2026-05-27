@@ -9,7 +9,7 @@
                 "value": "19",
                 "symbol": "$"
             },
-            "link": "/contact"
+            "link": "/book-geo"
         },
         {
             "title": "Tailored Designs for<br> Every Budget",
@@ -18,7 +18,7 @@
                 "value": "29",
                 "symbol": "$"
             },
-            "link": "/contact"
+            "link": "/book-geo"
         },
         {
             "title": "Unleashing the Beauty of Space <br> with Unique Designs",
@@ -27,7 +27,7 @@
                 "value": "49",
                 "symbol": "$"
             },
-            "link": "/contact"
+            "link": "/book-geo"
         },
         {
             "title": "Exquisite Design Concepts <br> for Discerning Clients",
@@ -36,11 +36,11 @@
                 "value": "199",
                 "symbol": "$"
             },
-            "link": "/contact"
+            "link": "/book-geo"
         }
     ],
     "button": {
         "label": "individual solution",
-        "link": "/contact"
+        "link": "/book-geo"
     }
 }

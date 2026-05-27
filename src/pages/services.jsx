@@ -16,9 +16,9 @@ const Services = (props) => {
   return (
     <Layouts>
       <SEO
-        title="Our Software & Marketing Services"
-        description="Discover our range of services: Web Development, App Development, Branding, and Digital Marketing tailored to scale your enterprise."
-        keywords="Software Development Services, App Development, Web Design, Marketing Agency, DMV Tech"
+        title="Services — GEO, Software, Marketing & Government"
+        description="Four services, one accountable team: Generative Engine Optimization (GEO), Software (web, mobile, cloud, AI), Marketing, and Government — operated end-to-end from Washington, D.C."
+        keywords="Generative Engine Optimization, GEO, AI Visibility, Software Development, Digital Marketing, Government Software, Washington D.C., DMV"
         canonical="https://thelivingstonesolution.com/services"
       />
       {/* banner */}

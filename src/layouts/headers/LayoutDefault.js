@@ -113,7 +113,7 @@ const DefaultHeader = ({ extraClass }) => {
                                                     <li><Link href="/contact" className="mil-light-soft">Make Payments</Link></li>
                                                     <li><Link href="/contact" className="mil-light-soft">Schedule a Meeting</Link></li>
                                                     <li><Link href="/contact" className="mil-light-soft">Login to CRM</Link></li>
-                                                    <li><Link href="/contact" className="mil-light-soft">Get a Free Estimate</Link></li>
+                                                    <li><Link href="/book-geo" className="mil-light-soft">Get a Free Estimate</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="col-lg-4 mil-mb-60">

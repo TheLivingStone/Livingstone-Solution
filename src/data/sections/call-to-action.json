@@ -1,8 +1,8 @@
 {
-    "subtitle": "Looking to make your mark? We'll help you turn <br> your project into a success story.",
-    "title": "Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> We're <span class=\"mil-thin\">here to help</span>",
+    "subtitle": "Be the answer when customers ask AI. <br> Book a strategy call and get a free AI Visibility + Competitor Report.",
+    "title": "Ready to be <span class=\"mil-thin\">the answer?</span> <br> Let's <span class=\"mil-thin\">talk.</span>",
     "button": {
-        "label": "Contact us",
-        "link": "/contact"
+        "label": "Book a strategy call",
+        "link": "/book-geo"
     }
 }

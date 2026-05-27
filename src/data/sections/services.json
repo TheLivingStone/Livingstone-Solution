@@ -1,31 +1,31 @@
 {
     "title1": "<span class=\"mil-thin\">Core </span>Competencies",
-    "title2": "<span class=\"mil-thin\">Mission-Ready </span>Capabilities",
-    "subtitle": "Leveraging advanced technologies to streamline operations, enhance security, <br/>and deliver value for Federal and State agencies.",
+    "title2": "<span class=\"mil-thin\">Four services. </span>One accountable partner.",
+    "subtitle": "GEO, Software, Marketing, and Government — engineered, shipped, and operated <br/>by a single Washington, D.C.-based team. Be the answer, not the runner-up.",
     "button": {
         "link": "/services",
         "label": "All Capabilities"
     },
     "items": [
         {
-            "title": "Digital Services & 508 Compliance<br>",
-            "text": "Building accessible, citizen-facing portals and secure internal agency platforms.",
-            "link": "/services/service-1"
+            "title": "GEO &mdash; AI Visibility<br>",
+            "text": "Be the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend. Free AI Visibility Report with every strategy call.",
+            "link": "/services/geo"
         },
         {
-            "title": "Enterprise Mobility Solutions",
-            "text": "Secure mobile application development for field operatives and agency staff.",
-            "link": "/services/service-2"
+            "title": "Software<br>",
+            "text": "Next.js web, native and cross-platform mobile, AWS and Azure cloud, and AI/LLM integration &mdash; one team for the full stack.",
+            "link": "/services/software"
         },
         {
-            "title": "Custom Mission Software",
-            "text": "Modernizing legacy systems, secure integrations, and mission-critical cloud applications.",
-            "link": "/services/service-3"
+            "title": "Marketing<br>",
+            "text": "Paid acquisition, organic search, brand, and content with attribution you can defend in the boardroom.",
+            "link": "/services/marketing"
         },
         {
-            "title": "AI & Process Automation",
-            "text": "Streamlining agency workflows, reducing backlog, and enhancing data decisioning.",
-            "link": "/services/service-4"
+            "title": "Government<br>",
+            "text": "CBE-certified federal and state work: 508-compliant digital services, secure cloud platforms, and mission software.",
+            "link": "/services/government"
         }
     ]
 }

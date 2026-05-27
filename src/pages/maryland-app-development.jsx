@@ -167,9 +167,7 @@ const MarylandAppDevelopment = () => {
             <p className="mil-text mil-mb-30">
               To scope a Maryland mobile app engagement,{" "}
               <Link href="/book-geo" className="mil-link mil-accent">book a 30-minute strategy call</Link>{" "}
-              or{" "}
-              <Link href="/contact" className="mil-link mil-accent">contact us</Link>{" "}
-              directly.
+              and we&rsquo;ll respond within one business day.
             </p>
 
           </div>

@@ -273,8 +273,8 @@ const Certifications = () => {
             <p className="mil-text mil-mb-30">
               For procurement teams evaluating LivingStoneSolution for set-aside
               contracts or supplier-diversity programs,{" "}
-              <Link href="/contact" className="mil-link mil-accent">contact us</Link>{" "}
-              for a capabilities statement and current certification documentation.
+              <Link href="/book-geo" className="mil-link mil-accent">book a strategy call</Link>{" "}
+              and we&rsquo;ll bring a capabilities statement and current certification documentation.
               For commercial engagements,{" "}
               <Link href="/book-geo" className="mil-link mil-accent">book a strategy call</Link>.
             </p>

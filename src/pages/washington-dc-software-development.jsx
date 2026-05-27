@@ -170,7 +170,7 @@ const DCSoftwareDevelopment = () => {
               For federal/state procurement and capabilities statement requests,{" "}
               <Link href="/government" className="mil-link mil-accent">visit the Government division</Link>{" "}
               or{" "}
-              <Link href="/contact" className="mil-link mil-accent">contact us directly</Link>.
+              <Link href="/book-geo" className="mil-link mil-accent">book a strategy call</Link>.
             </p>
 
           </div>

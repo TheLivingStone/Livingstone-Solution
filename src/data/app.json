@@ -14,52 +14,8 @@
         },
         "menu": [
             {
-                "label": "Homepage",
+                "label": "Home",
                 "link": "/",
-                "children": [
-                    {
-                        "label": "Landing Page",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Personal",
-                        "link": "/home-2"
-                    },
-                    {
-                        "label": "Home Slider",
-                        "link": "/Portfolio"
-                    }
-                ]
-            },
-            {
-                "label": "Portfolio",
-                "link": "/Portfolio",
-                "children": [
-                    {
-                        "label": "All Projects",
-                        "link": "/projects"
-                    },
-                    {
-                        "label": "Web Development",
-                        "link": "/WebDevelopment"
-                    },
-                    {
-                        "label": "App Development",
-                        "link": "/AppDevelopment"
-                    },
-                    {
-                        "label": "Software Development",
-                        "link": "/services/service-3"
-                    },
-                    {
-                        "label": "AI Automation",
-                        "link": "/services/service-4"
-                    }
-                ]
-            },
-            {
-                "label": "Government",
-                "link": "/government",
                 "children": 0
             },
             {
@@ -67,26 +23,45 @@
                 "link": "/services",
                 "children": [
                     {
-                        "label": "Our Services",
+                        "label": "All Services",
                         "link": "/services"
                     },
                     {
-                        "label": "Service - Web Development",
-                        "link": "/services/service-1"
+                        "label": "GEO — AI Visibility",
+                        "link": "/services/geo"
                     },
                     {
-                        "label": "Service - App Development",
-                        "link": "/services/service-2"
+                        "label": "Software",
+                        "link": "/services/software"
                     },
                     {
-                        "label": "Service - Software Development",
-                        "link": "/services/service-3"
+                        "label": "Marketing",
+                        "link": "/services/marketing"
                     },
                     {
-                        "label": "Service - Ai Automation",
-                        "link": "/services/service-4"
+                        "label": "Government",
+                        "link": "/services/government"
                     }
                 ]
+            },
+            {
+                "label": "Portfolio",
+                "link": "/projects",
+                "children": [
+                    {
+                        "label": "All Projects",
+                        "link": "/projects"
+                    },
+                    {
+                        "label": "Portfolio Showcase",
+                        "link": "/Portfolio"
+                    }
+                ]
+            },
+            {
+                "label": "Government",
+                "link": "/government",
+                "children": 0
             },
             {
                 "label": "Blog",
@@ -104,7 +79,7 @@
             },
             {
                 "label": "Contact",
-                "link": "/contact",
+                "link": "/book-geo",
                 "children": 0
             },
             {
@@ -131,24 +106,32 @@
                 "link": "/"
             },
             {
+                "label": "GEO",
+                "link": "/services/geo"
+            },
+            {
+                "label": "Software",
+                "link": "/services/software"
+            },
+            {
+                "label": "Marketing",
+                "link": "/services/marketing"
+            },
+            {
                 "label": "Government",
-                "link": "/government"
+                "link": "/services/government"
             },
             {
                 "label": "Portfolio",
                 "link": "/projects"
             },
             {
-                "label": "Services",
-                "link": "/services"
+                "label": "Blog",
+                "link": "/blog"
             },
             {
                 "label": "Contact",
                 "link": "/contact"
-            },
-            {
-                "label": "Blog",
-                "link": "/blog"
             }
         ]
     },
