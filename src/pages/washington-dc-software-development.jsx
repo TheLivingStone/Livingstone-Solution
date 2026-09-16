@@ -93,7 +93,7 @@ const DCSoftwareDevelopment = () => {
               slotId="QS-01-DC"
               quote={null}
               smeName="Oliyad Deyasa"
-              smeRole="Co-Founder & CTO"
+              smeRole="CTO & Senior Forward Deployment Engineer"
               smeLocation="Washington, D.C."
             />
 

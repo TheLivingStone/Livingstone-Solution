@@ -114,7 +114,7 @@ const DefaultFooter = ({ extraClass }) => {
                       <br />
                       <strong>Oliyad Deyasa</strong>
                       <br />
-                      Founder | The Livingstone Solution
+                      Chief Technology Officer & Senior Forward Deployment Engineer
                       <br />
                       Washington, D.C.
                       <br />

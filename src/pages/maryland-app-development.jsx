@@ -89,7 +89,7 @@ const MarylandAppDevelopment = () => {
               slotId="QS-01-MD"
               quote={null}
               smeName="Oliyad Deyasa"
-              smeRole="Co-Founder & CTO"
+              smeRole="CTO & Senior Forward Deployment Engineer"
               smeLocation="Washington, D.C."
             />
 

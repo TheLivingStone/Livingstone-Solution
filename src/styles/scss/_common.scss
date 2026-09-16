@@ -15,6 +15,11 @@ html,
 body {
     padding: 0;
     margin: 0;
+    // Paint the page ground explicitly. The dark sections (.mil-dark-bg) are produced
+    // by a ::before overlay with backdrop-filter: invert(100%), which only works when
+    // there is an opaque backdrop to invert. With a transparent root, some embedders
+    // and in-app browsers sample nothing and the "dark" sections render white on white.
+    background-color: #ffffff;
     font-family: $font-1;
     font-size: $text;
     font-weight: 300;

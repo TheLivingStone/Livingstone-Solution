@@ -237,7 +237,7 @@ const GEOAIVisibility = () => {
               slotId="QS-04"
               quote={null}
               smeName="Oliyad Deyasa"
-              smeRole="Co-Founder & CTO"
+              smeRole="CTO & Senior Forward Deployment Engineer"
               smeLocation="Washington, D.C."
             />
 
@@ -489,7 +489,7 @@ const GEOAIVisibility = () => {
                 Government (federal/state, 508-compliant), and Livingstone Marketing
                 Firm (brand strategy). The agency operates at{" "}
                 <a href="https://geoagency.thelivingstonefoundation.com" rel="noopener" className="mil-link mil-accent">geoagency.thelivingstonefoundation.com</a>{" "}
-                and is led by Oliyad Deyasa, CTO and Co-Founder.
+                and is led by Oliyad Deyasa, CTO and Senior Forward Deployment Engineer.
               </p>
             </div>
 

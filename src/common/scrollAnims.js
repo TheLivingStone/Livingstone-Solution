@@ -118,4 +118,15 @@ export const ScrollAnimation = () => {
             scrub: 0.3
         }
     });
+
+    // ScrollTrigger caches element positions as each tween above is created, which
+    // happens before fonts and images have settled. Above-the-fold ".mil-up" elements
+    // can then stay stuck at their opacity:0 start state until a scroll or resize
+    // forces a recalculation, leaving the banner blank on first paint. Refreshing
+    // once now, and again once everything has loaded, fires them on time.
+    ScrollTrigger.refresh();
+
+    if (document.readyState !== "complete") {
+        window.addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
+    }
 }

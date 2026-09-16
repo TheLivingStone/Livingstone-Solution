@@ -145,7 +145,7 @@ const AiVisibilityDefense = () => {
             </p>
 
             <p className="mil-text mil-mb-30" style={{ fontSize: "0.85rem", color: "#666" }}>
-              <strong>Author:</strong> Oliyad Deyasa, CTO &amp; Co-Founder,
+              <strong>Author:</strong> Oliyad Deyasa, CTO &amp; Senior Forward Deployment Engineer,
               LivingStoneSolution Technologies, Washington, D.C. &nbsp;&middot;&nbsp;
               <strong>Published:</strong> May 27, 2026 &nbsp;&middot;&nbsp;
               <strong>Category:</strong> GEO / Brand Defense / AI Auditing

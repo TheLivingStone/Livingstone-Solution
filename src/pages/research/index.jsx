@@ -27,7 +27,7 @@ const RESEARCH_FAQ = [
   {
     question: "What topics does LivingStoneSolution Technologies research cover?",
     answer:
-      "LivingStoneSolution Technologies publishes original research on Generative Engine Optimization (GEO), AI answer-engine citation behavior, AI visibility defense methodologies, and the intersection of state-actor influence operations with large language model outputs. Research is authored by Oliyad Deyasa, CTO and Co-Founder.",
+      "LivingStoneSolution Technologies publishes original research on Generative Engine Optimization (GEO), AI answer-engine citation behavior, AI visibility defense methodologies, and the intersection of state-actor influence operations with large language model outputs. Research is authored by Oliyad Deyasa, CTO and Senior Forward Deployment Engineer.",
   },
   {
     question: "Are these whitepapers peer-reviewed?",
@@ -184,7 +184,7 @@ const ResearchIndex = () => {
               Engine Optimization (GEO), AI answer-engine citation behavior, AI visibility
               defense methodologies, and the intersection of state-actor influence operations
               with large language model outputs. Research is authored by Oliyad Deyasa,
-              CTO and Co-Founder.
+              CTO and Senior Forward Deployment Engineer.
             </p>
 
             <h3 className="mil-mb-10">Are these whitepapers peer-reviewed?</h3>

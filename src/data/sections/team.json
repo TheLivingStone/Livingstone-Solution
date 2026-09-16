@@ -1,7 +1,7 @@
 {
     "title": "Meet <br>Our Team",
-    "description": "<p>LivingStoneSolution Technologies is led by a Washington D.C.-anchored team with members in Chicago and New York. The company is a Certified Business Enterprise (CBE) of the District of Columbia, serving federal, commercial, and DMV-area clients through four specialized divisions.</p>",
-    "globalTeam": "<p><strong>Our Team:</strong> LivingStoneSolution Technologies operates from Washington, D.C., with team members in Chicago, IL and New York, NY. The team serves federal, commercial, and DMV-area clients across software development, mobile applications, generative engine optimization (GEO), and brand strategy.</p>",
+    "description": "<p>LivingStoneSolution Technologies is led by a Washington D.C.-anchored team with members in Chicago and New York. The company is a Certified Business Enterprise (CBE) of the District of Columbia, serving federal, commercial, and DMV-area clients through four specialized divisions. Based in Washington, D.C. and working worldwide, we have partnered with businesses from all over the world, across different continents and countries.</p>",
+    "globalTeam": "<p><strong>Based in Washington, D.C. Working Worldwide:</strong> LivingStoneSolution Technologies operates from Washington, D.C., with team members in Chicago, IL and New York, NY. The team serves federal, commercial, and DMV-area clients, and has worked with businesses from all over the world across different continents and countries, spanning software development, mobile applications, generative engine optimization (GEO), and brand strategy.</p>",
     "subtitle": "<span class=\"mil-thin\">We</span> deliver <br><span class=\"mil-thin\">exceptional</span> results.",
     "button": {
         "link": "/team",
@@ -35,10 +35,10 @@
         },
         {
             "image": "/img/faces/oliyad.png",
-            "imageAlt": "Oliyad Deyasa, Co-Founder and Chief Technology Officer, LivingStoneSolution Technologies, Washington D.C., specializing in AI visibility and GEO",
+            "imageAlt": "Oliyad Deyasa, Chief Technology Officer and Senior Forward Deployment Engineer, LivingStoneSolution Technologies, Washington D.C., specializing in AI visibility and GEO",
             "name": "Oliyad Deyasa",
-            "role": "Co-Founder | Chief Technology Officer & Project Manager",
-            "bio": "Co-Founder and Chief Technology Officer of LivingStoneSolution Technologies, based in Washington, D.C. Leads engineering, AI/GEO program design, and technology architecture for federal and commercial clients.",
+            "role": "Chief Technology Officer & Senior Forward Deployment Engineer",
+            "bio": "Chief Technology Officer and Senior Forward Deployment Engineer of LivingStoneSolution Technologies, based in Washington, D.C. Leads engineering, AI/GEO program design, and technology architecture for federal and commercial clients.",
             "contact": {
                 "location": "Washington, D.C., USA",
                 "email": "oliyad@thelivingstonesolution.com",
@@ -78,6 +78,29 @@
                 },
                 {
                     "link": "https://github.com/deborahwondmu",
+                    "icon": "fab fa-github",
+                    "title": "GitHub"
+                }
+            ]
+        },
+        {
+            "image": "/img/faces/mikias.png",
+            "imageAlt": "Mikias Tulu, Vice President of Engineering, LivingStoneSolution Technologies, Washington D.C.",
+            "name": "Mikias Tulu",
+            "role": "Vice President of Engineering",
+            "bio": "Vice President of Engineering at LivingStoneSolution Technologies, based in Washington, D.C. Leads system architecture and technical execution, ensuring high-quality delivery across the company's software and mobile engagements.",
+            "contact": {
+                "location": "Washington, D.C., USA",
+                "email": "mikias@thelivingstonesolution.com"
+            },
+            "social": [
+                {
+                    "link": "https://www.linkedin.com/in/mikias-tulu/",
+                    "icon": "fab fa-linkedin",
+                    "title": "LinkedIn"
+                },
+                {
+                    "link": "https://github.com/mikias-tulu",
                     "icon": "fab fa-github",
                     "title": "GitHub"
                 }

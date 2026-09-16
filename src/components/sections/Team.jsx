@@ -50,7 +50,7 @@ const TeamSection = () => {
                                     WebkitTextFillColor: 'transparent',
                                     backgroundClip: 'text'
                                 }}>
-                                    Team Members Across USA & Worldwide
+                                    Based in Washington, D.C. · Serving Clients Worldwide
                                 </span>
                             </div>
 
@@ -69,7 +69,7 @@ const TeamSection = () => {
                                     margin: 0,
                                     color: 'inherit'
                                 }}>
-                                    <strong style={{ color: '#8b5cf6' }}>🇺🇸 🌎</strong> We have a team both in the US and outside the US, bringing together diverse talents and perspectives from around the world to serve our clients better.
+                                    <strong style={{ color: '#8b5cf6' }}>🇺🇸 🌎</strong> We are based in Washington, D.C., and we work with businesses all over the world, across different continents and countries.
                                 </p>
                             </div>
                             
