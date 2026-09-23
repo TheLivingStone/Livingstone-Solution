@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import React from "react";
 import SEO from "@components/SEO";
 import Link from "next/link";
+import { SITE_URL } from "@library/site";
 
 const ProjectsSlider = dynamic(() => import("@components/sliders/Projects"), { ssr: false });
 
@@ -14,7 +15,7 @@ const Projects3 = (props) => {
         title="Custom Web Development Services"
         description="Expert web development services. We build scalable, modern websites and web applications tailored to your business needs."
         keywords="Web Development, Custom Websites, Web Applications, Frontend, Backend, Software Development"
-        canonical="https://thelivingstonesolution.com/WebDevelopment"
+        canonical={`${SITE_URL}/WebDevelopment`}
       />
       <ProjectsSlider projects={props.projects} />
 

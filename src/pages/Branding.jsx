@@ -6,6 +6,7 @@ import SEO from "@components/SEO";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── Branding — page-level schema data ─────────────────────────────────────
  * FAQ answers are quoted verbatim from the visible page text.
@@ -13,8 +14,8 @@ import PageSchema from "@components/PageSchema";
  * industry-benchmark context only). No AggregateRating.
  * ──────────────────────────────────────────────────────────────────────────*/
 const BRANDING_SERVICE = {
-  id: "https://thelivingstonesolution.com/Branding#service",
-  url: "https://thelivingstonesolution.com/Branding",
+  id: `${SITE_URL}/Branding#service`,
+  url: `${SITE_URL}/Branding`,
   name: "Brand Strategy and Visual Identity",
   serviceType: "Brand Strategy and Visual Identity",
   description:
@@ -54,8 +55,8 @@ const BRANDING_FAQ = [
 ];
 
 const BRANDING_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Branding and Visual Identity", url: "https://thelivingstonesolution.com/Branding" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Branding and Visual Identity", url: `${SITE_URL}/Branding` },
 ];
 
 // Slider is client-only; primary content is server-rendered above it
@@ -68,7 +69,7 @@ const Branding = (props) => {
         title="Branding and Visual Identity Services | LivingStoneSolution — Washington, D.C."
         description="LivingStoneSolution Technologies provides brand strategy, visual identity, logo design, and brand systems for startups and enterprises. Washington, D.C.-based, serving clients nationally."
         keywords="Branding, visual identity, brand strategy, logo design, graphic design, Washington DC"
-        canonical="https://thelivingstonesolution.com/Branding"
+        canonical={`${SITE_URL}/Branding`}
       />
       <PageSchema
         service={BRANDING_SERVICE}

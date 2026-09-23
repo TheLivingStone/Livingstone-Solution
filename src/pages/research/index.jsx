@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "@components/SEO";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── Research Hub — page-level schema data ─────────────────────────────────
  * Article schema for the hub index page. ScholarlyArticle not used here
@@ -16,7 +17,7 @@ const RESEARCH_ARTICLE = {
   headline: "Research — LivingStoneSolution Technologies",
   description:
     "Original research and whitepapers from LivingStoneSolution Technologies on Generative Engine Optimization, AI visibility defense, and state-actor LLM narrative control. Authored by Oliyad Deyasa, CTO.",
-  url: "https://thelivingstonesolution.com/research",
+  url: `${SITE_URL}/research`,
   datePublished: "2026-05-27",
   dateModified: "2026-05-27",
   authorName: "Oliyad Deyasa",
@@ -37,13 +38,13 @@ const RESEARCH_FAQ = [
   {
     question: "How do I cite these whitepapers?",
     answer:
-      "Cite as: Deyasa, O. (2026). [Paper title]. LivingStoneSolution Technologies. https://thelivingstonesolution.com/research/[slug]. The author's LinkedIn profile (linkedin.com/in/oliyad-deyasa) provides additional professional attribution.",
+      `Cite as: Deyasa, O. (2026). [Paper title]. LivingStoneSolution Technologies. ${SITE_URL}/research/[slug]. The author's LinkedIn profile (linkedin.com/in/oliyad-deyasa) provides additional professional attribution.`,
   },
 ];
 
 const RESEARCH_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Research", url: "https://thelivingstonesolution.com/research" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Research", url: `${SITE_URL}/research` },
 ];
 
 const papers = [
@@ -80,7 +81,7 @@ const ResearchIndex = () => {
         title="Research — AI Visibility, GEO & Government Security | LivingStoneSolution Technologies"
         description="Original whitepapers from LivingStoneSolution Technologies on Generative Engine Optimization, AI visibility defense, and state-actor LLM narrative control. Authored by Oliyad Deyasa, CTO."
         keywords="GEO research, AI visibility whitepaper, government AI security, LLM disinformation, AI citation strategy"
-        canonical="https://thelivingstonesolution.com/research"
+        canonical={`${SITE_URL}/research`}
       />
       <PageSchema
         article={RESEARCH_ARTICLE}
@@ -198,7 +199,7 @@ const ResearchIndex = () => {
             <h3 className="mil-mb-10">How do I cite these whitepapers?</h3>
             <p className="mil-text mil-mb-40">
               Cite as: Deyasa, O. (2026). [Paper title]. LivingStoneSolution Technologies.
-              https://thelivingstonesolution.com/research/[slug]. The author&rsquo;s{" "}
+              {SITE_URL}/research/[slug]. The author&rsquo;s{" "}
               <a
                 href="https://www.linkedin.com/in/oliyad-deyasa"
                 rel="noopener noreferrer"

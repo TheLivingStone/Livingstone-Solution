@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "@components/SEO";
 import PageSchema from "@components/PageSchema";
 import Link from "next/link";
+import { SITE_URL, ORG_ID } from "@library/site";
 
 /* ─── Certifications page schema ─────────────────────────────────────────────
  * Lists verifiable third-party certifications that LivingStoneSolution holds.
@@ -14,8 +15,8 @@ import Link from "next/link";
  * ──────────────────────────────────────────────────────────────────────────*/
 
 const CERTIFICATIONS_SERVICE = {
-  id: "https://thelivingstonesolution.com/certifications#page",
-  url: "https://thelivingstonesolution.com/certifications",
+  id: `${SITE_URL}/certifications#page`,
+  url: `${SITE_URL}/certifications`,
   name: "LivingStoneSolution Technologies — Certifications and Credentials",
   serviceType: "Certified Business Credentials",
   description:
@@ -49,8 +50,8 @@ const CERTIFICATIONS_FAQ = [
 ];
 
 const CERTIFICATIONS_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Certifications", url: "https://thelivingstonesolution.com/certifications" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Certifications", url: `${SITE_URL}/certifications` },
 ];
 
 const Certifications = () => {
@@ -60,7 +61,7 @@ const Certifications = () => {
         title="Certifications and Credentials — CBE Certified | LivingStoneSolution"
         description="LivingStoneSolution Technologies is a Certified Business Enterprise (CBE) verified by the District of Columbia Department of Small and Local Business Development. Verifiable third-party credentials for D.C.-anchored software, GEO, and marketing services."
         keywords="CBE Certified, Certified Business Enterprise, DSLBD, D.C. Certified Small Business, Washington DC CBE, Local Business Certification"
-        canonical="https://thelivingstonesolution.com/certifications"
+        canonical={`${SITE_URL}/certifications`}
       />
       <PageSchema
         service={CERTIFICATIONS_SERVICE}
@@ -91,7 +92,7 @@ const Certifications = () => {
                   },
                   "url": "https://dslbd.dc.gov",
                   "about": {
-                    "@id": "https://thelivingstonesolution.com/#organization",
+                    "@id": ORG_ID,
                   },
                 },
               },

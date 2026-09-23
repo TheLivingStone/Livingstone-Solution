@@ -7,7 +7,7 @@
  * by SEO.jsx on every page; this component MUST NOT duplicate it.
  *
  * All @id values reference the canonical Organization already defined in
- * SEO.jsx as "https://thelivingstonesolution.com/#organization".
+ * SEO.jsx as ORG_ID (see src/lib/site.js).
  *
  * Props
  * ─────
@@ -34,8 +34,7 @@
  */
 
 import Head from "next/head";
-
-const ORG_ID = "https://thelivingstonesolution.com/#organization";
+import { ORG_ID } from "@library/site";
 
 const PageSchema = ({ service, faq, breadcrumb, article }) => {
   const graph = [];

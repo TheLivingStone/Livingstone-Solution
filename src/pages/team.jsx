@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Layouts from "@layouts/Layouts";
 import Data from "@data/sections/team.json";
+import { SITE_URL } from "@library/site";
 
 import PageBanner from "@components/PageBanner";
 import CallToActionSection from "@components/sections/CallToAction";
@@ -26,7 +27,7 @@ const Team = () => {
 
     return (
         <Layouts>
-            <SEO title="Our Team" description="Meet the world-class enterprise software engineers, designers, and managers at The Livingstone Solution in Washington D.C." canonical="https://thelivingstonesolution.com/team" />
+            <SEO title="Our Team" description="Meet the world-class enterprise software engineers, designers, and managers at The Livingstone Solution in Washington D.C." canonical={`${SITE_URL}/team`} />
             <PageBanner pageTitle={Data.title} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
 
             {/* team */}

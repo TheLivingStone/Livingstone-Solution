@@ -4,10 +4,11 @@ import SEO from "@components/SEO";
 import PageSchema from "@components/PageSchema";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
+import { SITE_URL } from "@library/site";
 
 const MD_APP_SERVICE = {
-  id: "https://thelivingstonesolution.com/maryland-app-development#service",
-  url: "https://thelivingstonesolution.com/maryland-app-development",
+  id: `${SITE_URL}/maryland-app-development#service`,
+  url: `${SITE_URL}/maryland-app-development`,
   name: "Maryland Mobile App Development",
   serviceType: "Mobile App Development",
   description:
@@ -48,8 +49,8 @@ const MD_APP_FAQ = [
 ];
 
 const MD_APP_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Maryland App Development", url: "https://thelivingstonesolution.com/maryland-app-development" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Maryland App Development", url: `${SITE_URL}/maryland-app-development` },
 ];
 
 const MarylandAppDevelopment = () => {
@@ -59,7 +60,7 @@ const MarylandAppDevelopment = () => {
         title="Maryland Mobile App Development — iOS, Android & React Native | LivingStoneSolution"
         description="LivingStoneSolution Technologies builds iOS, Android, and cross-platform mobile apps for Maryland clients. Headquartered in neighboring Washington, D.C. Serving Bethesda, Silver Spring, Rockville, Baltimore, Annapolis, and statewide."
         keywords="Maryland app development, Bethesda mobile app developer, Silver Spring iOS development, Baltimore app developer, Rockville Android development"
-        canonical="https://thelivingstonesolution.com/maryland-app-development"
+        canonical={`${SITE_URL}/maryland-app-development`}
       />
       <PageSchema
         service={MD_APP_SERVICE}

@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "@components/SEO";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── Whitepaper 1 — GEO and Government Security ────────────────────────────
  *
@@ -71,7 +72,7 @@ const PAPER_ARTICLE = {
     "Generative Engine Optimization and Government Security: Why Federal Agencies Need an AI-Citation Strategy",
   description:
     "Federal agencies are being inaccurately described by AI answer engines. This paper makes the case for GEO as a public-sector communications discipline, examines documented risks, and provides a tactical framework for federal communicators, including schema, earned media, Wikipedia/Wikidata, and adversarial citation defense.",
-  url: "https://thelivingstonesolution.com/research/geo-and-government-security",
+  url: `${SITE_URL}/research/geo-and-government-security`,
   datePublished: "2026-05-27",
   dateModified: "2026-05-27",
   authorName: "Oliyad Deyasa",
@@ -107,11 +108,11 @@ const PAPER_FAQ = [
 ];
 
 const PAPER_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Research", url: "https://thelivingstonesolution.com/research" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Research", url: `${SITE_URL}/research` },
   {
     name: "GEO and Government Security",
-    url: "https://thelivingstonesolution.com/research/geo-and-government-security",
+    url: `${SITE_URL}/research/geo-and-government-security`,
   },
 ];
 
@@ -122,7 +123,7 @@ const GeoAndGovernmentSecurity = () => {
         title="GEO and Government Security: Why Federal Agencies Need an AI-Citation Strategy | LivingStoneSolution"
         description="Federal agencies are inaccurately described by AI answer engines. This whitepaper makes the case for Generative Engine Optimization (GEO) as a public-sector communications discipline, covering documented risks, tactical frameworks, and adversarial citation defense."
         keywords="GEO government security, federal agency AI citation, AI visibility government, NIST AI RMF, prompt injection government, generative engine optimization public sector"
-        canonical="https://thelivingstonesolution.com/research/geo-and-government-security"
+        canonical={`${SITE_URL}/research/geo-and-government-security`}
       />
       <PageSchema
         article={PAPER_ARTICLE}

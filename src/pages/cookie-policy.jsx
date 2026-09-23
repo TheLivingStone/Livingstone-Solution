@@ -1,11 +1,12 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const CookiePolicy = () => {
     return (
         <Layouts>
-            <SEO title="Cookie Policy" description="Cookie Policy for The Livingstone Solution." canonical="https://thelivingstonesolution.com/cookie-policy" />
+            <SEO title="Cookie Policy" description="Cookie Policy for The Livingstone Solution." canonical={`${SITE_URL}/cookie-policy`} />
             <PageBanner pageTitle={"Cookie <span className=\"mil-thin\">Policy</span>"} breadTitle={"Cookie Policy"} anchorLabel={"Read Policy"} anchorLink={"#cookie"} />
             <section id="cookie">
                 <div className="container mil-p-120-90">

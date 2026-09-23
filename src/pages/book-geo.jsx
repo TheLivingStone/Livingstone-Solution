@@ -7,6 +7,7 @@ import AppData from "@data/app.json";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import { Accordion } from "../common/utilits";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── book-geo — page-level schema data ─────────────────────────────────────
  * Prices are sourced from the TIERS array on this page:
@@ -17,8 +18,8 @@ import PageSchema from "@components/PageSchema";
  * No AggregateRating — no compliant review set yet.
  * ──────────────────────────────────────────────────────────────────────────*/
 const BOOK_GEO_SERVICE = {
-  id: "https://thelivingstonesolution.com/book-geo#service",
-  url: "https://thelivingstonesolution.com/book-geo",
+  id: `${SITE_URL}/book-geo#service`,
+  url: `${SITE_URL}/book-geo`,
   name: "Generative Engine Optimization (GEO) Service",
   serviceType: "Generative Engine Optimization",
   description:
@@ -30,7 +31,7 @@ const BOOK_GEO_SERVICE = {
   ],
   offers: [
     {
-      id: "https://thelivingstonesolution.com/book-geo#offer-starter",
+      id: `${SITE_URL}/book-geo#offer-starter`,
       name: "ChatGPT Visibility (Starter)",
       description:
         "Get your brand named inside ChatGPT — the fastest-growing answer engine in the market. Single-engine focus on ChatGPT and SearchGPT; first movement at 3 months, full results at 6 months. Includes: AI Visibility Audit (ChatGPT-focused), source and content optimization for ChatGPT retrieval, prompt-map coverage for your top buyer questions, schema and machine-readability packaging, monthly visibility reporting.",
@@ -40,7 +41,7 @@ const BOOK_GEO_SERVICE = {
       availability: "https://schema.org/InStock",
     },
     {
-      id: "https://thelivingstonesolution.com/book-geo#offer-full",
+      id: `${SITE_URL}/book-geo#offer-full`,
       name: "All Major AI Surfaces (Full)",
       description:
         "Total category ownership across every AI surface your customers use to decide. ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews. First movement at 3 months, full optimization at 7–9 months. Includes everything in Starter plus: Claude, Perplexity, Gemini, and Google AI Overviews coverage; SEO and off-site authority graph; expert quote attribution and evidence density engineering; full prompt-map tracking across all engines; priority support and dedicated strategist.",
@@ -50,7 +51,7 @@ const BOOK_GEO_SERVICE = {
       availability: "https://schema.org/InStock",
     },
     {
-      id: "https://thelivingstonesolution.com/book-geo#offer-custom",
+      id: `${SITE_URL}/book-geo#offer-custom`,
       name: "Enterprise and Multi-Brand (Custom)",
       description:
         "For multi-location brands, multi-region rollouts, agencies, or unique scopes. Includes everything in Full plus multi-brand and multi-region orchestration, custom integrations and data feeds, white-label reporting, SLA, and executive reviews. Pricing scoped on the strategy call.",
@@ -61,8 +62,8 @@ const BOOK_GEO_SERVICE = {
 };
 
 const BOOK_GEO_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "GEO Service", url: "https://thelivingstonesolution.com/book-geo" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "GEO Service", url: `${SITE_URL}/book-geo` },
 ];
 
 const CAL_URL = "https://cal.com/oliyad-deyasa-oiiybc/30min";
@@ -192,7 +193,7 @@ const BookGEO = () => {
       <SEO
         title="GEO Service — Get Found in AI Answers | The Livingstone Solution"
         description="Generative Engine Optimization (GEO) — make your business the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend. Book a strategy call and get a free AI Visibility + Competitor Report."
-        canonical="https://thelivingstonesolution.com/book-geo"
+        canonical={`${SITE_URL}/book-geo`}
       />
       <PageSchema
         service={BOOK_GEO_SERVICE}

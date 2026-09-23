@@ -4,6 +4,7 @@ import SEO from "@components/SEO";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── GEO AI Visibility — page-level schema data ────────────────────────────
  * Article datePublished / dateModified set to Phase 1 ship date (2026-05-27).
@@ -13,8 +14,8 @@ import PageSchema from "@components/PageSchema";
  * Quotation JSON-LD is emitted here.
  * ──────────────────────────────────────────────────────────────────────────*/
 const GEO_SERVICE = {
-  id: "https://thelivingstonesolution.com/geo-ai-visibility#service",
-  url: "https://thelivingstonesolution.com/geo-ai-visibility",
+  id: `${SITE_URL}/geo-ai-visibility#service`,
+  url: `${SITE_URL}/geo-ai-visibility`,
   name: "Generative Engine Optimization (GEO)",
   serviceType: "Generative Engine Optimization",
   description:
@@ -68,7 +69,7 @@ const GEO_ARTICLE = {
     "Generative Engine Optimization (GEO) — Definition and Methodology",
   description:
     "Generative Engine Optimization (GEO) is the practice of structuring a website's content, schema, and off-site authority signals so AI answer engines — including ChatGPT, Perplexity, Gemini, and Google AI Overviews — recognize and cite the brand in synthesized answers. GEO applies the foundational principles of traditional SEO to the distinct requirements of AI-generated response systems.",
-  url: "https://thelivingstonesolution.com/geo-ai-visibility",
+  url: `${SITE_URL}/geo-ai-visibility`,
   datePublished: "2026-05-27",
   dateModified: "2026-05-27",
   authorName: "Oliyad Deyasa",
@@ -76,10 +77,10 @@ const GEO_ARTICLE = {
 };
 
 const GEO_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
+  { name: "Home", url: `${SITE_URL}/` },
   {
     name: "Generative Engine Optimization",
-    url: "https://thelivingstonesolution.com/geo-ai-visibility",
+    url: `${SITE_URL}/geo-ai-visibility`,
   },
 ];
 
@@ -90,7 +91,7 @@ const GEOAIVisibility = () => {
         title="Generative Engine Optimization (GEO) — Definition, Methodology & Services | LivingStoneSolution"
         description="Generative Engine Optimization (GEO) is the practice of optimizing websites, content, and off-site authority signals so AI answer engines — ChatGPT, Perplexity, Gemini, and Google AI Overviews — cite a brand as a recommended source. LivingStone GEO Agency definition, methodology, and engagement details."
         keywords="Generative Engine Optimization, GEO, AI Visibility, ChatGPT SEO, Perplexity citation, Gemini AI Overviews, LLM SEO, AI search optimization"
-        canonical="https://thelivingstonesolution.com/geo-ai-visibility"
+        canonical={`${SITE_URL}/geo-ai-visibility`}
       />
       <PageSchema
         service={GEO_SERVICE}

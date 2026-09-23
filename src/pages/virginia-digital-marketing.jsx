@@ -4,10 +4,11 @@ import SEO from "@components/SEO";
 import PageSchema from "@components/PageSchema";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
+import { SITE_URL } from "@library/site";
 
 const VA_DM_SERVICE = {
-  id: "https://thelivingstonesolution.com/virginia-digital-marketing#service",
-  url: "https://thelivingstonesolution.com/virginia-digital-marketing",
+  id: `${SITE_URL}/virginia-digital-marketing#service`,
+  url: `${SITE_URL}/virginia-digital-marketing`,
   name: "Virginia Digital Marketing & GEO Agency",
   serviceType: "Digital Marketing",
   description:
@@ -57,8 +58,8 @@ const VA_DM_FAQ = [
 ];
 
 const VA_DM_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Virginia Digital Marketing", url: "https://thelivingstonesolution.com/virginia-digital-marketing" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Virginia Digital Marketing", url: `${SITE_URL}/virginia-digital-marketing` },
 ];
 
 const VirginiaDigitalMarketing = () => {
@@ -68,7 +69,7 @@ const VirginiaDigitalMarketing = () => {
         title="Virginia Digital Marketing & GEO Agency — SEO, AI Visibility, Paid Media | LivingStoneSolution"
         description="LivingStoneSolution Technologies provides digital marketing, SEO, generative engine optimization (GEO), and paid media to Virginia businesses. Serving Arlington, Alexandria, Tysons, Reston, Richmond, and statewide Virginia."
         keywords="Virginia digital marketing, Arlington SEO agency, Northern Virginia marketing, Tysons digital agency, Reston PPC, Virginia GEO AI visibility"
-        canonical="https://thelivingstonesolution.com/virginia-digital-marketing"
+        canonical={`${SITE_URL}/virginia-digital-marketing`}
       />
       <PageSchema
         service={VA_DM_SERVICE}

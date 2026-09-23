@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "@components/SEO";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── Whitepaper 3 — State Actors and LLM Narrative Control ─────────────────
  *
@@ -83,7 +84,7 @@ const PAPER_ARTICLE = {
     "State Actors and LLM Narrative Control: How Nations Are Shaping Generative AI Answers",
   description:
     "Nation-states are attempting to influence large language model outputs through training-data poisoning, web corpus manipulation, and coordinated inauthentic content. This paper examines documented operations, catalogs technical attack vectors, analyzes detection challenges, and proposes defensive postures.",
-  url: "https://thelivingstonesolution.com/research/state-actors-llm-narrative-control",
+  url: `${SITE_URL}/research/state-actors-llm-narrative-control`,
   datePublished: "2026-05-27",
   dateModified: "2026-05-27",
   authorName: "Oliyad Deyasa",
@@ -119,11 +120,11 @@ const PAPER_FAQ = [
 ];
 
 const PAPER_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Research", url: "https://thelivingstonesolution.com/research" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Research", url: `${SITE_URL}/research` },
   {
     name: "State Actors and LLM Narrative Control",
-    url: "https://thelivingstonesolution.com/research/state-actors-llm-narrative-control",
+    url: `${SITE_URL}/research/state-actors-llm-narrative-control`,
   },
 ];
 
@@ -134,7 +135,7 @@ const StateActorsLlmNarrativeControl = () => {
         title="State Actors and LLM Narrative Control: How Nations Shape AI Answers | LivingStoneSolution"
         description="Nation-states are attempting to shape LLM outputs through training-data poisoning, corpus manipulation, and coordinated inauthentic content. This paper examines documented operations from multiple actors, attack vectors, and defensive postures."
         keywords="state actors LLM narrative control, AI disinformation, training data poisoning, LLM security, MITRE ATLAS AI, AI influence operations, Pravda network AI"
-        canonical="https://thelivingstonesolution.com/research/state-actors-llm-narrative-control"
+        canonical={`${SITE_URL}/research/state-actors-llm-narrative-control`}
       />
       <PageSchema
         article={PAPER_ARTICLE}

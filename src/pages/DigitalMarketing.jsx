@@ -6,6 +6,7 @@ import SEO from "@components/SEO";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── Digital Marketing — page-level schema data ────────────────────────────
  * The "How quickly will I see results" FAQ answer is reproduced as plain text
@@ -14,8 +15,8 @@ import PageSchema from "@components/PageSchema";
  * No LivingStone prices are asserted — only industry benchmarks appear on-page.
  * ──────────────────────────────────────────────────────────────────────────*/
 const DM_SERVICE = {
-  id: "https://thelivingstonesolution.com/DigitalMarketing#service",
-  url: "https://thelivingstonesolution.com/DigitalMarketing",
+  id: `${SITE_URL}/DigitalMarketing#service`,
+  url: `${SITE_URL}/DigitalMarketing`,
   name: "Digital Marketing",
   serviceType: "Digital Marketing",
   description:
@@ -59,8 +60,8 @@ const DM_FAQ = [
 ];
 
 const DM_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Digital Marketing", url: "https://thelivingstonesolution.com/DigitalMarketing" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Digital Marketing", url: `${SITE_URL}/DigitalMarketing` },
 ];
 
 // Slider is client-only; primary content is server-rendered above it
@@ -73,7 +74,7 @@ const DigitalMarketing = (props) => {
         title="Digital Marketing Services — SEO, GEO, Paid Media & Content | LivingStoneSolution"
         description="LivingStoneSolution Technologies provides digital marketing services including SEO, generative engine optimization (GEO), paid media, content strategy, and analytics. Washington, D.C.-based, serving clients nationally and globally."
         keywords="Digital Marketing, SEO, Generative Engine Optimization, GEO, PPC, Social Media Marketing, Content Marketing, Washington DC"
-        canonical="https://thelivingstonesolution.com/DigitalMarketing"
+        canonical={`${SITE_URL}/DigitalMarketing`}
       />
       <PageSchema
         service={DM_SERVICE}

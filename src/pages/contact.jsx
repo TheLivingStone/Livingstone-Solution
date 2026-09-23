@@ -7,6 +7,7 @@ import path from 'path';
 import contactGrid from "./contactGrid"
 import React, { useState, useEffect } from 'react';
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { SITE_URL } from "@library/site";
 
 const Contact = () => {
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
@@ -22,7 +23,7 @@ const Contact = () => {
 
   return (
     <Layouts>
-      <SEO title="Contact" description="Get in touch with The Livingstone Solution in Washington D.C. for your software and web development needs." canonical="https://thelivingstonesolution.com/contact" />
+      <SEO title="Contact" description="Get in touch with The Livingstone Solution in Washington D.C. for your software and web development needs." canonical={`${SITE_URL}/contact`} />
       <PageBanner pageTitle={"Get in touch!"} breadTitle={"Contact"} anchorLabel={"Send message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
 
       {/* map */}

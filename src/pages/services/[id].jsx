@@ -1,6 +1,7 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@/src/components/PageBanner";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 import { useEffect } from "react";
 
@@ -22,7 +23,7 @@ const ServiceDetail = ({ data, related }) => {
 
   return (
     <Layouts>
-      <SEO title={postData.title} description={postData.short} canonical={`https://thelivingstonesolution.com/services/${postData.id}`} />
+      <SEO title={postData.title} description={postData.short} canonical={`${SITE_URL}/services/${postData.id}`} />
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"About service"} anchorLink={"#service"} />
 
       {/* service */}

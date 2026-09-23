@@ -6,6 +6,7 @@ import Link from "next/link";
 import PageBanner from "@components/PageBanner";
 import SubscribeSection from "@components/sections/Subscribe";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const PostsDetail = (props) => {
 
@@ -15,7 +16,7 @@ const PostsDetail = (props) => {
 
     return (
         <Layouts>
-            <SEO title={`${postData.title} Blog Category`} description={`Browse all tech articles and insights under the ${postData.title} category in Washington D.C.`} canonical={`https://thelivingstonesolution.com/blog/category/${postData.id}`} />
+            <SEO title={`${postData.title} Blog Category`} description={`Browse all tech articles and insights under the ${postData.title} category in Washington D.C.`} canonical={`${SITE_URL}/blog/category/${postData.id}`} />
             <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
             {/* blog */}

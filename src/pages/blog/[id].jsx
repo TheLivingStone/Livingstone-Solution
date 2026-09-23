@@ -4,6 +4,7 @@ import Date from '@library/date';
 import PageBanner from "@components/PageBanner";
 import RelatedPostsSection from "@components/sections/RelatedPosts";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const PostsDetail = (props) => {
 
@@ -11,7 +12,7 @@ const PostsDetail = (props) => {
 
   return (
     <Layouts>
-      <SEO title={postData.title} description={postData.short} canonical={`https://thelivingstonesolution.com/blog/${postData.id}`} />
+      <SEO title={postData.title} description={postData.short} canonical={`${SITE_URL}/blog/${postData.id}`} />
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} align={"center"} headingSize={2} />
 
       {/* publication */}

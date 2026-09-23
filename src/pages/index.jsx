@@ -2,6 +2,7 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
@@ -25,7 +26,7 @@ const Home1 = (props) => {
         title="GEO, Software, Marketing & Government — The Livingstone Solution"
         description="Washington, D.C.-based, CBE-certified partner for Generative Engine Optimization (GEO), Software (web, mobile, cloud, AI), Marketing, and Government work. Be the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend."
         keywords="Generative Engine Optimization, GEO, AI Visibility, Software Development, Web Development, Mobile Apps, Digital Marketing, Government Software, CBE Certified, Washington D.C."
-        canonical="https://thelivingstonesolution.com/"
+        canonical={`${SITE_URL}/`}
       />
       <HeroOneSection />
       <AboutSection />

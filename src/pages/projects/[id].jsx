@@ -1,4 +1,5 @@
 import Layouts from "@layouts/Layouts";
+import { SITE_URL } from "@library/site";
 
 import Link from "next/link";
 
@@ -46,7 +47,7 @@ const ProjectDetail = (props) => {
 
   return (
     <Layouts>
-      <SEO title={postData.title} description={postData.short || postData.introTitle} canonical={`https://thelivingstonesolution.com/projects/${postData.id}`} />
+      <SEO title={postData.title} description={postData.short || postData.introTitle} canonical={`${SITE_URL}/projects/${postData.id}`} />
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Read more"} anchorLink={"#project"} />
 
       {postData.layout == 'one' &&

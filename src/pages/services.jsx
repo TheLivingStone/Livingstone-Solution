@@ -2,6 +2,7 @@ import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 import React from "react";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 import { getSortedServicesData } from "@library/services";
 
@@ -19,7 +20,7 @@ const Services = (props) => {
         title="Services — GEO, Software, Marketing & Government"
         description="Four services, one accountable team: Generative Engine Optimization (GEO), Software (web, mobile, cloud, AI), Marketing, and Government — operated end-to-end from Washington, D.C."
         keywords="Generative Engine Optimization, GEO, AI Visibility, Software Development, Digital Marketing, Government Software, Washington D.C., DMV"
-        canonical="https://thelivingstonesolution.com/services"
+        canonical={`${SITE_URL}/services`}
       />
       {/* banner */}
       <div className="mil-dark-bg">

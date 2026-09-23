@@ -1,11 +1,12 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const TermsAndConditions = () => {
     return (
         <Layouts>
-            <SEO title="Terms and Conditions" description="Terms and Conditions for The Livingstone Solution." canonical="https://thelivingstonesolution.com/terms-and-conditions" />
+            <SEO title="Terms and Conditions" description="Terms and Conditions for The Livingstone Solution." canonical={`${SITE_URL}/terms-and-conditions`} />
             <PageBanner pageTitle={"Terms and <span className=\"mil-thin\">Conditions</span>"} breadTitle={"Terms & Conditions"} anchorLabel={"Read Terms"} anchorLink={"#terms"} />
             <section id="terms">
                 <div className="container mil-p-120-90">

@@ -6,7 +6,7 @@ Disallow: /api/*
 Disallow: /contactGrid
 
 # Host
-Host: https://thelivingstonesolution.com
+Host: https://solution.thelivingstonefoundation.com
 
 # Sitemaps
-Sitemap: https://thelivingstonesolution.com/sitemap.xml
+Sitemap: https://solution.thelivingstonefoundation.com/sitemap.xml

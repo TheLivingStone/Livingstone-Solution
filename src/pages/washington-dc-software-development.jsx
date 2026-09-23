@@ -4,10 +4,11 @@ import SEO from "@components/SEO";
 import PageSchema from "@components/PageSchema";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
+import { SITE_URL } from "@library/site";
 
 const DC_SOFTWARE_SERVICE = {
-  id: "https://thelivingstonesolution.com/washington-dc-software-development#service",
-  url: "https://thelivingstonesolution.com/washington-dc-software-development",
+  id: `${SITE_URL}/washington-dc-software-development#service`,
+  url: `${SITE_URL}/washington-dc-software-development`,
   name: "Washington, D.C. Software Development Agency",
   serviceType: "Software Development",
   description:
@@ -51,8 +52,8 @@ const DC_SOFTWARE_FAQ = [
 ];
 
 const DC_SOFTWARE_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Washington D.C. Software Development", url: "https://thelivingstonesolution.com/washington-dc-software-development" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Washington D.C. Software Development", url: `${SITE_URL}/washington-dc-software-development` },
 ];
 
 const DCSoftwareDevelopment = () => {
@@ -62,7 +63,7 @@ const DCSoftwareDevelopment = () => {
         title="Washington D.C. Software Development Agency — CBE Certified | LivingStoneSolution"
         description="LivingStoneSolution Technologies is a Washington D.C.-headquartered software development agency. CBE certified by the D.C. DSLBD, serving federal, commercial, and DMV-area clients. Web, mobile, enterprise software, and AI integration."
         keywords="Washington DC software development, DMV software agency, D.C. software developers, federal software contractor D.C., CBE software development"
-        canonical="https://thelivingstonesolution.com/washington-dc-software-development"
+        canonical={`${SITE_URL}/washington-dc-software-development`}
       />
       <PageSchema
         service={DC_SOFTWARE_SERVICE}

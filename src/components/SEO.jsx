@@ -1,13 +1,15 @@
 import Head from 'next/head';
 import AppData from "@data/app.json";
+import { SITE_URL, COMPANY_URL, ORG_ID } from "@library/site";
 
-const BASE_URL = 'https://thelivingstonesolution.com';
-const OLD_DOMAIN = 'solution.thelivingstonefoundation.com';
+const BASE_URL = SITE_URL;
+const OTHER_ORIGINS = ['https://thelivingstonesolution.com', 'https://www.thelivingstonesolution.com'];
 
 const normalizeCanonical = (canonical) => {
   if (!canonical) return null;
   if (canonical.startsWith('http')) {
-    return canonical.replace(`https://${OLD_DOMAIN}`, BASE_URL).replace(`http://${OLD_DOMAIN}`, BASE_URL);
+    const origin = OTHER_ORIGINS.find((o) => canonical.startsWith(o));
+    return origin ? BASE_URL + canonical.slice(origin.length) : canonical;
   }
   return `${BASE_URL}${canonical.startsWith('/') ? '' : '/'}${canonical}`;
 };
@@ -57,15 +59,15 @@ const SEO = ({ title, description, keywords, ogImage, ogType = "website", canoni
                 "name": siteName,
                 "description": metaDescription,
                 "publisher": {
-                  "@id": `${BASE_URL}/#organization`
+                  "@id": ORG_ID
                 }
               },
               {
                 "@type": "Organization",
-                "@id": `${BASE_URL}/#organization`,
+                "@id": ORG_ID,
                 "name": "The Livingstone Solution",
                 "alternateName": ["LivingStoneSolution Technologies", "Livingstone Solution"],
-                "url": `${BASE_URL}/`,
+                "url": `${COMPANY_URL}/`,
                 "logo": {
                   "@type": "ImageObject",
                   "url": `${BASE_URL}/img/photo/logo.png`
@@ -85,7 +87,6 @@ const SEO = ({ title, description, keywords, ogImage, ogType = "website", canoni
                   "addressCountry": "US"
                 },
                 "sameAs": [
-                  "https://thelivingstonesolution.com",
                   "https://geoagency.thelivingstonefoundation.com",
                   "https://marketingfirm.thelivingstonesolution.com",
                   "https://linkedin.com/in/oliyad-deyasa",

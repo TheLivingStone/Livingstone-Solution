@@ -1,11 +1,12 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const Careers = () => {
     return (
         <Layouts>
-            <SEO title="Careers" description="Explore career opportunities at The Livingstone Solution." canonical="https://thelivingstonesolution.com/careers" />
+            <SEO title="Careers" description="Explore career opportunities at The Livingstone Solution." canonical={`${SITE_URL}/careers`} />
             <PageBanner pageTitle={"Join Our <span className=\"mil-thin\">Team</span>"} breadTitle={"Careers"} anchorLabel={"View Roles"} anchorLink={"#careers"} />
             <section id="careers">
                 <div className="container mil-p-120-90">

@@ -5,6 +5,7 @@ import SEO from "@components/SEO";
 import PageBannerDark from "@/src/components/PageBannerDark";
 import AppData from "@data/app.json";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { SITE_URL } from "@library/site";
 
 const NAVY = "#1a2b5e";
 const GOLD = "#c9a961";
@@ -94,7 +95,7 @@ const BookGEOLanding = () => {
       <SEO
         title="GEO Service — Get Found in AI Answers | The Livingstone Solution"
         description="Generative Engine Optimization (GEO) — make your business the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend. Book a strategy call and get a free AI Visibility + Competitor Report."
-        canonical="https://thelivingstonesolution.com/book-geo-landing"
+        canonical={`${SITE_URL}/book-geo-landing`}
       />
 
       <PageBannerDark

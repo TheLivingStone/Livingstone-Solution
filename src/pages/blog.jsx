@@ -2,6 +2,7 @@ import { PER_PAGE } from './blog/page/[page]'
 import PaginatedBlog from '@components/PaginatedBlog'
 import Pagination from '@components/Pagination'
 import Link from "next/link";
+import { SITE_URL } from "@library/site";
 
 import PageBanner from "@components/PageBanner";
 import PopularPosts from "@components/sections/PopularPosts";
@@ -17,7 +18,7 @@ import PopularsPostsData from "@data/sections/popular-posts.json";
 const Blog = ({ posts, totalPosts, currentPage, categories, popular }) => {
   return (
     <Layouts>
-      <SEO title="Tech Blog & Insights" description="Read our latest publications on enterprise software, AI, and digital transformation in Washington D.C." canonical="https://thelivingstonesolution.com/blog" />
+      <SEO title="Tech Blog & Insights" description="Read our latest publications on enterprise software, AI, and digital transformation in Washington D.C." canonical={`${SITE_URL}/blog`} />
       <PageBanner pageTitle={"Exploring <span className=\"mil-thin\">the World</span> <br> Through Our <span className=\"mil-thin\">Blog</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
       <PopularPosts posts={popular} />

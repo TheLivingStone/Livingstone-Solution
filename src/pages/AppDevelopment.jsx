@@ -6,6 +6,7 @@ import SEO from "@components/SEO";
 import ExpertNote from "@components/ExpertNote";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── App Development — page-level schema data ──────────────────────────────
  * All values are derived verbatim from the visible on-page text above.
@@ -14,8 +15,8 @@ import PageSchema from "@components/PageSchema";
  * review set exists yet.
  * ──────────────────────────────────────────────────────────────────────────*/
 const APP_DEV_SERVICE = {
-  id: "https://thelivingstonesolution.com/AppDevelopment#service",
-  url: "https://thelivingstonesolution.com/AppDevelopment",
+  id: `${SITE_URL}/AppDevelopment#service`,
+  url: `${SITE_URL}/AppDevelopment`,
   name: "Mobile App Development",
   serviceType: "Mobile App Development",
   description:
@@ -59,8 +60,8 @@ const APP_DEV_FAQ = [
 ];
 
 const APP_DEV_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Mobile App Development", url: "https://thelivingstonesolution.com/AppDevelopment" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Mobile App Development", url: `${SITE_URL}/AppDevelopment` },
 ];
 
 // Slider is client-only; primary content is server-rendered above it
@@ -73,7 +74,7 @@ const AppDevelopment = (props) => {
         title="Mobile App Development Services — iOS, Android & Cross-Platform | LivingStoneSolution"
         description="LivingStoneSolution Technologies builds iOS, Android, and cross-platform mobile applications using React Native and Swift/Kotlin. Washington, D.C.-based team serving clients nationally and globally."
         keywords="App Development, Mobile Apps, iOS Development, Android Development, React Native, Swift, Kotlin, Washington DC"
-        canonical="https://thelivingstonesolution.com/AppDevelopment"
+        canonical={`${SITE_URL}/AppDevelopment`}
       />
       <PageSchema
         service={APP_DEV_SERVICE}

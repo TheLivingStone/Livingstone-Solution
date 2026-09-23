@@ -1,6 +1,7 @@
 import PaginatedBlog from '@components/PaginatedBlog'
 import Pagination from '@components/Pagination'
 import Link from "next/link";
+import { SITE_URL } from "@library/site";
 
 import PageBanner from "@components/PageBanner";
 import SubscribeSection from "@components/sections/Subscribe";
@@ -16,7 +17,7 @@ const Blog = ({ posts, currentPage, totalPosts, categories }) => {
 
   return (
     <Layouts>
-      <SEO title={`Blog - Page ${currentPage}`} description={`Tech Blog & Insights Page ${currentPage} - Read our latest publications on Web Development, AI, and Software Engineering.`} canonical={`https://thelivingstonesolution.com/blog/page/${currentPage}`} />
+      <SEO title={`Blog - Page ${currentPage}`} description={`Tech Blog & Insights Page ${currentPage} - Read our latest publications on Web Development, AI, and Software Engineering.`} canonical={`${SITE_URL}/blog/page/${currentPage}`} />
       <PageBanner pageTitle={"Exploring <span className=\"mil-thin\">the World</span> <br> Through Our <span className=\"mil-thin\">Blog</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
       {/* blog */}

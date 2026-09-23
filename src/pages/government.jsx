@@ -3,11 +3,12 @@ import Layouts from "@layouts/Layouts";
 import PageBannerDark from "@components/PageBannerDark";
 import CallToActionSection from "@components/sections/CallToAction";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const GovernmentCapabilities = () => {
     return (
         <Layouts>
-            <SEO title="Government Capabilities" description="Mission-Ready IT and AI Solutions for Government and Enterprise clients. Development of secure, cloud-based web and mobile platforms in Washington D.C." canonical="https://thelivingstonesolution.com/government" />
+            <SEO title="Government Capabilities" description="Mission-Ready IT and AI Solutions for Government and Enterprise clients. Development of secure, cloud-based web and mobile platforms in Washington D.C." canonical={`${SITE_URL}/government`} />
             <div className="mil-dark-bg">
                 <PageBannerDark
                     pageTitle={"Capabilities <span className=\"mil-thin\">Statement</span>"}

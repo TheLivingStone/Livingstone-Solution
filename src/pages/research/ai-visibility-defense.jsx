@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "@components/SEO";
 import Link from "next/link";
 import PageSchema from "@components/PageSchema";
+import { SITE_URL } from "@library/site";
 
 /* ─── Whitepaper 2 — AI Visibility Defense ──────────────────────────────────
  *
@@ -58,7 +59,7 @@ const PAPER_ARTICLE = {
     "AI Visibility Defense: A Practitioner's Guide to Auditing How LLMs Describe Your Brand",
   description:
     "Most brands have never audited how AI systems describe them. This paper introduces a systematic methodology for AI-visibility auditing, defines five threat classes, a brand prompt-map methodology, measurement cadence, and a 90-day audit playbook for defensive remediation.",
-  url: "https://thelivingstonesolution.com/research/ai-visibility-defense",
+  url: `${SITE_URL}/research/ai-visibility-defense`,
   datePublished: "2026-05-27",
   dateModified: "2026-05-27",
   authorName: "Oliyad Deyasa",
@@ -94,11 +95,11 @@ const PAPER_FAQ = [
 ];
 
 const PAPER_BREADCRUMB = [
-  { name: "Home", url: "https://thelivingstonesolution.com/" },
-  { name: "Research", url: "https://thelivingstonesolution.com/research" },
+  { name: "Home", url: `${SITE_URL}/` },
+  { name: "Research", url: `${SITE_URL}/research` },
   {
     name: "AI Visibility Defense",
-    url: "https://thelivingstonesolution.com/research/ai-visibility-defense",
+    url: `${SITE_URL}/research/ai-visibility-defense`,
   },
 ];
 
@@ -109,7 +110,7 @@ const AiVisibilityDefense = () => {
         title="AI Visibility Defense: Auditing How LLMs Describe Your Brand | LivingStoneSolution"
         description="A practitioner's guide to auditing how AI systems describe your brand. Defines five threat classes, a brand prompt-map methodology, and a 90-day audit playbook for AI visibility defense."
         keywords="AI visibility audit, LLM brand audit, AI visibility defense, brand prompt map, AI citation monitoring, GEO audit methodology"
-        canonical="https://thelivingstonesolution.com/research/ai-visibility-defense"
+        canonical={`${SITE_URL}/research/ai-visibility-defense`}
       />
       <PageSchema
         article={PAPER_ARTICLE}

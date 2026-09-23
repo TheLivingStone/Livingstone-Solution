@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://thelivingstonesolution.com',
+    siteUrl: (process.env.NEXT_PUBLIC_SITE_URL || 'https://solution.thelivingstonefoundation.com').replace(/\/$/, ''),
     generateRobotsTxt: true,
     sitemapSize: 7000,
     outDir: 'public',

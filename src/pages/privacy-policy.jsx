@@ -1,11 +1,12 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import SEO from "@components/SEO";
+import { SITE_URL } from "@library/site";
 
 const PrivacyPolicy = () => {
     return (
         <Layouts>
-            <SEO title="Privacy Policy" description="Privacy Policy for The Livingstone Solution." canonical="https://thelivingstonesolution.com/privacy-policy" />
+            <SEO title="Privacy Policy" description="Privacy Policy for The Livingstone Solution." canonical={`${SITE_URL}/privacy-policy`} />
             <PageBanner pageTitle={"Privacy <span className=\"mil-thin\">Policy</span>"} breadTitle={"Privacy Policy"} anchorLabel={"Read Policy"} anchorLink={"#policy"} />
             <section id="policy">
                 <div className="container mil-p-120-90">
