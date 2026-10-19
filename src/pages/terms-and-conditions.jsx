@@ -23,6 +23,19 @@ const TermsAndConditions = () => {
                                 <p className="mil-mt-30">
                                     The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company.
                                 </p>
+                                <h3 id="sms" className="mil-mt-60">Text messaging terms</h3>
+                                <p className="mil-mt-30">
+                                    The Livingstone Solution sends text messages to people who request a free AI visibility check or a call with us and agree to receive texts. Messages cover your request: confirming it, sharing a booking link, and reminders about your call.
+                                </p>
+                                <p className="mil-mt-30">
+                                    Message frequency varies, up to 4 messages per request. Message and data rates may apply. Consent to receive texts is not a condition of any purchase.
+                                </p>
+                                <p className="mil-mt-30">
+                                    Reply STOP at any time to stop receiving messages; you will get one final message confirming you have been unsubscribed. Reply HELP for help, or email <a href="mailto:oliyad@thelivingstonefoundation.com">oliyad@thelivingstonefoundation.com</a>.
+                                </p>
+                                <p className="mil-mt-30">
+                                    Carriers are not liable for delayed or undelivered messages. To learn how we handle your mobile number, see our <a href="/privacy-policy#sms">Privacy Policy</a>.
+                                </p>
                             </div>
                         </div>
                     </div>
