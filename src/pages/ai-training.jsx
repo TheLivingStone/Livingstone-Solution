@@ -5,6 +5,7 @@ import CallToActionSection from "@components/sections/CallToAction";
 import PageSchema from "@components/PageSchema";
 import SEO from "@components/SEO";
 import { SITE_URL, BOOKING_URL } from "@library/site";
+import Link from "next/link";
 import { Accordion } from "../common/utilits";
 
 /* ─── AI Training — page-level schema data ──────────────────────────────────
@@ -124,7 +125,7 @@ const AiTraining = () => {
     <Layouts>
       <SEO
         title="AI Training & Custom AI Modules for Companies and Government"
-        description="Hands-on AI workshops, custom AI modules and workforce AI training for companies and government. We train employees on their own use cases and build a custom AI module for every repetitive task."
+        description="Hands-on AI workshops, custom AI modules and workforce AI training for companies and government, taught on your team's own use cases."
         keywords="AI Training, AI Workshops, Workforce AI Training, AI Training for Employees, Corporate AI Training, Custom AI Modules, Government AI Training, Government AI Solutions, AI Training Washington D.C."
         canonical={`${SITE_URL}/ai-training`}
       />
@@ -207,8 +208,12 @@ const AiTraining = () => {
                   We build each organization its own AI module platform. Whenever an issue comes up, we create a solution
                   and post it there. The next time your staff face that issue, they look it up.
                 </p>
-                <p className="mil-muted mil-up">
+                <p className="mil-muted mil-up mil-mb-30">
                   That&rsquo;s how organizations see growth and real change.
+                </p>
+                <p className="mil-light-soft mil-up">
+                  Want AI that does the repetitive work for you, too? See our{" "}
+                  <Link href="/services/ai-agents" className="mil-accent">custom AI agents</Link>.
                 </p>
               </div>
               <div className="col-lg-5 mil-mb-60">

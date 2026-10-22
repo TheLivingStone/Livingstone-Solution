@@ -1,0 +1,28 @@
+# The Livingstone Solution
+
+> The Livingstone Solution is a Washington, D.C.-based, CBE-certified technology company with four service pillars: AI Agents, Software Development, Marketing (GEO, content, video and media) and AI Training. It serves companies and government departments across the United States.
+
+Government registration: UEI GGUGKJTEMU73, CAGE 16SZ9. NAICS 541511, 541512, 541519, 541611, 541613.
+
+## Services
+
+- [AI Agents](https://solution.thelivingstonefoundation.com/services/ai-agents): Custom AI agents and workflow automation built on an organization's own data, with human-in-the-loop oversight. Includes government AI solutions built for a specific department rather than one-size-fits-all tools.
+- [Software Development](https://solution.thelivingstonefoundation.com/services/software): Web platforms (Next.js, React), iOS and Android apps, AWS and Azure cloud, legacy modernization, and Section 508-compliant digital services.
+- [Marketing](https://solution.thelivingstonefoundation.com/services/marketing): Generative Engine Optimization (GEO) for visibility in ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews, plus content creation and video and media production.
+- [AI Training](https://solution.thelivingstonefoundation.com/ai-training): Hands-on AI workshops, a custom AI module for each pain point, a dedicated AI module platform for each organization, and ongoing workforce AI training. Training is taught on each team's own use cases, not generic AI demos.
+
+## Government
+
+- [Government AI Solutions and Capabilities Statement](https://solution.thelivingstonefoundation.com/government): Core competencies, registration codes, NAICS codes and point of contact for government buyers.
+
+## Learn more
+
+- [What is Generative Engine Optimization (GEO)?](https://solution.thelivingstonefoundation.com/geo-ai-visibility): Definition and methodology.
+- [Certifications](https://solution.thelivingstonefoundation.com/certifications): Certified Business Enterprise (CBE), District of Columbia.
+- [Portfolio](https://solution.thelivingstonefoundation.com/projects): Selected projects.
+
+## Contact
+
+- [Book a consultation](https://cal.com/oliyad-deyasa-oiiybc/30min)
+- Phone: +1-540-998-9766
+- Location: Washington, D.C.

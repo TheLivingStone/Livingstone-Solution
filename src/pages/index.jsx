@@ -25,7 +25,7 @@ const Home1 = (props) => {
     <Layouts>
       <SEO
         title="AI Agents, Software, Marketing & AI Training"
-        description="Washington, D.C.-based, CBE-certified team for AI agents, software development, marketing (GEO, content, video and media) and AI training, for companies and government departments."
+        description="D.C.-based, CBE-certified team for AI agents, software development, marketing (GEO, content, video) and AI training, for companies and government."
         keywords="AI Agents, AI Automation, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, AI Workshops, Workforce AI Training, Custom AI Modules, CBE Certified, Washington D.C."
         canonical={`${SITE_URL}/`}
       />

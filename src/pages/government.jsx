@@ -5,12 +5,27 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 import PageBannerDark from "@components/PageBannerDark";
 import CallToActionSection from "@components/sections/CallToAction";
 import SEO from "@components/SEO";
+import PageSchema from "@components/PageSchema";
 import { SITE_URL } from "@library/site";
 
 const GovernmentCapabilities = () => {
     return (
         <Layouts>
-            <SEO title="Government AI Solutions — Capabilities Statement" description="Government AI solutions built per department: AI agents, custom AI modules and AI training, plus secure cloud-based web and mobile platforms. Washington, D.C. UEI GGUGKJTEMU73, CAGE 16SZ9." keywords="Government AI Solutions, Government AI Training, AI Agents for Government, Custom AI Modules, Capabilities Statement, Washington D.C." canonical={`${SITE_URL}/government`} />
+            <SEO title="Government AI Solutions — Capabilities Statement" description="Government AI solutions built per department: AI agents, custom AI modules and AI training, plus secure cloud platforms. UEI GGUGKJTEMU73, CAGE 16SZ9." keywords="Government AI Solutions, Government AI Training, AI Agents for Government, Custom AI Modules, Capabilities Statement, Washington D.C." canonical={`${SITE_URL}/government`} />
+            <PageSchema
+                service={{
+                    id: `${SITE_URL}/government#service`,
+                    url: `${SITE_URL}/government`,
+                    name: "Government AI Solutions",
+                    serviceType: "Government AI solutions",
+                    description: "AI solutions built per government department, not one-size-fits-all: AI agents, custom AI modules and AI training, plus secure cloud-based web and mobile platforms.",
+                    areaServed: ["Washington, D.C.", "United States"],
+                }}
+                breadcrumb={[
+                    { name: "Home", url: `${SITE_URL}/` },
+                    { name: "Government AI Solutions", url: `${SITE_URL}/government` },
+                ]}
+            />
             <div className="mil-dark-bg">
                 <PageBannerDark
                     pageTitle={"Capabilities <span className=\"mil-thin\">Statement</span>"}

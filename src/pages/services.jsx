@@ -2,6 +2,7 @@ import PageBannerDark from "@components/PageBannerDark";
 import Layouts from "@layouts/Layouts";
 import React from "react";
 import SEO from "@components/SEO";
+import PageSchema from "@components/PageSchema";
 import { SITE_URL } from "@library/site";
 
 import { getSortedServicesData } from "@library/services";
@@ -18,9 +19,15 @@ const Services = (props) => {
     <Layouts>
       <SEO
         title="Services — AI Agents, Software, Marketing & AI Training"
-        description="Four pillars, one accountable team: AI agents, software development, marketing (GEO, content, video and media) and AI training, for companies and government. Operated from Washington, D.C."
+        description="Four pillars, one team: AI agents, software development, marketing (GEO, content, video and media) and AI training for companies and government."
         keywords="AI Agents, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, Custom AI Modules, Washington D.C., DMV"
         canonical={`${SITE_URL}/services`}
+      />
+      <PageSchema
+        breadcrumb={[
+          { name: "Home", url: `${SITE_URL}/` },
+          { name: "Services", url: `${SITE_URL}/services` },
+        ]}
       />
       {/* banner */}
       <div className="mil-dark-bg">
