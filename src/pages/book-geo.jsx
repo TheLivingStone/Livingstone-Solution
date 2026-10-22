@@ -10,10 +10,8 @@ import PageSchema from "@components/PageSchema";
 import { SITE_URL } from "@library/site";
 
 /* ─── book-geo — page-level schema data ─────────────────────────────────────
- * Prices are sourced from the TIERS array on this page:
- *   Starter = $1,300/mo  (priceValue: "1,300", period: "/mo")
- *   Full    = $6,500/mo  (priceValue: "6,500", period: "/mo")
- *   Custom  = no numeric price (priceValue: "Custom", period: "")
+ * Offers mirror the TIERS array on this page (Starter, Full, Custom) by name
+ * and description only. No prices are published, on-page or in schema.
  * No FAQPage here — book-geo is conversion-focused and has no visible Q&A block.
  * No AggregateRating — no compliant review set yet.
  * ──────────────────────────────────────────────────────────────────────────*/
@@ -35,9 +33,6 @@ const BOOK_GEO_SERVICE = {
       name: "ChatGPT Visibility (Starter)",
       description:
         "Get your brand named inside ChatGPT — the fastest-growing answer engine in the market. Single-engine focus on ChatGPT and SearchGPT; first movement at 3 months, full results at 6 months. Includes: AI Visibility Audit (ChatGPT-focused), source and content optimization for ChatGPT retrieval, prompt-map coverage for your top buyer questions, schema and machine-readability packaging, monthly visibility reporting.",
-      price: "1300",
-      priceCurrency: "USD",
-      unitText: "MON",
       availability: "https://schema.org/InStock",
     },
     {
@@ -45,9 +40,6 @@ const BOOK_GEO_SERVICE = {
       name: "All Major AI Surfaces (Full)",
       description:
         "Total category ownership across every AI surface your customers use to decide. ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews. First movement at 3 months, full optimization at 7–9 months. Includes everything in Starter plus: Claude, Perplexity, Gemini, and Google AI Overviews coverage; SEO and off-site authority graph; expert quote attribution and evidence density engineering; full prompt-map tracking across all engines; priority support and dedicated strategist.",
-      price: "6500",
-      priceCurrency: "USD",
-      unitText: "MON",
       availability: "https://schema.org/InStock",
     },
     {
@@ -55,7 +47,6 @@ const BOOK_GEO_SERVICE = {
       name: "Enterprise and Multi-Brand (Custom)",
       description:
         "For multi-location brands, multi-region rollouts, agencies, or unique scopes. Includes everything in Full plus multi-brand and multi-region orchestration, custom integrations and data feeds, white-label reporting, SLA, and executive reviews. Pricing scoped on the strategy call.",
-      /* No numeric price — page shows 'Custom' with no dollar amount */
       availability: "https://schema.org/InStock",
     },
   ],
@@ -73,9 +64,6 @@ const TIERS = [
     key: "starter",
     eyebrow: "Starter",
     title: "ChatGPT <span class='mil-thin'>Visibility</span>",
-    priceSymbol: "$",
-    priceValue: "1,300",
-    period: "/mo",
     blurb:
       "Get your brand named inside ChatGPT — the fastest-growing answer engine in the market.",
     timeline: "First movement at 3 months · Full results at 6 months",
@@ -92,9 +80,6 @@ const TIERS = [
     key: "full",
     eyebrow: "Full · Recommended",
     title: "All Major <span class='mil-thin'>AI Surfaces</span>",
-    priceSymbol: "$",
-    priceValue: "6,500",
-    period: "/mo",
     blurb:
       "Total category ownership across every AI surface your customers use to decide.",
     timeline: "First movement at 3 months · Full optimization at 7–9 months",
@@ -112,9 +97,6 @@ const TIERS = [
     key: "custom",
     eyebrow: "Custom",
     title: "Enterprise & <span class='mil-thin'>Multi-Brand</span>",
-    priceSymbol: "",
-    priceValue: "Custom",
-    period: "",
     blurb:
       "For multi-location brands, multi-region rollouts, agencies, or unique scopes.",
     timeline: "Scoped on the strategy call",
@@ -247,7 +229,7 @@ const BookGEO = () => {
                     company: "",
                     website: "",
                     phone: "",
-                    budget: "",
+                    timeline: "",
                     tier: selectedTier,
                     notes: "",
                   }}
@@ -365,18 +347,17 @@ const BookGEO = () => {
                       </div>
                       <div className="col-md-6 mil-up">
                         <select
-                          name="budget"
-                          value={values.budget}
+                          name="timeline"
+                          value={values.timeline}
                           onChange={handleChange}
                           onBlur={handleBlur}
                           style={selectStyle}
                         >
-                          <option value="">Monthly budget</option>
-                          <option>Under $1,300/mo</option>
-                          <option>$1,300 – $3,000/mo</option>
-                          <option>$3,000 – $6,500/mo</option>
-                          <option>$6,500+/mo</option>
-                          <option>Not sure yet</option>
+                          <option value="">Timeline</option>
+                          <option>As soon as possible</option>
+                          <option>Within 1–3 months</option>
+                          <option>3+ months</option>
+                          <option>Just exploring</option>
                         </select>
                       </div>
                       <div className="col-lg-12 mil-up">
@@ -388,10 +369,10 @@ const BookGEO = () => {
                           style={selectStyle}
                         >
                           <option value="starter">
-                            Starter — ChatGPT Visibility ($1,300/mo)
+                            Starter — ChatGPT Visibility
                           </option>
                           <option value="full">
-                            Full — All Major AI Surfaces ($6,500/mo)
+                            Full — All Major AI Surfaces
                           </option>
                           <option value="custom">Custom / Enterprise</option>
                           <option value="not-sure">
@@ -513,7 +494,7 @@ const BookGEO = () => {
                   href="#pricing"
                   className="mil-link mil-dark mil-arrow-place"
                 >
-                  <span>See pricing</span>
+                  <span>See packages</span>
                   <ArrowIcon />
                 </a>
               </div>
@@ -546,13 +527,13 @@ const BookGEO = () => {
         </div>
       </section>
 
-      {/* pricing — uses mil-dark-bg + mil-price-card to match site Pricing pattern */}
+      {/* packages — uses mil-dark-bg + mil-price-card to match site card pattern (no prices shown) */}
       <section id="pricing" className="mil-dark-bg">
         <div className="mi-invert-fix">
           <div className="container mil-p-120-120">
             <div className="mil-center mil-mb-90">
               <p className="mil-accent mil-up mil-mb-15" style={{ letterSpacing: "2px", textTransform: "uppercase", fontSize: "12px", fontWeight: 500 }}>
-                Pricing
+                Packages
               </p>
               <h2 className="mil-muted mil-up mil-mb-30">
                 Choose your <span className="mil-thin">AI dominance path</span>.
@@ -574,20 +555,7 @@ const BookGEO = () => {
                 style={tier.recommended ? recommendedStyle : undefined}
               >
                 <div className="row align-items-center">
-                  <div className="col-lg-2">
-                    <div className="mil-price-number mil-mb-30">
-                      {tier.priceSymbol && (
-                        <span className="mil-muted mil-thin">{tier.priceSymbol}</span>
-                      )}
-                      <span className="mil-accent">{tier.priceValue}</span>
-                      {tier.period && (
-                        <span className="mil-muted mil-thin" style={{ fontSize: "16px", marginLeft: "4px" }}>
-                          {tier.period}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-5">
                     <p className="mil-accent mil-mb-15" style={{ letterSpacing: "2px", textTransform: "uppercase", fontSize: "11px", fontWeight: 500 }}>
                       {tier.eyebrow}
                     </p>
@@ -599,7 +567,7 @@ const BookGEO = () => {
                       {tier.timeline}
                     </p>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-5">
                     <p className="mil-light-soft mil-mb-15">{tier.blurb}</p>
                     <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                       {tier.features.slice(0, 4).map((f, i) => (

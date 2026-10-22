@@ -1,12 +1,12 @@
 {
     "title": "Living Stone Solution...<br>  <span class=\"mil-thin\">Be the answer. </span><span class=\"mil-thin\">Lead the future.</span>",
-    "description": "GEO, Software, Marketing, and Government — one Washington, D.C.-based team that makes you the business AI engines recommend, then engineers the software, marketing, and compliance to back it up.",
+    "description": "AI agents, software, marketing and AI training, from one Washington, D.C.-based team for companies and government departments.",
     "button1": {
         "link": "/services",
         "label": "View Services"
     },
     "button2": {
-        "link": "/book-geo",
-        "label": "Book a strategy call"
+        "link": "https://cal.com/oliyad-deyasa-oiiybc/30min",
+        "label": "Book a consultation"
     }
 }

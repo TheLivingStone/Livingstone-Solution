@@ -12,7 +12,7 @@ import { SITE_URL } from "@library/site";
  * The "How quickly will I see results" FAQ answer is reproduced as plain text
  * (HTML stripped) because schema.org Answer.text is a plain-text field.
  * The nested <ul> bullet content is flattened into the answer string.
- * No LivingStone prices are asserted — only industry benchmarks appear on-page.
+ * No prices are asserted, on-page or in schema (engagements are custom-quoted).
  * ──────────────────────────────────────────────────────────────────────────*/
 const DM_SERVICE = {
   id: `${SITE_URL}/DigitalMarketing#service`,
@@ -223,37 +223,14 @@ const DigitalMarketing = (props) => {
               scope, content production volume, and paid-media budget under management.
             </p>
 
-            {/* Micro-fact box — industry benchmarks. Sources: SE Ranking Agency Survey Dec 2024 (seranking.com/blog/seo-pricing, n=260 agencies); HawkSEM Marketing Agency Pricing (hawksem.com, updated April 2026) */}
-            {/* STAT REQUEST — Digital Marketing Retainer Pricing: Oliyad/Blane to confirm LivingStone's actual monthly retainer ranges per tier so these can be replaced with internal figures. Owner: CEO (Blane Anteneh) / Head of Contracting (Deborah Wondmu) */}
-            <div className="mil-mb-30" style={{background:"#f7f8fc", borderLeft:"4px solid #c9a961", padding:"16px 22px", borderRadius:"4px"}}>
-              <p className="mil-text" style={{marginBottom:"8px"}}>
-                <strong>Industry pricing context:</strong> A December 2024 survey of 260 digital marketing
-                agencies (SE Ranking / Duda) found that monthly retainers range widely by service scope.
-                Small-business-focused SEO retainers commonly run{" "}
-                <strong>$2,500–$5,000 per month</strong>, while full-suite multi-channel retainers —
-                combining SEO, content, and paid media — typically range from{" "}
-                <strong>$3,500 to $10,000 per month</strong> (HawkSEM, 2026). Enterprise-level
-                programs routinely start at <strong>$10,000+ per month</strong>.
-                LivingStoneSolution retainers are scoped individually — contact us for a proposal.
-              </p>
-              <p style={{margin:0, fontSize:"0.82em", color:"#888"}}>
-                Sources: SE Ranking &ldquo;SEO Pricing: How Much Does SEO Cost&rdquo; (Dec 2024, 260 agencies);
-                HawkSEM &ldquo;Marketing Agency Pricing&rdquo; (April 2026)
-              </p>
-            </div>
-
             <ul className="mil-mb-30">
               <li className="mil-mb-10">
                 <strong>Focused single-channel retainer</strong> — one practice area
-                (e.g., SEO only, or PPC only); industry data indicates single-channel
-                SEO retainers typically start at{" "}
-                <strong>$2,500/month</strong> for small-business scope (SE Ranking, 2024);
-                custom quote required for LivingStone engagements
+                (e.g., SEO only, or PPC only); custom quote required
               </li>
               <li className="mil-mb-10">
                 <strong>Multi-channel retainer</strong> — SEO, content, and paid combined;
-                industry data indicates full-suite retainers typically range{" "}
-                <strong>$3,500–$10,000/month</strong> (HawkSEM, 2026); custom quote required
+                custom quote required
               </li>
               <li className="mil-mb-10">
                 <strong>Full-stack growth retainer</strong> — multi-channel plus full GEO

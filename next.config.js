@@ -15,6 +15,10 @@ const nextConfig = {
       { source: '/projects-3', destination: '/Portfolio', permanent: true },
       { source: '/projects-2', destination: '/Portfolio', permanent: true },
       { source: '/home-2', destination: '/', permanent: true },
+      // Four pillars: GEO now sits under Marketing, Government under /government.
+      { source: '/services/geo', destination: '/services/marketing', permanent: true },
+      { source: '/services/government', destination: '/government', permanent: true },
+      { source: '/services/ai-training', destination: '/ai-training', permanent: true },
       { source: '/blog/10-content-proof-tips-to-catch-goofs', destination: '/blog', permanent: true },
       { source: '/blog/10-content-proof-tips-to-catch-goofs-2', destination: '/blog', permanent: true },
       { source: '/blog/10-content-proof-tips-to-catch-goofs-3', destination: '/blog', permanent: true },

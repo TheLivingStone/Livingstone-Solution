@@ -1,8 +1,8 @@
 {
-    "subtitle": "Be the answer when customers ask AI. <br> Book a strategy call and get a free AI Visibility + Competitor Report.",
-    "title": "Ready to be <span class=\"mil-thin\">the answer?</span> <br> Let's <span class=\"mil-thin\">talk.</span>",
+    "subtitle": "AI agents, software, marketing and AI training. <br> Book a consultation and tell us what you need.",
+    "title": "Ready to put AI <span class=\"mil-thin\">to work?</span> <br> Let's <span class=\"mil-thin\">talk.</span>",
     "button": {
-        "label": "Book a strategy call",
-        "link": "/book-geo"
+        "label": "Book a consultation",
+        "link": "https://cal.com/oliyad-deyasa-oiiybc/30min"
     }
 }

@@ -1,18 +1,19 @@
 ---
 #preview details
-title: "Software — Web, App, Cloud & AI"
-preview_title: "Software <br>Engineering"
-short: "One team for the full software stack: Next.js web platforms, native and cross-platform mobile apps, cloud and SaaS architecture, and AI/LLM integration."
+title: "Software Development — Web, Mobile, Cloud & Modernization"
+preview_title: "Software <br>Development"
+short: "One team for the full software stack: web platforms, native and cross-platform mobile apps, secure cloud, and legacy modernization for companies and government."
+order: 2
 
 #full details
-introTitle: Software <span class="mil-thin">Engineering</span><br> &amp; AI <span class="mil-thin">Integration</span>
+introTitle: Software <span class="mil-thin">Development</span><br> &amp; <span class="mil-thin">Modernization</span>
 
 description:
   title: One team for the <span class="mil-thin">full software stack</span>.
-  content: We consolidate web, mobile, cloud, and AI under a single engineering org so you don't have to coordinate three vendors. Next.js and React frontends, native iOS/Android and React Native apps, AWS and Azure cloud architecture, and LLM/automation work — designed, shipped, and operated by the same team. Built for B2B SaaS, public-sector platforms, and operator-grade internal tools.
+  content: We consolidate web, mobile and cloud under a single engineering team so you don't have to coordinate three vendors. Next.js and React frontends, native iOS/Android and React Native apps, AWS and Azure cloud architecture, and modernization of legacy systems, designed, shipped and operated by the same team. Built for B2B SaaS, public-sector platforms and operator-grade internal tools.
   button:
-    link: /book-geo
-    label: Book a strategy call
+    link: https://cal.com/oliyad-deyasa-oiiybc/30min
+    label: Book a consultation
 
 list:
   items:
@@ -30,17 +31,17 @@ list:
       <p>Full lifecycle including App Store and Play Store compliance, ASO, CI/CD pipelines, and crashlytics monitoring after launch.</p>
       "
 
-    - label: "Cloud &amp; SaaS Architecture (AWS / Azure)"
+    - label: "Cloud & SaaS Architecture (AWS / Azure)"
       value: "
       <p>Cloud-native infrastructure on AWS or Azure with auto-scaling, geo-redundant databases, and serverless compute for burst workloads.</p>
       <p>Containerized microservices on Docker and Kubernetes so individual components can ship, scale, and roll back independently.</p>
       <p>Multi-tenant SaaS architecture with role-based access control, usage-based billing, deep analytics, and strict data partitioning for regulated or enterprise clients.</p>
       "
 
-    - label: "AI &amp; LLM Integration, Workflow Automation"
+    - label: "Legacy Modernization & Section 508 Digital Services"
       value: "
-      <p>Custom GPT, Claude, and open-model integrations with Retrieval-Augmented Generation (RAG) so AI works on your private data — not the public internet — and never trains public models on your IP.</p>
-      <p>Machine learning pipelines in Python (TensorFlow, PyTorch) for forecasting, churn modeling, and dynamic pricing where the data justifies it.</p>
-      <p>Workflow automation across CRMs, ERPs, and marketing platforms using Make, Zapier, n8n, and custom scripts to eliminate manual data movement and reduce error rates.</p>
+      <p>We modernize legacy systems, build secure integrations, and ship cloud applications with documented architecture and a clean handoff.</p>
+      <p>Phased migration paths so agencies can retire technical debt without service disruption.</p>
+      <p>Citizen-facing portals and internal platforms built to WCAG 2.1 AA and Section 508 standards: plain-language UX, screen-reader parity and keyboard-only flows.</p>
       "
 ---

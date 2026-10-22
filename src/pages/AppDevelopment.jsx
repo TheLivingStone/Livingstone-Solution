@@ -10,9 +10,8 @@ import { SITE_URL } from "@library/site";
 
 /* ─── App Development — page-level schema data ──────────────────────────────
  * All values are derived verbatim from the visible on-page text above.
- * No prices are asserted (pricing is industry-benchmarked, not LivingStone's
- * own published list prices). No AggregateRating is emitted — no compliant
- * review set exists yet.
+ * No prices are asserted, on-page or in schema (engagements are custom-quoted).
+ * No AggregateRating is emitted — no compliant review set exists yet.
  * ──────────────────────────────────────────────────────────────────────────*/
 const APP_DEV_SERVICE = {
   id: `${SITE_URL}/AppDevelopment#service`,
@@ -223,42 +222,18 @@ const AppDevelopment = (props) => {
               focused MVP builds to multi-platform enterprise products.
             </p>
 
-            {/* Micro-fact box — industry benchmarks. Sources: Clutch Pricing Guide 2026 (clutch.co/directory/mobile-application-developers/pricing); Netguru 2026 Guide (netguru.com/blog/mobile-app-development-cost) */}
-            {/* STAT REQUEST — AppDevelopment Pricing: Oliyad to confirm LivingStone's actual starting price for MVP and full-build engagements so the industry ranges below can be replaced with internal figures. Owner: CTO (Oliyad Deyasa) */}
-            <div className="mil-mb-30" style={{background:"#f7f8fc", borderLeft:"4px solid #c9a961", padding:"16px 22px", borderRadius:"4px"}}>
-              <p className="mil-text" style={{marginBottom:"8px"}}>
-                <strong>Industry pricing context:</strong> According to Clutch&rsquo;s 2026 Mobile App Pricing Guide,
-                most reviewed mobile app projects cost between{" "}
-                <strong>$10,000 and $49,999</strong>, with an overall average of approximately{" "}
-                <strong>$90,000</strong>. Netguru&rsquo;s 2026 analysis of 200+ apps reports that
-                single-platform MVPs with core features typically land in the{" "}
-                <strong>$25,000–$60,000</strong> range, while complex, multi-platform products
-                with real-time features and compliance requirements reach{" "}
-                <strong>$150,000–$300,000+</strong>. LivingStoneSolution engagements are scoped
-                individually — contact us for a project estimate.
-              </p>
-              <p style={{margin:0, fontSize:"0.82em", color:"#888"}}>
-                Sources: Clutch Mobile App Pricing Guide 2026; Netguru &ldquo;Mobile App Development Cost&rdquo; (April 2026)
-              </p>
-            </div>
-
             <ul className="mil-mb-30">
               <li className="mil-mb-10">
                 <strong>MVP / prototype</strong> — limited feature set, single platform,
-                fast time-to-market; industry data indicates{" "}
-                <strong>$25,000–$60,000</strong> for a single-platform MVP
-                (Netguru, 2026); custom quote required for LivingStone engagements
+                fast time-to-market; custom quote required
               </li>
               <li className="mil-mb-10">
                 <strong>Full-build (cross-platform)</strong> — React Native, full backend,
-                store submission; industry data indicates most U.S. projects fall in the{" "}
-                <strong>$50,000–$150,000</strong> range for mid-complexity builds
-                (Clutch, 2026); custom quote required
+                store submission; custom quote required
               </li>
               <li className="mil-mb-10">
                 <strong>Enterprise / B2G</strong> — multi-platform, compliance review,
-                SLA; complex builds with compliance typically exceed{" "}
-                <strong>$150,000</strong> (Netguru, 2026); scoped on discovery call
+                SLA; scoped on discovery call
               </li>
             </ul>
             <p className="mil-mb-30">

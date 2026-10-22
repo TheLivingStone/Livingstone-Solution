@@ -24,9 +24,9 @@ const Home1 = (props) => {
   return (
     <Layouts>
       <SEO
-        title="GEO, Software, Marketing & Government — The Livingstone Solution"
-        description="Washington, D.C.-based, CBE-certified partner for Generative Engine Optimization (GEO), Software (web, mobile, cloud, AI), Marketing, and Government work. Be the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend."
-        keywords="Generative Engine Optimization, GEO, AI Visibility, Software Development, Web Development, Mobile Apps, Digital Marketing, Government Software, CBE Certified, Washington D.C."
+        title="AI Agents, Software, Marketing & AI Training"
+        description="Washington, D.C.-based, CBE-certified team for AI agents, software development, marketing (GEO, content, video and media) and AI training, for companies and government departments."
+        keywords="AI Agents, AI Automation, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, AI Workshops, Workforce AI Training, Custom AI Modules, CBE Certified, Washington D.C."
         canonical={`${SITE_URL}/`}
       />
       <HeroOneSection />

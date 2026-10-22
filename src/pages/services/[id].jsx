@@ -11,7 +11,6 @@ import Link from "next/link";
 
 import { getAllServicesIds, getServiceData, getRelatedServices } from "@library/services";
 
-import PricingSection from "@components/sections/Pricing";
 import RelatedServices from "@components/sections/RelatedServices";
 
 const ServiceDetail = ({ data, related }) => {
@@ -66,8 +65,6 @@ const ServiceDetail = ({ data, related }) => {
         </div>
       </section>
       {/* service end */}
-
-      <PricingSection />
 
       <RelatedServices services={related} />
 

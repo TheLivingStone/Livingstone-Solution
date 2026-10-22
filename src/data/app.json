@@ -27,8 +27,8 @@
                         "link": "/services"
                     },
                     {
-                        "label": "GEO — AI Visibility",
-                        "link": "/services/geo"
+                        "label": "AI Agents",
+                        "link": "/services/ai-agents"
                     },
                     {
                         "label": "Software",
@@ -39,8 +39,8 @@
                         "link": "/services/marketing"
                     },
                     {
-                        "label": "Government",
-                        "link": "/services/government"
+                        "label": "AI Training",
+                        "link": "/ai-training"
                     }
                 ]
             },
@@ -64,7 +64,7 @@
                 ]
             },
             {
-                "label": "Government",
+                "label": "Government AI Solutions",
                 "link": "/government",
                 "children": 0
             },
@@ -111,8 +111,8 @@
                 "link": "/"
             },
             {
-                "label": "GEO",
-                "link": "/services/geo"
+                "label": "AI Agents",
+                "link": "/services/ai-agents"
             },
             {
                 "label": "Software",
@@ -123,12 +123,12 @@
                 "link": "/services/marketing"
             },
             {
-                "label": "Government",
-                "link": "/services/government"
-            },
-            {
                 "label": "AI Training",
                 "link": "/ai-training"
+            },
+            {
+                "label": "Government AI Solutions",
+                "link": "/government"
             },
             {
                 "label": "Portfolio",

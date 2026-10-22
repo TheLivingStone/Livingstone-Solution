@@ -10,8 +10,8 @@ import { SITE_URL } from "@library/site";
 
 /* ─── Branding — page-level schema data ─────────────────────────────────────
  * FAQ answers are quoted verbatim from the visible page text.
- * No numeric prices from LivingStone are asserted (all pricing is
- * industry-benchmark context only). No AggregateRating.
+ * No prices are asserted, on-page or in schema (engagements are custom-quoted).
+ * No AggregateRating.
  * ──────────────────────────────────────────────────────────────────────────*/
 const BRANDING_SERVICE = {
   id: `${SITE_URL}/Branding#service`,
@@ -213,35 +213,14 @@ const Branding = (props) => {
               identity build.
             </p>
 
-            {/* Micro-fact box — industry benchmarks. Sources: Clutch Branding Pricing Guide 2026 (clutch.co/agencies/branding/pricing); HustleJar 2024 Pricing Guide (hustlejar.com) */}
-            {/* STAT REQUEST — Branding Pricing: Oliyad/Blane to confirm LivingStone's actual starting price for identity refresh and full brand build so the industry ranges below can be replaced with internal figures. Owner: CEO (Blane Anteneh) */}
-            <div className="mil-mb-30" style={{background:"#f7f8fc", borderLeft:"4px solid #c9a961", padding:"16px 22px", borderRadius:"4px"}}>
-              <p className="mil-text" style={{marginBottom:"8px"}}>
-                <strong>Industry pricing context:</strong> According to Clutch&rsquo;s 2026 Branding Pricing Guide,
-                most reviewed branding projects cost between{" "}
-                <strong>$10,000 and $49,999</strong>, with agencies billing at an average of{" "}
-                <strong>$100–$149 per hour</strong> for brand strategy and visual identity work.
-                Focused logo and identity-only packages for small businesses typically range
-                from <strong>$5,000 to $20,000</strong> (HustleJar, 2024). Full brand strategy
-                plus identity builds — covering positioning, guidelines, and messaging —
-                commonly run <strong>$15,000 and above</strong> depending on organization size.
-                LivingStoneSolution engagements are scoped individually — contact us for a project estimate.
-              </p>
-              <p style={{margin:0, fontSize:"0.82em", color:"#888"}}>
-                Sources: Clutch Branding Pricing Guide 2026; HustleJar &ldquo;2024 Pricing Guide: Branding Cost for Small Businesses&rdquo;
-              </p>
-            </div>
-
             <ul className="mil-mb-30">
               <li className="mil-mb-10">
                 <strong>Identity refresh</strong> — logo and color system update for
-                existing brand; industry data indicates focused identity packages
-                typically range <strong>$5,000–$15,000</strong> (Clutch, 2026); custom quote required
+                existing brand; custom quote required
               </li>
               <li className="mil-mb-10">
                 <strong>Full brand build</strong> — strategy, identity, guidelines,
-                and messaging; most full-build branding projects on Clutch fall in the{" "}
-                <strong>$10,000–$49,999</strong> range (Clutch, 2026); custom quote required
+                and messaging; custom quote required
               </li>
               <li className="mil-mb-10">
                 <strong>Enterprise / multi-brand</strong> — parent brand plus

@@ -24,7 +24,7 @@ const RelatedServicesSection = ( { services } ) => {
                         {services.slice(0, Data.numOfItems).map((item, key) => (
                         <div className="col-lg-4" key={`services-${key}`}>
 
-                            <Link href={`/services/${item.id}`} className="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                            <Link href={item.link || `/services/${item.id}`} className="mil-service-card-lg mil-other-card mil-more mil-mb-30">
                                 <h4 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : item.preview_title}} />
                                 <p className="mil-descr mil-up mil-mb-30">{item.short}</p>
                                 <ul className="mil-service-list mil-dark mil-mb-30">

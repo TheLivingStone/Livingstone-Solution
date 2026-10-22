@@ -1,12 +1,12 @@
 {
     "subtitle": "AI Training &amp; Custom AI Modules",
     "title": "Workforce AI training <span class=\"mil-thin\">and</span> custom AI modules.",
-    "description": "We train your people on their own use case, not generic AI demos. We sit down with your employees, find the repetitive tasks, and build a custom AI module for each one, posted to your own AI module platform so staff can look it up anytime.",
+    "description": "We train your people on their own use case, not generic AI demos. We run hands-on workshops, sit down with your employees, find the repetitive tasks, and build a custom AI module for each one, posted to your own AI module platform so staff can look it up anytime.",
     "items": [
-        "AI Training",
+        "Hands-On AI Workshops",
         "Custom AI Modules",
-        "Government AI Solutions",
-        "Workforce AI Training &amp; Modules"
+        "Workforce AI Training &amp; Modules",
+        "Government AI Training"
     ],
     "button": {
         "link": "/ai-training",

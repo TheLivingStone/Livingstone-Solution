@@ -17,9 +17,9 @@ const Services = (props) => {
   return (
     <Layouts>
       <SEO
-        title="Services — GEO, Software, Marketing & Government"
-        description="Four services, one accountable team: Generative Engine Optimization (GEO), Software (web, mobile, cloud, AI), Marketing, and Government — operated end-to-end from Washington, D.C."
-        keywords="Generative Engine Optimization, GEO, AI Visibility, Software Development, Digital Marketing, Government Software, Washington D.C., DMV"
+        title="Services — AI Agents, Software, Marketing & AI Training"
+        description="Four pillars, one accountable team: AI agents, software development, marketing (GEO, content, video and media) and AI training, for companies and government. Operated from Washington, D.C."
+        keywords="AI Agents, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, Custom AI Modules, Washington D.C., DMV"
         canonical={`${SITE_URL}/services`}
       />
       {/* banner */}
@@ -42,7 +42,7 @@ const Services = (props) => {
                   <div className="row">
                     {props.services.map((item, key) => (
                       <div className="col-md-6 col-lg-6" key={`services-item-${key}`}>
-                        <Link href={`/services/${item.id}`} className={key % 2 == 0 ? "mil-service-card-lg mil-more mil-accent-cursor mil-offset" : "mil-service-card-lg mil-more mil-accent-cursor"}>
+                        <Link href={item.link || `/services/${item.id}`} className={key % 2 == 0 ? "mil-service-card-lg mil-more mil-accent-cursor mil-offset" : "mil-service-card-lg mil-more mil-accent-cursor"}>
                           <h4 className="mil-muted mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: item.preview_title }} />
                           <p className="mil-descr mil-light-soft mil-up mil-mb-30">{item.short}</p>
                           <ul className="mil-service-list mil-light mil-mb-30">

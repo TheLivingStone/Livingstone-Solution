@@ -6,6 +6,18 @@ import html from 'remark-html'
 
 const servicesDirectory = path.join(process.cwd(), 'src/data/services')
 
+// Services sort by their `order` frontmatter, then by id.
+const byOrder = (a, b) => {
+  const orderA = a.order ?? Number.MAX_SAFE_INTEGER
+  const orderB = b.order ?? Number.MAX_SAFE_INTEGER
+  if (orderA !== orderB) return orderA - orderB
+  return a.id > b.id ? 1 : -1
+}
+
+// A service with a `link` frontmatter lives on its own page, so it gets no
+// /services/[id] route.
+const hasOwnPage = (fileName) => Boolean(matter(fs.readFileSync(path.join(servicesDirectory, fileName), 'utf8')).data.link)
+
 export function getSortedServicesData() {
   // Get file names under /posts
   const fileNames = fs.readdirSync(servicesDirectory)
@@ -26,14 +38,7 @@ export function getSortedServicesData() {
       ...matterResult.data
     }
   })
-  // Sort posts by date
-  return allData.sort((a, b) => {
-    if (a.id > b.id) {
-      return 1
-    } else {
-      return -1
-    }
-  })
+  return allData.sort(byOrder)
 }
 
 export function getRelatedServices(current_id) {
@@ -63,18 +68,11 @@ export function getRelatedServices(current_id) {
     }
   })
 
-  // Sort posts by date
-  return allData.sort((a, b) => {
-    if (a.id > b.id) {
-      return 1
-    } else {
-      return -1
-    }
-  })
+  return allData.sort(byOrder)
 }
 
 export function getAllServicesIds() {
-  const fileNames = fs.readdirSync(servicesDirectory)
+  const fileNames = fs.readdirSync(servicesDirectory).filter(fileName => !hasOwnPage(fileName))
   return fileNames.map(fileName => {
     return {
       params: {

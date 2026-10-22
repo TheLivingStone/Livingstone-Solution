@@ -1,31 +1,31 @@
 {
-    "title1": "<span class=\"mil-thin\">Core </span>Competencies",
-    "title2": "<span class=\"mil-thin\">Four services. </span>One accountable partner.",
-    "subtitle": "GEO, Software, Marketing, and Government — engineered, shipped, and operated <br/>by a single Washington, D.C.-based team. Be the answer, not the runner-up.",
+    "title1": "<span class=\"mil-thin\">Our </span>Four Pillars",
+    "title2": "<span class=\"mil-thin\">AI, software, media. </span>One accountable partner.",
+    "subtitle": "AI agents, software, marketing and AI training, built and run <br/>by one Washington, D.C.-based team for companies and government.",
     "button": {
         "link": "/services",
         "label": "All Capabilities"
     },
     "items": [
         {
-            "title": "GEO &mdash; AI Visibility<br>",
-            "text": "Be the answer ChatGPT, Claude, Perplexity, and Google AI Overviews recommend. Free AI Visibility Report with every strategy call.",
-            "link": "/services/geo"
+            "title": "AI Agents<br>",
+            "text": "Custom AI agents and workflow automation on your own data, plus government AI solutions built per department.",
+            "link": "/services/ai-agents"
         },
         {
             "title": "Software<br>",
-            "text": "Next.js web, native and cross-platform mobile, AWS and Azure cloud, and AI/LLM integration &mdash; one team for the full stack.",
+            "text": "Web platforms, mobile apps, secure cloud, legacy modernization and Section 508-compliant digital services.",
             "link": "/services/software"
         },
         {
             "title": "Marketing<br>",
-            "text": "Paid acquisition, organic search, brand, and content with attribution you can defend in the boardroom.",
+            "text": "GEO for AI search visibility, content creation, and video and media production.",
             "link": "/services/marketing"
         },
         {
-            "title": "Government<br>",
-            "text": "CBE-certified federal and state work: 508-compliant digital services, secure cloud platforms, and mission software.",
-            "link": "/services/government"
+            "title": "AI Training<br>",
+            "text": "Hands-on AI workshops, custom AI modules and ongoing workforce AI training.",
+            "link": "/ai-training"
         }
     ]
 }

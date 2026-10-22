@@ -10,11 +10,11 @@ import { SITE_URL } from "@library/site";
 const GovernmentCapabilities = () => {
     return (
         <Layouts>
-            <SEO title="Government Capabilities" description="Mission-Ready IT and AI Solutions for Government and Enterprise clients. Development of secure, cloud-based web and mobile platforms in Washington D.C." canonical={`${SITE_URL}/government`} />
+            <SEO title="Government AI Solutions — Capabilities Statement" description="Government AI solutions built per department: AI agents, custom AI modules and AI training, plus secure cloud-based web and mobile platforms. Washington, D.C. UEI GGUGKJTEMU73, CAGE 16SZ9." keywords="Government AI Solutions, Government AI Training, AI Agents for Government, Custom AI Modules, Capabilities Statement, Washington D.C." canonical={`${SITE_URL}/government`} />
             <div className="mil-dark-bg">
                 <PageBannerDark
                     pageTitle={"Capabilities <span className=\"mil-thin\">Statement</span>"}
-                    breadTitle={"Government"}
+                    breadTitle={"Government AI Solutions"}
                     anchorLabel={"Read Capabilities"}
                     anchorLink={"#capabilities"}
                 />

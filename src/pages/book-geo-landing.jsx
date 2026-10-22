@@ -16,8 +16,6 @@ const TIERS = [
     key: "starter",
     eyebrow: "STARTER",
     name: "ChatGPT Visibility",
-    price: "$1,300",
-    period: "/mo",
     timeline: "First movement at 3 months · Full results at 6 months",
     blurb: "Get your brand named inside ChatGPT — the fastest-growing answer engine in the market.",
     features: [
@@ -33,8 +31,6 @@ const TIERS = [
     key: "full",
     eyebrow: "FULL",
     name: "All Major AI Surfaces",
-    price: "$6,500",
-    period: "/mo",
     timeline: "First movement at 3 months · Full optimization at 7–9 months",
     blurb: "Total category ownership across every AI surface your customers use to decide.",
     features: [
@@ -51,8 +47,6 @@ const TIERS = [
     key: "custom",
     eyebrow: "CUSTOM",
     name: "Enterprise & Multi-Brand",
-    price: "Custom",
-    period: "",
     timeline: "Scoped on the strategy call",
     blurb: "For multi-location brands, multi-region rollouts, agencies, or unique scopes.",
     features: [
@@ -138,7 +132,7 @@ const BookGEOLanding = () => {
                   company: "",
                   website: "",
                   phone: "",
-                  budget: "",
+                  timeline: "",
                   tier: selectedTier,
                   notes: "",
                 }}
@@ -262,19 +256,18 @@ const BookGEOLanding = () => {
                         />
                       </div>
                       <div className="geo-field">
-                        <label>Monthly budget</label>
+                        <label>Timeline</label>
                         <select
-                          name="budget"
-                          value={values.budget}
+                          name="timeline"
+                          value={values.timeline}
                           onChange={handleChange}
                           onBlur={handleBlur}
                         >
-                          <option value="">Select a range</option>
-                          <option>Under $1,300/mo</option>
-                          <option>$1,300 – $3,000/mo</option>
-                          <option>$3,000 – $6,500/mo</option>
-                          <option>$6,500+/mo</option>
-                          <option>Not sure yet</option>
+                          <option value="">Select a timeline</option>
+                          <option>As soon as possible</option>
+                          <option>Within 1–3 months</option>
+                          <option>3+ months</option>
+                          <option>Just exploring</option>
                         </select>
                       </div>
                     </div>
@@ -287,8 +280,8 @@ const BookGEOLanding = () => {
                         onChange={handleChange}
                         onBlur={handleBlur}
                       >
-                        <option value="starter">Starter — ChatGPT Visibility ($1,300/mo)</option>
-                        <option value="full">Full — All Major AI Surfaces ($6,500/mo)</option>
+                        <option value="starter">Starter — ChatGPT Visibility</option>
+                        <option value="full">Full — All Major AI Surfaces</option>
                         <option value="custom">Custom / Enterprise</option>
                         <option value="not-sure">Not sure — help me figure it out</option>
                       </select>
@@ -376,7 +369,7 @@ const BookGEOLanding = () => {
                   Book a strategy call
                 </button>
                 <a href="#pricing" className="geo-btn geo-btn--ghost">
-                  See pricing
+                  See packages
                 </a>
               </div>
             </div>
@@ -440,7 +433,7 @@ const BookGEOLanding = () => {
         </div>
       </section>
 
-      {/* PRICING */}
+      {/* PACKAGES (no prices shown) */}
       <section id="pricing" className="geo-pricing">
         <div className="container">
           <h2 className="geo-h2 geo-center">Choose Your AI Dominance Path</h2>
@@ -461,12 +454,6 @@ const BookGEOLanding = () => {
                 )}
                 <div className="geo-tier-eyebrow">{tier.eyebrow}</div>
                 <h3 className="geo-tier-name">{tier.name}</h3>
-                <div className="geo-tier-price">
-                  <span className="geo-tier-amount">{tier.price}</span>
-                  {tier.period && (
-                    <span className="geo-tier-period">{tier.period}</span>
-                  )}
-                </div>
                 <p className="geo-tier-blurb">{tier.blurb}</p>
                 <div className="geo-tier-timeline">
                   <span className="geo-cal-icon">📅</span> {tier.timeline}
@@ -860,28 +847,6 @@ const BookGEOLanding = () => {
         }
         .geo-tier:not(.geo-tier--recommended) .geo-tier-name {
           color: ${NAVY};
-        }
-        .geo-tier-price {
-          display: flex;
-          align-items: baseline;
-          gap: 4px;
-          margin: 6px 0 14px;
-        }
-        .geo-tier-amount {
-          font-family: Georgia, serif;
-          font-size: 44px;
-          font-weight: 600;
-          color: inherit;
-        }
-        .geo-tier:not(.geo-tier--recommended) .geo-tier-amount {
-          color: ${NAVY};
-        }
-        .geo-tier-period {
-          font-size: 16px;
-          color: #8d96b0;
-        }
-        .geo-tier--recommended .geo-tier-period {
-          color: #c8d0e4;
         }
         .geo-tier-blurb {
           font-size: 15px;

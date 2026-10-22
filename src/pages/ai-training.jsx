@@ -18,15 +18,20 @@ const AI_TRAINING_SERVICE = {
   name: "AI Training and Custom AI Modules",
   serviceType: "Workforce AI training",
   description:
-    "Workforce AI training and custom AI modules for companies and government. The Livingstone Solution trains employees on their own use cases, builds a custom AI module for each repetitive task, and posts every module to the organization's own AI module platform.",
+    "Hands-on AI workshops, custom AI modules and workforce AI training for companies and government. The Livingstone Solution trains employees on their own use cases, builds a custom AI module for each repetitive task, and posts every module to the organization's own AI module platform.",
   areaServed: ["Washington, D.C.", "United States"],
 };
 
 const AI_TRAINING_FAQ = [
   {
+    question: "What does your AI training include?",
+    answer:
+      "Hands-on AI workshops, a custom AI module for each pain point, your own AI module platform, and ongoing workforce AI training as new issues come up. For government, the training and modules are built for each department.",
+  },
+  {
     question: "What is workforce AI training?",
     answer:
-      "Workforce AI training teaches employees to use AI on their own day-to-day tasks, not a general overview of what AI can do. We sit down with your team, find the repetitive tasks in their work, and train them on a custom AI module built for each one.",
+      "Workforce AI training teaches employees to use AI on their own day-to-day tasks, not a general overview of what AI can do. We sit down with your team, run hands-on workshops, find the repetitive tasks in their work, and train them on a custom AI module built for each one.",
   },
   {
     question: "What is a custom AI module?",
@@ -34,14 +39,14 @@ const AI_TRAINING_FAQ = [
       "A custom AI module is an AI solution built for one specific pain point, such as a task a team repeats every day. Each module targets one task, so it can be released quickly. It is posted to your organization's AI module platform so staff can look it up whenever the issue comes back.",
   },
   {
-    question: "Do you offer AI training and AI solutions for government?",
+    question: "Do you offer AI training for government?",
     answer:
-      "Yes. Government AI solutions are built for a specific department and the work it does, not as one-size-fits-all modules. The Livingstone Solution is registered for federal work under UEI GGUGKJTEMU73 and CAGE 16SZ9.",
+      "Yes. Government AI training and modules are built for a specific department and the work it does, not as one-size-fits-all modules. The Livingstone Solution is registered for federal work under UEI GGUGKJTEMU73 and CAGE 16SZ9.",
   },
   {
     question: "How do you make sure employees keep using AI after the training?",
     answer:
-      "Through continuous everyday use, not one-time workshops. Staff go back to their AI module platform whenever an issue comes up, and we keep adding new modules as new needs appear.",
+      "Workshops are the start, not the end. Staff go back to their AI module platform whenever an issue comes up, and we keep adding new modules as new needs appear, so AI becomes part of everyday work.",
   },
 ];
 
@@ -64,8 +69,8 @@ const STEPS = [
     text: "Each pain point gets its own AI module, focused on one task and released quickly.",
   },
   {
-    title: "Train staff on their own work",
-    text: "Your people learn each module on the exact task it was built for.",
+    title: "Run hands-on workshops",
+    text: "Your people learn each module in workshops on the exact task it was built for.",
   },
 ];
 
@@ -78,20 +83,20 @@ const PLATFORM_LOOP = [
 
 const OFFERINGS = [
   {
-    title: "AI <span class=\"mil-thin\">Training</span>",
-    text: "Hands-on AI training for companies and teams, taught on each team's own use cases.",
-  },
-  {
     title: "Custom <span class=\"mil-thin\">AI Modules</span>",
     text: "One custom AI module per pain point. Specific to the task and quick to release.",
   },
   {
-    title: "Government <span class=\"mil-thin\">AI Solutions</span>",
-    text: "AI solutions and training built for each government department, not one-size-fits-all.",
+    title: "Hands-On <span class=\"mil-thin\">AI Workshops</span>",
+    text: "On-site workshops that teach your team AI on their own use cases, not generic demos.",
   },
   {
     title: "Workforce <span class=\"mil-thin\">AI Training &amp; Modules</span>",
-    text: "Ongoing workforce AI training and new modules as issues come up, so AI becomes part of everyday work.",
+    text: "Ongoing workforce AI training and new modules as issues come up, posted to your AI module platform.",
+  },
+  {
+    title: "Government <span class=\"mil-thin\">AI Training</span>",
+    text: "AI training and custom modules built for each government department, not one-size-fits-all.",
   },
 ];
 
@@ -119,8 +124,8 @@ const AiTraining = () => {
     <Layouts>
       <SEO
         title="AI Training & Custom AI Modules for Companies and Government"
-        description="Workforce AI training and custom AI modules for companies and government. We train employees on their own use cases and build a custom AI module for every repetitive task."
-        keywords="AI Training, Workforce AI Training, AI Training for Employees, Corporate AI Training, Custom AI Modules, Government AI Solutions, AI Training for Government, AI Training Washington D.C."
+        description="Hands-on AI workshops, custom AI modules and workforce AI training for companies and government. We train employees on their own use cases and build a custom AI module for every repetitive task."
+        keywords="AI Training, AI Workshops, Workforce AI Training, AI Training for Employees, Corporate AI Training, Custom AI Modules, Government AI Training, Government AI Solutions, AI Training Washington D.C."
         canonical={`${SITE_URL}/ai-training`}
       />
       <PageSchema
@@ -151,7 +156,8 @@ const AiTraining = () => {
             <div className="col-lg-6 mil-mb-60">
               <p className="mil-text-lg mil-up mil-mb-30">
                 Most AI training stops at &ldquo;this is AI, and this is what it can do.&rdquo; That isn&rsquo;t enough.
-                We train your people on their own use case: the tasks they do every day.
+                We train your people on their own use case: the tasks they do every day. That means hands-on workshops,
+                custom AI modules and ongoing workforce AI training.
               </p>
               <p className="mil-up">
                 At a conference we attended in October 2026, everyone said the same thing:
