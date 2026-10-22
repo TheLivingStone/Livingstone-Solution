@@ -6,3 +6,6 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://solution.t
 // references it rather than claiming to be it.
 export const COMPANY_URL = 'https://thelivingstonesolution.com';
 export const ORG_ID = `${COMPANY_URL}/#organization`;
+
+// 30-minute consultation on Cal.com, used by booking CTAs.
+export const BOOKING_URL = 'https://cal.com/oliyad-deyasa-oiiybc/30min';

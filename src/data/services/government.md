@@ -43,4 +43,11 @@ list:
       <p>Internal LLM tools built on Retrieval-Augmented Generation (RAG) over agency-private data, with strict guarantees that sensitive content is never used to train public models.</p>
       <p>Measurable outcomes: faster system delivery, dramatic reduction in repetitive task load, and elimination of technical backlog without service disruption.</p>
       "
+
+    - label: "Government AI Training &amp; Custom AI Modules"
+      value: "
+      <p>Government AI solutions built for a specific department, not one-size-fits-all. We sit down with a department&rsquo;s staff, find the repetitive tasks, and build a custom AI module for each one.</p>
+      <p>Each department gets its own AI module platform. When a new issue comes up, we build the solution and post it there, so staff can look it up next time.</p>
+      <p>Workforce AI training through continuous everyday use, not one-time workshops. <a href=\"/ai-training\">See our AI training</a>.</p>
+      "
 ---

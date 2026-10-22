@@ -1,5 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import Layouts from "@layouts/Layouts";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
 import PageBannerDark from "@components/PageBannerDark";
 import CallToActionSection from "@components/sections/CallToAction";
 import SEO from "@components/SEO";
@@ -63,6 +65,16 @@ const GovernmentCapabilities = () => {
                                     <div className="mil-icon-box mil-sm" style={{ padding: '20px', background: '#f8f8f8', borderRadius: '10px', height: '100%' }}>
                                         <h5 className="mil-mb-15" style={{ fontSize: '1.1rem' }}>Engagement Systems</h5>
                                         <p className="mil-text-sm" style={{ margin: 0 }}>Intelligent Communication & Engagement Systems.</p>
+                                    </div>
+                                </div>
+                                <div className="col-12 mil-up mil-mb-15">
+                                    <div className="mil-icon-box mil-sm" style={{ padding: '20px', background: '#f8f8f8', borderRadius: '10px', borderLeft: '4px solid #000' }}>
+                                        <h5 className="mil-mb-15" style={{ fontSize: '1.1rem' }}>Government AI Training & Custom AI Modules</h5>
+                                        <p className="mil-text-sm mil-mb-15">AI solutions built per department, not one-size-fits-all. We sit down with a department&rsquo;s staff, find the repetitive tasks, build a custom AI module for each one and train staff on their own work.</p>
+                                        <Link href="/ai-training" className="mil-link mil-dark mil-arrow-place mil-text-sm">
+                                            <span>Workforce AI training</span>
+                                            <ArrowIcon />
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

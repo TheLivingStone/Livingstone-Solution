@@ -45,6 +45,11 @@
                 ]
             },
             {
+                "label": "AI Training",
+                "link": "/ai-training",
+                "children": 0
+            },
+            {
                 "label": "Portfolio",
                 "link": "/projects",
                 "children": [
@@ -120,6 +125,10 @@
             {
                 "label": "Government",
                 "link": "/services/government"
+            },
+            {
+                "label": "AI Training",
+                "link": "/ai-training"
             },
             {
                 "label": "Portfolio",
