@@ -27,7 +27,7 @@ const DC_SOFTWARE_FAQ = [
   {
     question: "Is LivingStoneSolution based in Washington, D.C.?",
     answer:
-      "Yes. LivingStoneSolution Technologies is headquartered in Washington, D.C., with additional team members in Chicago, IL and New York, NY. The company is a Certified Business Enterprise (CBE) verified by the D.C. Department of Small and Local Business Development, eligible for D.C. government set-aside contracts.",
+      "Yes. LivingStoneSolution Technologies is headquartered in Washington, D.C.. The company is a Certified Business Enterprise (CBE) verified by the D.C. Department of Small and Local Business Development, eligible for D.C. government set-aside contracts.",
   },
   {
     question: "What types of software does the Washington D.C. team build?",

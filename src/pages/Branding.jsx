@@ -22,8 +22,6 @@ const BRANDING_SERVICE = {
     "LivingStoneSolution Technologies provides brand strategy, visual identity design, and brand system development for startups, established enterprises, and government-adjacent organizations. Deliverables include logo design, typography and color systems, brand guidelines, and messaging frameworks that maintain consistency across digital and print channels.",
   areaServed: [
     "Washington, D.C.",
-    "Chicago, IL",
-    "New York, NY",
     "United States",
     "Worldwide",
   ],
@@ -101,7 +99,7 @@ const Branding = (props) => {
               quote={null}
               smeName="Blane Anteneh"
               smeRole="Co-Founder & CEO"
-              smeLocation="Chicago, IL"
+              smeLocation="Washington, D.C."
             />
 
             <div className="mil-divider mil-mb-60" />
@@ -291,8 +289,6 @@ const Branding = (props) => {
             </p>
             <ul className="mil-mb-40">
               <li>Washington, D.C. (HQ)</li>
-              <li>Chicago, IL</li>
-              <li>New York, NY</li>
               <li>U.S. nationwide — remote delivery</li>
               <li>International — remote delivery available</li>
             </ul>

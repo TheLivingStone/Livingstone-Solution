@@ -98,7 +98,7 @@ const VirginiaDigitalMarketing = () => {
               quote={null}
               smeName="Deborah Wondmu"
               smeRole="Head of Contracting"
-              smeLocation="New York, NY"
+              smeLocation="Washington, D.C."
             />
 
             <div className="mil-divider mil-mb-60" />
