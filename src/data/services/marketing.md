@@ -64,6 +64,7 @@ list:
       value: "
       <p>Short-form and long-form video, explainers, motion graphics and social media content, from script to final edit.</p>
       <p>Media built to explain what you do clearly, for your website, social channels and presentations.</p>
+      <p><a href=\"/video\" style=\"color:#E92518;text-decoration:underline\">See our video projects →</a></p>
       "
 
     - label: "Brand, Paid & Organic Growth"

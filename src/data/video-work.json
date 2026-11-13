@@ -1,0 +1,376 @@
+{
+  "suptitle": "Video & Media",
+  "title": "Video <span class=\"mil-thin\">projects</span>",
+  "intro": "Real projects for real clients, and some of our own. Open one to see who it was for, what we made and how we used AI to make it.",
+  "projects": [
+    {
+      "id": "duro-design-group",
+      "featured": true,
+      "client": "Duro Design Group",
+      "title": "From drawing to finished building",
+      "category": "AI video for architecture",
+      "year": "2026",
+      "summary": "Short AI films that take Duro's historic DC projects from the architect's drawing, through construction, to the finished building.",
+      "tags": [
+        "AI video generation",
+        "Storyboard",
+        "Website video"
+      ],
+      "poster": "/videos/work/posters/duro-card.jpg",
+      "about": "Duro Design Group is an architecture, engineering and historic preservation firm in Washington, DC. Their work includes the restoration of Eastern Market and the adaptive reuse of historic schoolhouses, including the African American Civil War Museum.",
+      "brief": "Restoration work takes years, and photos of a finished building don't show what it took to get there. Duro wanted their new website to show each project in motion: from the first drawing to the finished building, in a few seconds, without filming on site.",
+      "whatWeDid": [
+        "Wrote a storyboard and shot plan for each featured project, built from the firm's real project details: location, size, year and scope of work.",
+        "Generated a short film for each project that starts on an architectural drawing, moves through construction and ends on the finished building.",
+        "Made a walk-through of the Harbor Bank lobby for its case study.",
+        "Fitted the films into Duro's new website as the homepage hero and case-study headers."
+      ],
+      "result": "Two of the films run on durodesign.group today: Eastern Market opens the homepage and Harbor Bank heads its case study.",
+      "details": [
+        {
+          "label": "Client",
+          "value": "Duro Design Group"
+        },
+        {
+          "label": "Location",
+          "value": "Washington, DC"
+        },
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "What we made",
+          "value": "4 project films"
+        },
+        {
+          "label": "Services",
+          "value": "Storyboard · AI video generation · Editing · Website integration"
+        }
+      ],
+      "videos": [
+        {
+          "label": "Eastern Market",
+          "src": "/videos/work/duro-eastern-market.mp4",
+          "poster": "/videos/work/posters/duro-eastern-market.jpg"
+        },
+        {
+          "label": "Justice Thurgood Marshall Center",
+          "src": "/videos/work/duro-thurgood-marshall.mp4",
+          "poster": "/videos/work/posters/duro-thurgood-marshall.jpg"
+        },
+        {
+          "label": "African American Civil War Museum",
+          "src": "/videos/work/duro-aacw-museum.mp4",
+          "poster": "/videos/work/posters/duro-aacw-museum.jpg"
+        },
+        {
+          "label": "Harbor Bank lobby",
+          "src": "/videos/work/duro-harbor-bank.mp4",
+          "poster": "/videos/work/posters/duro-harbor-bank.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Our website project for Duro",
+          "href": "/projects/project-04-duro-design-group"
+        },
+        {
+          "label": "Visit durodesign.group",
+          "href": "https://durodesign.group",
+          "external": true
+        }
+      ],
+      "group": "films"
+    },
+    {
+      "id": "cjc-sophie-elijah",
+      "client": "CJC International",
+      "title": "Sophie & Elijah, an animated children's series",
+      "category": "Animated series",
+      "year": "2026",
+      "summary": "Three-minute animated episodes for children aged 4 to 7, produced from written scripts.",
+      "tags": [
+        "Animated series",
+        "AI video generation",
+        "Character voices"
+      ],
+      "poster": "/videos/work/posters/cjc-sophie-elijah-ep22.jpg",
+      "about": "CJC International produces Sophie & Elijah, a children's series set in the forest world of Whisperwood, for viewers aged 4 to 7.",
+      "brief": "Each episode needed a consistent cast, real character voices and a steady release schedule, without a full animation studio behind every episode.",
+      "whatWeDid": [
+        "Built the automated production of the series, turning written scripts into expressive character speech.",
+        "Planned every episode shot by shot in a 3D preview, so changes are made before any scene is generated.",
+        "Generated the animated scenes with AI video models from fixed character references, so the cast looks the same in every episode.",
+        "Edited, titled and finished each episode at about three minutes."
+      ],
+      "result": "Episode 22, The Wobbly Machine, is shown here in full.",
+      "details": [
+        {
+          "label": "Client",
+          "value": "CJC International"
+        },
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "Audience",
+          "value": "Children aged 4 to 7"
+        },
+        {
+          "label": "Services",
+          "value": "Script to voice · 3D preview · AI animation · Editing"
+        }
+      ],
+      "videos": [
+        {
+          "label": "Episode 22: The Wobbly Machine",
+          "src": "/videos/work/cjc-sophie-elijah-ep22.mp4",
+          "poster": "/videos/work/posters/cjc-sophie-elijah-ep22.jpg"
+        }
+      ],
+      "links": [],
+      "group": "films"
+    },
+    {
+      "id": "lifeinvites",
+      "client": "LifeInvites",
+      "title": "Cinematic invitation films",
+      "category": "Brand film",
+      "year": "2026",
+      "summary": "The AI-generated films that open every LifeInvites digital invitation.",
+      "tags": [
+        "AI video generation",
+        "Brand film"
+      ],
+      "poster": "/videos/work/posters/lifeinvites-films.jpg",
+      "about": "LifeInvites is our own invitation platform. It turns wedding and event details into a web invitation that opens like a film, with an envelope reveal, music, a countdown and RSVP.",
+      "brief": "An invitation that opens like a film needs a film. Every invitation needed an opening scene that feels like a wedding film, without sending a crew to every couple.",
+      "whatWeDid": [
+        "Generated the cinematic hero and story films with AI video.",
+        "Edited them to play behind the invitation's opening and story sections.",
+        "Built the invitation platform that plays them."
+      ],
+      "result": "The films open the invitations on lifeinvites.com.",
+      "details": [
+        {
+          "label": "Client",
+          "value": "LifeInvites (our own product)"
+        },
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "Services",
+          "value": "AI video generation · Editing · Web product"
+        }
+      ],
+      "videos": [
+        {
+          "label": "Hero and story films",
+          "src": "/videos/work/lifeinvites-films.mp4",
+          "poster": "/videos/work/posters/lifeinvites-films.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "See the LifeInvites platform project",
+          "href": "/projects/project-08-lifeinvites"
+        },
+        {
+          "label": "Visit lifeinvites.com",
+          "href": "https://www.lifeinvites.com",
+          "external": true
+        }
+      ],
+      "group": "films"
+    },
+    {
+      "id": "mekina-studio",
+      "client": "Mekina Studio",
+      "title": "Vehicle wrap commercial",
+      "category": "Ad creative",
+      "year": "2025",
+      "summary": "A one-minute commercial for a vehicle wrap studio, made entirely with AI video.",
+      "tags": [
+        "AI video generation",
+        "Ad creative"
+      ],
+      "poster": "/videos/work/posters/mekina-car-wrap.jpg",
+      "about": "Mekina Studio is a vehicle wrap studio.",
+      "brief": "Mekina wanted a commercial that shows what a wrap does for a car, without booking a car, a location and a film crew.",
+      "whatWeDid": [
+        "Wrote the concept: a black car on an open road is wrapped as it drives, first in vinyl, then in satin, then heads into the city.",
+        "Designed the key frames with AI image generation, then turned them into scenes with AI video generation.",
+        "Added on-screen labels for each wrap type and ended on the Mekina Studios logo.",
+        "Edited the scenes into one commercial with sound."
+      ],
+      "result": "A finished one-minute commercial, from concept to final cut, with no shoot.",
+      "details": [
+        {
+          "label": "Client",
+          "value": "Mekina Studio"
+        },
+        {
+          "label": "Year",
+          "value": "2025"
+        },
+        {
+          "label": "Length",
+          "value": "1 minute"
+        },
+        {
+          "label": "Services",
+          "value": "Concept · AI image and video generation · Editing"
+        }
+      ],
+      "videos": [
+        {
+          "label": "Vehicle wrap commercial",
+          "src": "/videos/work/mekina-car-wrap.mp4",
+          "poster": "/videos/work/posters/mekina-car-wrap.jpg"
+        }
+      ],
+      "links": [],
+      "group": "films"
+    },
+    {
+      "id": "nexura-labs",
+      "group": "education",
+      "client": "Nexura Labs",
+      "title": "Animated science explainers",
+      "category": "Science education",
+      "year": "2026",
+      "summary": "Short animated explainers on the history and science of medicine, made with an AI production system we built for them.",
+      "tags": [
+        "AI production system",
+        "Animation",
+        "Science education"
+      ],
+      "poster": "/videos/work/posters/nexura-card.jpg",
+      "about": "Nexura Labs is a US laboratory research supplier. It runs a science education channel on Instagram, TikTok and Facebook.",
+      "brief": "Nexura wanted a steady stream of short science videos that are accurate, easy to follow and on brand, without a film crew or a presenter on camera.",
+      "whatWeDid": [
+        "Built an AI production system for them that takes each video from research to finished file: fact-check, script, AI narration, animation, word-by-word captions and music.",
+        "Checked every fact against primary sources before a video is made.",
+        "Designed a hand-drawn cartoon style and a recurring mascot, so every video is recognisably Nexura's.",
+        "Set up their Instagram, TikTok and Facebook accounts and a posting schedule."
+      ],
+      "result": "22 approved explainers so far. Three are shown here: the first insulin shot in 1922, the horseshoe crab's blue blood, and why only 1 in 13 drugs gets approved.",
+      "details": [
+        {
+          "label": "Client",
+          "value": "Nexura Labs"
+        },
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "Format",
+          "value": "Vertical shorts, about 40 seconds"
+        },
+        {
+          "label": "Services",
+          "value": "AI production system · Research · Animation · AI voice · Captions · Social setup"
+        }
+      ],
+      "videos": [
+        {
+          "label": "The first insulin shot, 1922",
+          "src": "/videos/work/nexura-15-insulin-1922.mp4",
+          "poster": "/videos/work/posters/nexura-15-insulin-1922.jpg",
+          "portrait": true
+        },
+        {
+          "label": "Blue blood guards your medicine",
+          "src": "/videos/work/nexura-16-horseshoe-crab.mp4",
+          "poster": "/videos/work/posters/nexura-16-horseshoe-crab.jpg",
+          "portrait": true
+        },
+        {
+          "label": "Only 1 in 13 drugs makes it",
+          "src": "/videos/work/nexura-21-1-in-13.mp4",
+          "poster": "/videos/work/posters/nexura-21-1-in-13.jpg",
+          "portrait": true
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "ai-course-lessons",
+      "client": "Our AI course",
+      "title": "Animated AI lessons",
+      "category": "AI training",
+      "year": "2026",
+      "summary": "Short vertical AI lessons cut from recorded classes, hosted by a cartoon teacher.",
+      "tags": [
+        "Course content",
+        "Animation",
+        "Captions"
+      ],
+      "poster": "/videos/work/posters/lessons-card.jpg",
+      "about": "Lessons for our own AI training course.",
+      "brief": "Recorded classes are long, and most people watch on a phone. We wanted short lessons people finish, without losing the teacher's own voice.",
+      "whatWeDid": [
+        "Cut each lesson from a recorded class, keeping the teacher's own voice.",
+        "Built a cartoon host who acts out each idea on stage.",
+        "Animated the real tools and a comparison board that fills in as each AI tool is shown.",
+        "Added captions for viewers watching with the sound off."
+      ],
+      "result": "Two lessons from the course: AI is an amplifier, and different AI tools have different strengths.",
+      "details": [
+        {
+          "label": "Client",
+          "value": "In-house: our AI course"
+        },
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "Format",
+          "value": "Vertical, for phones"
+        },
+        {
+          "label": "Services",
+          "value": "Editing · Character animation · Captions"
+        }
+      ],
+      "videos": [
+        {
+          "label": "AI is an amplifier",
+          "src": "/videos/work/lesson-ai-amplifier.mp4",
+          "poster": "/videos/work/posters/lesson-ai-amplifier.jpg",
+          "portrait": true
+        },
+        {
+          "label": "Different AI tools, different strengths",
+          "src": "/videos/work/lesson-ai-harnesses.mp4",
+          "poster": "/videos/work/posters/lesson-ai-harnesses.jpg",
+          "portrait": true
+        }
+      ],
+      "links": [
+        {
+          "label": "See our AI training",
+          "href": "/ai-training"
+        }
+      ],
+      "group": "education"
+    }
+  ],
+  "groups": [
+    {
+      "id": "films",
+      "title": "Commercials, series and brand films"
+    },
+    {
+      "id": "education",
+      "title": "Animated courses and explainers",
+      "intro": "Animated lessons and explainers, by subject: medical science for a client, and AI for our own course."
+    }
+  ]
+}

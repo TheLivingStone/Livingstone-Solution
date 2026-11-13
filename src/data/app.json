@@ -39,6 +39,10 @@
                         "link": "/services/marketing"
                     },
                     {
+                        "label": "Video & Media",
+                        "link": "/video"
+                    },
+                    {
                         "label": "AI Training",
                         "link": "/ai-training"
                     }
@@ -56,6 +60,10 @@
                     {
                         "label": "All Projects",
                         "link": "/projects"
+                    },
+                    {
+                        "label": "Video & Media",
+                        "link": "/video"
                     },
                     {
                         "label": "Portfolio Showcase",
@@ -133,6 +141,10 @@
             {
                 "label": "Portfolio",
                 "link": "/projects"
+            },
+            {
+                "label": "Video & Media",
+                "link": "/video"
             },
             {
                 "label": "Blog",

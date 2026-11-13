@@ -11,6 +11,7 @@ import HeroOneSection from "@components/sections/HeroOne"
 import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
 import AiTrainingSection from "@components/sections/AiTraining";
+import VideoTeaserSection from "@components/sections/VideoTeaser";
 import EcosystemSection from "@components/sections/Ecosystem";
 import HonorsAndMentions from "../components/sections/HonorsAndMentions";
 import TeamSection from "@components/sections/Team";
@@ -32,6 +33,7 @@ const Home1 = (props) => {
       <HeroOneSection />
       <AboutSection />
       <ServicesSection />
+      <VideoTeaserSection />
       <AiTrainingSection />
       <EcosystemSection />
       {/* Stacked Project Slider */}

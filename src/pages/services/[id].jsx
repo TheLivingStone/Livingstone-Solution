@@ -13,6 +13,7 @@ import Link from "next/link";
 import { getAllServicesIds, getServiceData, getRelatedServices } from "@library/services";
 
 import RelatedServices from "@components/sections/RelatedServices";
+import VideoWork from "@components/sections/VideoWork";
 
 /* Optional frontmatter that drives SEO / GEO on each service page:
  *   seo         {title, description, keywords}  overrides title / short
@@ -103,6 +104,8 @@ const ServiceDetail = ({ data, related }) => {
         </div>
       </section>
       {/* service end */}
+
+      {postData.id === "marketing" && <VideoWork showLink />}
 
       {/* steps */}
       {postData.steps &&
