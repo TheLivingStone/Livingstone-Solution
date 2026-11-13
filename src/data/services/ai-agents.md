@@ -1,15 +1,21 @@
 ---
 #preview details
-title: "AI Agents — Custom Agents, Automation & Government AI Solutions"
-preview_title: "AI <br>Agents"
-short: "Custom AI agents and workflow automation for companies and government departments, built on your own data with human oversight."
+title: "AI Integration & Tech Consulting — AI Agents, Automation & Government AI"
+preview_title: "AI <br>Integration"
+short: "AI integration and technology consulting for companies and government departments: custom AI agents and automation built on your own data, with human oversight."
 order: 1
+# Past performance shown on this pillar page, in this order (ids from src/data/projects).
+projects:
+  - project-09-cjc-ai-video-pipeline
+  - project-08-lifeinvites
+  - project-03-save-them-now
+  - project-11-livingstone-command
 
 seo:
-  title: "AI Agents & Workflow Automation for Business and Government"
-  description: "Custom AI agents and workflow automation built on your own data, with human oversight. Government AI solutions built per department. Washington, D.C."
-  keywords: "AI Agents, Custom AI Agents, AI Agent Development, AI Workflow Automation, AI Automation for Government, Government AI Solutions, Private AI, RAG, Washington D.C."
-serviceType: "AI agent development and workflow automation"
+  title: "AI Integration & Tech Consulting for Business and Government"
+  description: "AI integration and tech consulting: custom AI agents and automation on your own data, with human oversight. Government AI per department. Washington, D.C."
+  keywords: "AI Integration, AI Consulting, Technology Consulting, AI Integration Services, AI Agents, Custom AI Agents, AI Agent Development, AI Workflow Automation, AI Automation for Government, Government AI Solutions, Private AI, RAG, Washington D.C."
+serviceType: "AI integration and technology consulting"
 definition:
   question: "What are AI agents?"
   answer: "AI agents are AI systems that complete multi-step tasks on their own, such as reading a request, looking up the right information, drafting a response and routing it, inside the tools a team already uses. We build custom AI agents for repetitive work and keep a person in the loop on the decisions that matter."
@@ -36,17 +42,23 @@ faq:
     answer: "AI agents do the work. AI training teaches your people to use AI on their own tasks through workshops and custom AI modules. Many organizations use both: agents for repetitive workflows and training so staff get the most out of AI every day."
 
 #full details
-introTitle: AI <span class="mil-thin">Agents</span><br> &amp; <span class="mil-thin">Automation</span>
+introTitle: AI <span class="mil-thin">Integration</span><br> &amp; <span class="mil-thin">Tech Consulting</span>
 
 description:
-  title: AI agents that take on <span class="mil-thin">the repetitive work.</span>
-  content: We build custom AI agents for the work your team repeats every day, such as intake, routing, document review, drafting and reporting. Agents run on your own data, connect to the systems you already use, and keep a human in the loop on the decisions that matter. For government, we build AI solutions for a specific department, not one-size-fits-all tools.
+  title: AI built into <span class="mil-thin">the work you already do.</span>
+  content: We help you decide where AI and technology will really help, then build it in. We build custom AI agents for the work your team repeats every day, such as intake, routing, document review, drafting and reporting. Agents run on your own data, connect to the systems you already use, and keep a human in the loop on the decisions that matter. For government, we build AI solutions for a specific department, not one-size-fits-all tools.
   button:
     link: https://cal.com/oliyad-deyasa-oiiybc/30min
     label: Book a consultation
 
 list:
   items:
+    - label: "AI & Technology Consulting"
+      value: "
+        <p>A clear plan for where AI and technology will help your organization, and where they will not.</p>
+        <p>We sit down with your team, review your workflows and systems, and recommend the tools, integrations and priorities that fit.</p>
+      "
+
     - label: "Custom AI Agents"
       value: "
         <p>AI agents built around one job your team does over and over, such as intake, routing, research, drafting or reporting.</p>
@@ -59,7 +71,7 @@ list:
       <p>Workflow automation across CRMs, ERPs and other business platforms using Make, Zapier, n8n and custom scripts to eliminate manual data movement.</p>
       "
 
-    - label: "Private AI on Your Data (RAG)"
+    - label: "AI Integration on Your Private Data (RAG)"
       value: "
       <p>Custom GPT, Claude and open-model integrations with Retrieval-Augmented Generation (RAG), so AI works on your private data instead of the public internet.</p>
       <p>Internal AI tools built so sensitive content is never used to train public models.</p>

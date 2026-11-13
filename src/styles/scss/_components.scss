@@ -1323,6 +1323,29 @@ services
     transform: translateY(0);
 }
 
+// Homepage hero: the company name is the headline and the tagline sits clearly
+// below it. On phones the theme makes h1 and h3 almost the same size, so the name
+// gets bigger and the tagline smaller there.
+.mil-banner .mil-hero-name {
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+}
+
+.mil-banner .mil-hero-tagline {
+    @media screen and (max-width: 768px) {
+        font-size: 22px;
+    }
+}
+
+// HeroOne.jsx shifts the hero down 90px (marginTop), which left the second
+// button touching the bottom of a phone screen. Lift the content back up there.
+.mil-banner .mil-banner-content {
+    @media screen and (max-width: 768px) {
+        padding-bottom: 150px;
+    }
+}
+
 
 .mil-services-grid {
     border-top: solid 1px $lt-10;

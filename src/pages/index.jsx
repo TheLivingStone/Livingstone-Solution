@@ -28,9 +28,9 @@ const Home1 = (props) => {
   return (
     <Layouts>
       <SEO
-        title="AI Agents, Software, Marketing & AI Training"
-        description="Technology meets life. We empower businesses and government organizations to serve their customers, their people and their clients more effectively."
-        keywords="AI Agents, AI Automation, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, AI Workshops, Workforce AI Training, Custom AI Modules, CBE Certified, Washington D.C."
+        title="AI Integration, Software, Marketing & AI Training"
+        description="The Livingstone Solution, where technology meets life. We empower businesses and government organizations to serve their customers, their people and their clients more effectively."
+        keywords="AI Integration, AI Consulting, Technology Consulting, AI Agents, AI Automation, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, AI Workshops, Workforce AI Training, Custom AI Modules, CBE Certified, Washington D.C."
         canonical={`${SITE_URL}/`}
       />
       <HeroOneSection />

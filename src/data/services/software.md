@@ -4,6 +4,12 @@ title: "Software Development — Web, Mobile, Cloud & Modernization"
 preview_title: "Software <br>Development"
 short: "One team for the full software stack: web platforms, native and cross-platform mobile apps, secure cloud, and legacy modernization for companies and government."
 order: 2
+# Past performance shown on this pillar page, in this order (ids from src/data/projects).
+projects:
+  - project-12-illy-national-harbor
+  - project-13-nexura-labs-materials
+  - project-14-cjc-church-os
+  - project-02-okashare
 
 seo:
   title: "Software Development — Web, Mobile, Cloud & Modernization"

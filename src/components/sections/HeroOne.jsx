@@ -27,7 +27,11 @@ const HeroOne = () => {
                     <div className="container">
                         <div className="mil-banner-content mil-up ">
 
-                            <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+                            <h1 className="mil-hero-name mil-muted mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+
+                            {Data.tagline && (
+                                <p className="mil-hero-tagline mil-h3 mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : Data.tagline}} />
+                            )}
 
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">

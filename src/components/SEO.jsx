@@ -8,7 +8,7 @@ const DEFAULT_OG_IMAGE = `${BASE_URL}/img/photo/logo.png`;
 
 // The four service pillars, published as the Organization's offer catalog.
 const PILLARS = [
-  { name: "AI Agents", url: `${BASE_URL}/services/ai-agents`, description: "Custom AI agents, workflow automation with human oversight, private AI on your data, and government AI solutions built per department." },
+  { name: "AI Integration & Tech Consulting", url: `${BASE_URL}/services/ai-agents`, description: "Custom AI agents, workflow automation with human oversight, private AI on your data, and government AI solutions built per department." },
   { name: "Software Development", url: `${BASE_URL}/services/software`, description: "Web platforms, mobile apps, AWS and Azure cloud, legacy modernization and Section 508-compliant digital services." },
   { name: "Marketing", url: `${BASE_URL}/services/marketing`, description: "Generative Engine Optimization (GEO), content creation, and video and media production." },
   { name: "AI Training", url: `${BASE_URL}/ai-training`, description: "Hands-on AI workshops, custom AI modules, and workforce AI training for companies and government." },

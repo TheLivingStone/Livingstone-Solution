@@ -1,8 +1,13 @@
 {
-    "title": "Technology <span class=\"mil-thin\">meets life.</span>",
+    "title": "The Livingstone <span class=\"mil-thin\">Solution</span>",
+    "tagline": "Where technology <span class=\"mil-thin\">meets life.</span>",
     "description": "We empower businesses and government organizations to serve their customers, their people and their clients more effectively.",
     "button1": {
         "link": "https://cal.com/oliyad-deyasa-oiiybc/30min",
         "label": "Book a consultation"
+    },
+    "button2": {
+        "link": "/projects",
+        "label": "Past performance"
     }
 }

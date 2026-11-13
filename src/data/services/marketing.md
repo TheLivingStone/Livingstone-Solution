@@ -4,6 +4,12 @@ title: "Marketing — GEO, Content, Video & Media"
 preview_title: "Marketing &amp;<br>Media"
 short: "GEO for AI search visibility, content creation, and video and media production, so the people you need to reach find you, understand you and trust you."
 order: 3
+# Past performance shown on this pillar page, in this order (ids from src/data/projects).
+projects:
+  - project-01-ozark-bin-cleaning
+  - project-05-geo-agency
+  - project-09-cjc-ai-video-pipeline
+  - project-04-duro-design-group
 
 seo:
   title: "Generative Engine Optimization (GEO), Content & Video"

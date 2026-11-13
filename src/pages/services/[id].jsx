@@ -11,9 +11,11 @@ import { Accordion } from "../../common/utilits";
 import Link from "next/link";
 
 import { getAllServicesIds, getServiceData, getRelatedServices } from "@library/services";
+import { getSortedProjectsData } from "@library/projects";
 
 import RelatedServices from "@components/sections/RelatedServices";
 import VideoWork from "@components/sections/VideoWork";
+import PillarProjects from "@components/sections/PillarProjects";
 
 /* Optional frontmatter that drives SEO / GEO on each service page:
  *   seo         {title, description, keywords}  overrides title / short
@@ -22,7 +24,7 @@ import VideoWork from "@components/sections/VideoWork";
  *   steps       {suptitle, title, items: [{title, text}]}
  *   faq         [{question, answer}]  visible FAQ + FAQPage schema
  * Everything emitted as schema is also visible on the page. */
-const ServiceDetail = ({ data, related }) => {
+const ServiceDetail = ({ data, related, projects }) => {
   const postData = data;
   const url = `${SITE_URL}/services/${postData.id}`;
 
@@ -107,6 +109,8 @@ const ServiceDetail = ({ data, related }) => {
 
       {postData.id === "marketing" && <VideoWork showLink />}
 
+      <PillarProjects projects={projects} />
+
       {/* steps */}
       {postData.steps &&
         <section className="mil-soft-bg">
@@ -187,10 +191,18 @@ export async function getStaticProps({ params }) {
   const postData = await getServiceData(params.id)
   const relatedServices = await getRelatedServices(params.id)
 
+  // Past performance: the projects this pillar lists in its `projects` frontmatter, in that order.
+  const allProjects = getSortedProjectsData()
+  const projects = (postData.projects || [])
+    .map((id) => allProjects.find((project) => project.id === id))
+    .filter(Boolean)
+    .map(({ id, title, category, date, website, details }) => ({ id, title, category, date, website, details }))
+
   return {
     props: {
       data: postData,
-      related: relatedServices
+      related: relatedServices,
+      projects
     }
   }
 }

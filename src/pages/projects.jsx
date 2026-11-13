@@ -9,7 +9,7 @@ import { getSortedProjectsData } from "@library/projects";
 const Projects = (props) => {
   return (
     <Layouts>
-      <SEO title="Portfolio" description="View our latest enterprise software, app, and web development projects in the Washington D.C. and DMV area." canonical={`${SITE_URL}/projects`} />
+      <SEO title="Past Performance" description="Past performance: the platforms, AI systems, mobile apps and websites The Livingstone Solution has built for businesses, nonprofits and organizations." canonical={`${SITE_URL}/projects`} />
       <ProjectsMasonry projects={props.projects} />
       <CallToActionSection />
     </Layouts>

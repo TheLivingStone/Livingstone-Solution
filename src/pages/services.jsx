@@ -18,9 +18,9 @@ const Services = (props) => {
   return (
     <Layouts>
       <SEO
-        title="Services — AI Agents, Software, Marketing & AI Training"
-        description="Four pillars, one team: AI agents, software development, marketing (GEO, content, video and media) and AI training for companies and government."
-        keywords="AI Agents, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, Custom AI Modules, Washington D.C., DMV"
+        title="Services — AI Integration, Software, Marketing & AI Training"
+        description="Four pillars, one team: AI integration and tech consulting, software development, marketing (GEO, content, video and media) and AI training for companies and government."
+        keywords="AI Integration, AI Consulting, AI Agents, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, Custom AI Modules, Washington D.C., DMV"
         canonical={`${SITE_URL}/services`}
       />
       <PageSchema

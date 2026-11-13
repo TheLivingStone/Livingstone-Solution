@@ -54,7 +54,7 @@ const ProjectsMasonry = ({ projects }) => {
                 <div className="mil-case-hero">
                     <div>
                         <div className="mil-case-kicker">Portfolio</div>
-                        <h1>Featured <span>case studies</span></h1>
+                        <h1>Past <span>performance</span></h1>
                     </div>
                     <p>
                         A focused look at the platforms, AI systems, commerce experiences, mobile apps, and operating systems we have built for brands, founders, nonprofits, and internal ventures.
