@@ -4,58 +4,49 @@ import dynamic from "next/dynamic";
 import SEO from "@components/SEO";
 import { SITE_URL } from "@library/site";
 
-import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 
 import HeroOneSection from "@components/sections/HeroOne"
-import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
-import AiTrainingSection from "@components/sections/AiTraining";
-import VideoTeaserSection from "@components/sections/VideoTeaser";
-import EcosystemSection from "@components/sections/Ecosystem";
-import HonorsAndMentions from "../components/sections/HonorsAndMentions";
-import TeamSection from "@components/sections/Team";
-import LatestPostsSection from "@components/sections/LatestPosts";
+import CallToActionSection from "@components/sections/CallToAction";
 
-const TestimonialSlider = dynamic(() => import("@components/sliders/Testimonial"), { ssr: false });
-const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
 const ModernCategorizedProjects = dynamic(() => import("@components/sliders/ModernCategorizedProjects"), { ssr: false });
 
+// The site-wide CTA re-lists the four pillars, which sit directly above it here.
+const HOME_CTA = {
+  title: "Let's <span class=\"mil-thin\">talk.</span>",
+  subtitle: "Tell us what you need. We'll show you where technology can help.",
+  button: {
+    label: "Book a consultation",
+    link: "https://cal.com/oliyad-deyasa-oiiybc/30min",
+  },
+};
+
+// Hero, the four pillars, real work, one call to action. Everything else lives
+// one click deeper (pillar pages, /team, /video, /blog) so the message reads in seconds.
 const Home1 = (props) => {
   return (
     <Layouts>
       <SEO
         title="AI Agents, Software, Marketing & AI Training"
-        description="D.C.-based, CBE-certified team for AI agents, software development, marketing (GEO, content, video) and AI training, for companies and government."
+        description="Technology meets life. We empower businesses and government organizations to serve their customers, their people and their clients more effectively."
         keywords="AI Agents, AI Automation, Government AI Solutions, Software Development, Marketing, GEO, Video Production, AI Training, AI Workshops, Workforce AI Training, Custom AI Modules, CBE Certified, Washington D.C."
         canonical={`${SITE_URL}/`}
       />
       <HeroOneSection />
-      <AboutSection />
       <ServicesSection />
-      <VideoTeaserSection />
-      <AiTrainingSection />
-      <EcosystemSection />
-      {/* Stacked Project Slider */}
       <ModernCategorizedProjects projects={props.projects} />
-      <TeamSection />
-      <HonorsAndMentions />
-      <TestimonialSlider />
-
-      <PartnersSlider />
-      <LatestPostsSection posts={props.posts} />
+      <CallToActionSection data={HOME_CTA} />
     </Layouts>
   );
 };
 export default Home1;
 
 export async function getStaticProps() {
-  const allPosts = getSortedPostsData();
   const allProjects = getSortedProjectsData();
 
   return {
     props: {
-      posts: allPosts,
       projects: allProjects
     }
   }

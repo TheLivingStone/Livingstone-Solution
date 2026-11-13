@@ -1316,6 +1316,14 @@ services
     }
 }
 
+// Homepage pillars: the one-line description is the point of each card, so it
+// shows without a hover (the theme otherwise reveals it on hover above 992px).
+#pillars .mil-service-card-sm p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 .mil-services-grid {
     border-top: solid 1px $lt-10;
 

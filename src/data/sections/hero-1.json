@@ -1,11 +1,7 @@
 {
-    "title": "Living Stone Solution...<br>  <span class=\"mil-thin\">Be the answer. </span><span class=\"mil-thin\">Lead the future.</span>",
-    "description": "AI agents, software, marketing and AI training, from one Washington, D.C.-based team for companies and government departments.",
+    "title": "Technology <span class=\"mil-thin\">meets life.</span>",
+    "description": "We empower businesses and government organizations to serve their customers, their people and their clients more effectively.",
     "button1": {
-        "link": "/services",
-        "label": "View Services"
-    },
-    "button2": {
         "link": "https://cal.com/oliyad-deyasa-oiiybc/30min",
         "label": "Book a consultation"
     }
