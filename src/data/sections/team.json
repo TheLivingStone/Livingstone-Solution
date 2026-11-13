@@ -1,7 +1,7 @@
 {
     "title": "Meet <br>Our Team",
-    "description": "<p>LivingStoneSolution Technologies is led by a Washington D.C.-anchored team with members in Chicago and New York. The company is a Certified Business Enterprise (CBE) of the District of Columbia, serving federal, commercial, and DMV-area clients through four specialized divisions. Based in Washington, D.C. and working worldwide, we have partnered with businesses from all over the world, across different continents and countries.</p>",
-    "globalTeam": "<p><strong>Based in Washington, D.C. Working Worldwide:</strong> LivingStoneSolution Technologies operates from Washington, D.C., with team members in Chicago, IL and New York, NY. The team serves federal, commercial, and DMV-area clients, and has worked with businesses from all over the world across different continents and countries, spanning software development, mobile applications, generative engine optimization (GEO), and brand strategy.</p>",
+    "description": "<p>LivingStoneSolution Technologies is led by a team based in Washington, D.C. The company is a Certified Business Enterprise (CBE) of the District of Columbia, serving federal, commercial, and DMV-area clients through four specialized divisions. Based in Washington, D.C. and working worldwide, we have partnered with businesses from all over the world, across different continents and countries.</p>",
+    "globalTeam": "<p><strong>Based in Washington, D.C. Working Worldwide:</strong> LivingStoneSolution Technologies operates from Washington, D.C. The team serves federal, commercial, and DMV-area clients, and has worked with businesses from all over the world across different continents and countries, spanning software development, mobile applications, generative engine optimization (GEO), and brand strategy.</p>",
     "subtitle": "<span class=\"mil-thin\">We</span> deliver <br><span class=\"mil-thin\">exceptional</span> results.",
     "button": {
         "link": "/team",
@@ -11,12 +11,12 @@
     "col1_items": [
         {
             "image": "/img/faces/blane.png",
-            "imageAlt": "Blane Anteneh, Co-Founder and CEO, LivingStoneSolution Technologies, based in Chicago, IL",
+            "imageAlt": "Blane Anteneh, Co-Founder and CEO, LivingStoneSolution Technologies, based in Washington, D.C.",
             "name": "Blane Anteneh",
             "role": "Co-Founder and CEO",
-            "bio": "Co-Founder and CEO of LivingStoneSolution Technologies. Oversees business strategy, operations, and client partnerships across the four-division ecosystem serving federal and commercial clients from Chicago, IL.",
+            "bio": "Co-Founder and CEO of LivingStoneSolution Technologies. Oversees business strategy, operations, and client partnerships across the four-division ecosystem serving federal and commercial clients from Washington, D.C.",
             "contact": {
-                "location": "Chicago, IL, USA",
+                "location": "Washington, D.C., USA",
                 "email": "blen@thelivingstonesolution.com",
                 "phone": "+1 (555) 456-7890"
             },
@@ -61,12 +61,12 @@
     "col2_items": [
         {
             "image": "/img/faces/team-photo-2.jpg",
-            "imageAlt": "Deborah Wondmu, Head of Contracting, LivingStoneSolution Technologies, New York, NY",
+            "imageAlt": "Deborah Wondmu, Head of Contracting, LivingStoneSolution Technologies, Washington, D.C.",
             "name": "Deborah Wondmu",
             "role": "Head of Contracting",
-            "bio": "Head of Contracting at LivingStoneSolution Technologies, based in New York, NY. Manages contract lifecycle, client relations, and compliance for federal and commercial engagements.",
+            "bio": "Head of Contracting at LivingStoneSolution Technologies, based in Washington, D.C. Manages contract lifecycle, client relations, and compliance for federal and commercial engagements.",
             "contact": {
-                "location": "New York, NY, USA",
+                "location": "Washington, D.C., USA",
                 "email": "deborah@thelivingstonesolution.com",
                 "phone": "+1 (555) 234-5678"
             },

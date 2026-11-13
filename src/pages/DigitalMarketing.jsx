@@ -23,8 +23,6 @@ const DM_SERVICE = {
     "LivingStoneSolution Technologies provides digital marketing services covering search engine optimization (SEO), generative engine optimization (GEO), paid media management, content strategy, and analytics reporting. Services are delivered to startups, enterprises, and government-adjacent organizations operating across traditional search, AI-generated answer engines, and paid media channels.",
   areaServed: [
     "Washington, D.C.",
-    "Chicago, IL",
-    "New York, NY",
     "United States",
     "Worldwide",
   ],
@@ -55,7 +53,7 @@ const DM_FAQ = [
   {
     question: "Where is the marketing team based?",
     answer:
-      "The core team is headquartered in Washington, D.C., with team members in Chicago, IL and New York, NY. LivingStoneSolution serves clients nationally and accepts global remote engagements.",
+      "The core team is headquartered in Washington, D.C.. LivingStoneSolution serves clients nationally and accepts global remote engagements.",
   },
 ];
 
@@ -107,7 +105,7 @@ const DigitalMarketing = (props) => {
               quote={null}
               smeName="Deborah Wondmu"
               smeRole="Head of Contracting"
-              smeLocation="New York, NY"
+              smeLocation="Washington, D.C."
             />
 
             <div className="mil-divider mil-mb-60" />
@@ -311,8 +309,7 @@ const DigitalMarketing = (props) => {
 
             <h3 className="mil-mb-10">Where is the marketing team based?</h3>
             <p className="mil-text mil-mb-40">
-              The core team is headquartered in Washington, D.C., with team members
-              in Chicago, IL and New York, NY. LivingStoneSolution serves clients
+              The core team is headquartered in Washington, D.C.. LivingStoneSolution serves clients
               nationally and accepts global remote engagements.
             </p>
 
@@ -325,8 +322,6 @@ const DigitalMarketing = (props) => {
             </p>
             <ul className="mil-mb-40">
               <li>Washington, D.C. (HQ)</li>
-              <li>Chicago, IL</li>
-              <li>New York, NY</li>
               <li>U.S. nationwide — remote delivery</li>
               <li>International — remote delivery available</li>
             </ul>

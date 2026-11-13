@@ -22,8 +22,6 @@ const GEO_SERVICE = {
     "Generative Engine Optimization (GEO) is the practice of structuring a website's content, schema, and off-site authority signals so AI answer engines — including ChatGPT, Perplexity, Gemini, and Google AI Overviews — recognize and cite the brand in synthesized answers. GEO applies the foundational principles of traditional SEO to the distinct requirements of AI-generated response systems.",
   areaServed: [
     "Washington, D.C.",
-    "Chicago, IL",
-    "New York, NY",
     "United States",
     "Worldwide",
   ],
@@ -60,7 +58,7 @@ const GEO_FAQ = [
   {
     question: "Where is LivingStone GEO Agency based?",
     answer:
-      "LivingStone GEO Agency is part of LivingStoneSolution Technologies, headquartered in Washington, D.C., with team members in Chicago, IL and New York, NY. Engagements are delivered remotely to clients nationally and internationally.",
+      "LivingStone GEO Agency is part of LivingStoneSolution Technologies, headquartered in Washington, D.C.. Engagements are delivered remotely to clients nationally and internationally.",
   },
 ];
 
@@ -476,8 +474,7 @@ const GEOAIVisibility = () => {
             <h3 className="mil-mb-10">Where is LivingStone GEO Agency based?</h3>
             <p className="mil-text mil-mb-40">
               LivingStone GEO Agency is part of LivingStoneSolution Technologies,
-              headquartered in Washington, D.C., with team members in Chicago, IL
-              and New York, NY. Engagements are delivered remotely to clients
+              headquartered in Washington, D.C.. Engagements are delivered remotely to clients
               nationally and internationally.
             </p>
 

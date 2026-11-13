@@ -22,8 +22,6 @@ const APP_DEV_SERVICE = {
     "LivingStoneSolution Technologies develops iOS, Android, and cross-platform mobile applications for startups, enterprises, and government clients. React Native is used for projects requiring a shared codebase across both platforms; Swift and Kotlin are used for native-only builds. Service coverage spans architecture design, API integration, App Store submission, and post-launch monitoring.",
   areaServed: [
     "Washington, D.C.",
-    "Chicago, IL",
-    "New York, NY",
     "United States",
     "Worldwide",
   ],
@@ -54,7 +52,7 @@ const APP_DEV_FAQ = [
   {
     question: "Where is the development team based?",
     answer:
-      "The core team is based in Washington, D.C., with team members in Chicago, IL and New York, NY. LivingStoneSolution serves clients nationally and accepts global remote engagements.",
+      "The core team is based in Washington, D.C.. LivingStoneSolution serves clients nationally and accepts global remote engagements.",
   },
 ];
 
@@ -287,8 +285,7 @@ const AppDevelopment = (props) => {
 
             <h3 className="mil-mb-10">Where is the development team based?</h3>
             <p className="mil-text mil-mb-40">
-              The core team is based in Washington, D.C., with team members in Chicago,
-              IL and New York, NY. LivingStoneSolution serves clients nationally and
+              The core team is based in Washington, D.C.. LivingStoneSolution serves clients nationally and
               accepts global remote engagements.
             </p>
 
@@ -301,8 +298,6 @@ const AppDevelopment = (props) => {
             </p>
             <ul className="mil-mb-40">
               <li>Washington, D.C. (HQ)</li>
-              <li>Chicago, IL</li>
-              <li>New York, NY</li>
               <li>U.S. nationwide — remote delivery</li>
               <li>International — remote delivery available</li>
             </ul>
